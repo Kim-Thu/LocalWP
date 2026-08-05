@@ -1,74 +1,85 @@
-# E09 — Site lifecycle and logs
+# E09 — Database Tools
 
-Dải task: `T0691`–`T0760`.
+Mã UID: `DB`.
+Dải task: `T0781`–`T0860`.
 
-- [ ] `T0691` — Define site start — `tasks/backlog/T0691-define-site-start.md`
-- [ ] `T0692` — Validate site start — `tasks/backlog/T0692-validate-site-start.md`
-- [ ] `T0693` — Model site start — `tasks/backlog/T0693-model-site-start.md`
-- [ ] `T0694` — Implement site start — `tasks/backlog/T0694-implement-site-start.md`
-- [ ] `T0695` — Test site start — `tasks/backlog/T0695-test-site-start.md`
-- [ ] `T0696` — Document site start — `tasks/backlog/T0696-document-site-start.md`
-- [ ] `T0697` — Integrate site start — `tasks/backlog/T0697-integrate-site-start.md`
-- [ ] `T0698` — Harden site start — `tasks/backlog/T0698-harden-site-start.md`
-- [ ] `T0699` — Observe site start — `tasks/backlog/T0699-observe-site-start.md`
-- [ ] `T0700` — Review site start — `tasks/backlog/T0700-review-site-start.md`
-- [ ] `T0701` — Define site stop — `tasks/backlog/T0701-define-site-stop.md`
-- [ ] `T0702` — Validate site stop — `tasks/backlog/T0702-validate-site-stop.md`
-- [ ] `T0703` — Model site stop — `tasks/backlog/T0703-model-site-stop.md`
-- [ ] `T0704` — Implement site stop — `tasks/backlog/T0704-implement-site-stop.md`
-- [ ] `T0705` — Test site stop — `tasks/backlog/T0705-test-site-stop.md`
-- [ ] `T0706` — Document site stop — `tasks/backlog/T0706-document-site-stop.md`
-- [ ] `T0707` — Integrate site stop — `tasks/backlog/T0707-integrate-site-stop.md`
-- [ ] `T0708` — Harden site stop — `tasks/backlog/T0708-harden-site-stop.md`
-- [ ] `T0709` — Observe site stop — `tasks/backlog/T0709-observe-site-stop.md`
-- [ ] `T0710` — Review site stop — `tasks/backlog/T0710-review-site-stop.md`
-- [ ] `T0711` — Define site restart — `tasks/backlog/T0711-define-site-restart.md`
-- [ ] `T0712` — Validate site restart — `tasks/backlog/T0712-validate-site-restart.md`
-- [ ] `T0713` — Model site restart — `tasks/backlog/T0713-model-site-restart.md`
-- [ ] `T0714` — Implement site restart — `tasks/backlog/T0714-implement-site-restart.md`
-- [ ] `T0715` — Test site restart — `tasks/backlog/T0715-test-site-restart.md`
-- [ ] `T0716` — Document site restart — `tasks/backlog/T0716-document-site-restart.md`
-- [ ] `T0717` — Integrate site restart — `tasks/backlog/T0717-integrate-site-restart.md`
-- [ ] `T0718` — Harden site restart — `tasks/backlog/T0718-harden-site-restart.md`
-- [ ] `T0719` — Observe site restart — `tasks/backlog/T0719-observe-site-restart.md`
-- [ ] `T0720` — Review site restart — `tasks/backlog/T0720-review-site-restart.md`
-- [ ] `T0721` — Define site delete — `tasks/backlog/T0721-define-site-delete.md`
-- [ ] `T0722` — Validate site delete — `tasks/backlog/T0722-validate-site-delete.md`
-- [ ] `T0723` — Model site delete — `tasks/backlog/T0723-model-site-delete.md`
-- [ ] `T0724` — Implement site delete — `tasks/backlog/T0724-implement-site-delete.md`
-- [ ] `T0725` — Test site delete — `tasks/backlog/T0725-test-site-delete.md`
-- [ ] `T0726` — Document site delete — `tasks/backlog/T0726-document-site-delete.md`
-- [ ] `T0727` — Integrate site delete — `tasks/backlog/T0727-integrate-site-delete.md`
-- [ ] `T0728` — Harden site delete — `tasks/backlog/T0728-harden-site-delete.md`
-- [ ] `T0729` — Observe site delete — `tasks/backlog/T0729-observe-site-delete.md`
-- [ ] `T0730` — Review site delete — `tasks/backlog/T0730-review-site-delete.md`
-- [ ] `T0731` — Define container status — `tasks/backlog/T0731-define-container-status.md`
-- [ ] `T0732` — Validate container status — `tasks/backlog/T0732-validate-container-status.md`
-- [ ] `T0733` — Model container status — `tasks/backlog/T0733-model-container-status.md`
-- [ ] `T0734` — Implement container status — `tasks/backlog/T0734-implement-container-status.md`
-- [ ] `T0735` — Test container status — `tasks/backlog/T0735-test-container-status.md`
-- [ ] `T0736` — Document container status — `tasks/backlog/T0736-document-container-status.md`
-- [ ] `T0737` — Integrate container status — `tasks/backlog/T0737-integrate-container-status.md`
-- [ ] `T0738` — Harden container status — `tasks/backlog/T0738-harden-container-status.md`
-- [ ] `T0739` — Observe container status — `tasks/backlog/T0739-observe-container-status.md`
-- [ ] `T0740` — Review container status — `tasks/backlog/T0740-review-container-status.md`
-- [ ] `T0741` — Define health status — `tasks/backlog/T0741-define-health-status.md`
-- [ ] `T0742` — Validate health status — `tasks/backlog/T0742-validate-health-status.md`
-- [ ] `T0743` — Model health status — `tasks/backlog/T0743-model-health-status.md`
-- [ ] `T0744` — Implement health status — `tasks/backlog/T0744-implement-health-status.md`
-- [ ] `T0745` — Test health status — `tasks/backlog/T0745-test-health-status.md`
-- [ ] `T0746` — Document health status — `tasks/backlog/T0746-document-health-status.md`
-- [ ] `T0747` — Integrate health status — `tasks/backlog/T0747-integrate-health-status.md`
-- [ ] `T0748` — Harden health status — `tasks/backlog/T0748-harden-health-status.md`
-- [ ] `T0749` — Observe health status — `tasks/backlog/T0749-observe-health-status.md`
-- [ ] `T0750` — Review health status — `tasks/backlog/T0750-review-health-status.md`
-- [ ] `T0751` — Define last-started state — `tasks/backlog/T0751-define-last-started-state.md`
-- [ ] `T0752` — Validate last-started state — `tasks/backlog/T0752-validate-last-started-state.md`
-- [ ] `T0753` — Model last-started state — `tasks/backlog/T0753-model-last-started-state.md`
-- [ ] `T0754` — Implement last-started state — `tasks/backlog/T0754-implement-last-started-state.md`
-- [ ] `T0755` — Test last-started state — `tasks/backlog/T0755-test-last-started-state.md`
-- [ ] `T0756` — Document last-started state — `tasks/backlog/T0756-document-last-started-state.md`
-- [ ] `T0757` — Integrate last-started state — `tasks/backlog/T0757-integrate-last-started-state.md`
-- [ ] `T0758` — Harden last-started state — `tasks/backlog/T0758-harden-last-started-state.md`
-- [ ] `T0759` — Observe last-started state — `tasks/backlog/T0759-observe-last-started-state.md`
-- [ ] `T0760` — Review last-started state — `tasks/backlog/T0760-review-last-started-state.md`
+- [ ] `T0781` · `DB-001` — Define connection details — `tasks/backlog/T0781-define-connection-details.md`
+- [ ] `T0782` · `DB-002` — Validate connection details — `tasks/backlog/T0782-validate-connection-details.md`
+- [ ] `T0783` · `DB-003` — Model connection details — `tasks/backlog/T0783-model-connection-details.md`
+- [ ] `T0784` · `DB-004` — Implement connection details — `tasks/backlog/T0784-implement-connection-details.md`
+- [ ] `T0785` · `DB-005` — Test connection details — `tasks/backlog/T0785-test-connection-details.md`
+- [ ] `T0786` · `DB-006` — Document connection details — `tasks/backlog/T0786-document-connection-details.md`
+- [ ] `T0787` · `DB-007` — Integrate connection details — `tasks/backlog/T0787-integrate-connection-details.md`
+- [ ] `T0788` · `DB-008` — Harden connection details — `tasks/backlog/T0788-harden-connection-details.md`
+- [ ] `T0789` · `DB-009` — Observe connection details — `tasks/backlog/T0789-observe-connection-details.md`
+- [ ] `T0790` · `DB-010` — Review connection details — `tasks/backlog/T0790-review-connection-details.md`
+- [ ] `T0791` · `DB-011` — Define adminer — `tasks/backlog/T0791-define-adminer.md`
+- [ ] `T0792` · `DB-012` — Validate adminer — `tasks/backlog/T0792-validate-adminer.md`
+- [ ] `T0793` · `DB-013` — Model adminer — `tasks/backlog/T0793-model-adminer.md`
+- [ ] `T0794` · `DB-014` — Implement adminer — `tasks/backlog/T0794-implement-adminer.md`
+- [ ] `T0795` · `DB-015` — Test adminer — `tasks/backlog/T0795-test-adminer.md`
+- [ ] `T0796` · `DB-016` — Document adminer — `tasks/backlog/T0796-document-adminer.md`
+- [ ] `T0797` · `DB-017` — Integrate adminer — `tasks/backlog/T0797-integrate-adminer.md`
+- [ ] `T0798` · `DB-018` — Harden adminer — `tasks/backlog/T0798-harden-adminer.md`
+- [ ] `T0799` · `DB-019` — Observe adminer — `tasks/backlog/T0799-observe-adminer.md`
+- [ ] `T0800` · `DB-020` — Review adminer — `tasks/backlog/T0800-review-adminer.md`
+- [ ] `T0801` · `DB-021` — Define sql import — `tasks/backlog/T0801-define-sql-import.md`
+- [ ] `T0802` · `DB-022` — Validate sql import — `tasks/backlog/T0802-validate-sql-import.md`
+- [ ] `T0803` · `DB-023` — Model sql import — `tasks/backlog/T0803-model-sql-import.md`
+- [ ] `T0804` · `DB-024` — Implement sql import — `tasks/backlog/T0804-implement-sql-import.md`
+- [ ] `T0805` · `DB-025` — Test sql import — `tasks/backlog/T0805-test-sql-import.md`
+- [ ] `T0806` · `DB-026` — Document sql import — `tasks/backlog/T0806-document-sql-import.md`
+- [ ] `T0807` · `DB-027` — Integrate sql import — `tasks/backlog/T0807-integrate-sql-import.md`
+- [ ] `T0808` · `DB-028` — Harden sql import — `tasks/backlog/T0808-harden-sql-import.md`
+- [ ] `T0809` · `DB-029` — Observe sql import — `tasks/backlog/T0809-observe-sql-import.md`
+- [ ] `T0810` · `DB-030` — Review sql import — `tasks/backlog/T0810-review-sql-import.md`
+- [ ] `T0811` · `DB-031` — Define gzip import — `tasks/backlog/T0811-define-gzip-import.md`
+- [ ] `T0812` · `DB-032` — Validate gzip import — `tasks/backlog/T0812-validate-gzip-import.md`
+- [ ] `T0813` · `DB-033` — Model gzip import — `tasks/backlog/T0813-model-gzip-import.md`
+- [ ] `T0814` · `DB-034` — Implement gzip import — `tasks/backlog/T0814-implement-gzip-import.md`
+- [ ] `T0815` · `DB-035` — Test gzip import — `tasks/backlog/T0815-test-gzip-import.md`
+- [ ] `T0816` · `DB-036` — Document gzip import — `tasks/backlog/T0816-document-gzip-import.md`
+- [ ] `T0817` · `DB-037` — Integrate gzip import — `tasks/backlog/T0817-integrate-gzip-import.md`
+- [ ] `T0818` · `DB-038` — Harden gzip import — `tasks/backlog/T0818-harden-gzip-import.md`
+- [ ] `T0819` · `DB-039` — Observe gzip import — `tasks/backlog/T0819-observe-gzip-import.md`
+- [ ] `T0820` · `DB-040` — Review gzip import — `tasks/backlog/T0820-review-gzip-import.md`
+- [ ] `T0821` · `DB-041` — Define sql export — `tasks/backlog/T0821-define-sql-export.md`
+- [ ] `T0822` · `DB-042` — Validate sql export — `tasks/backlog/T0822-validate-sql-export.md`
+- [ ] `T0823` · `DB-043` — Model sql export — `tasks/backlog/T0823-model-sql-export.md`
+- [ ] `T0824` · `DB-044` — Implement sql export — `tasks/backlog/T0824-implement-sql-export.md`
+- [ ] `T0825` · `DB-045` — Test sql export — `tasks/backlog/T0825-test-sql-export.md`
+- [ ] `T0826` · `DB-046` — Document sql export — `tasks/backlog/T0826-document-sql-export.md`
+- [ ] `T0827` · `DB-047` — Integrate sql export — `tasks/backlog/T0827-integrate-sql-export.md`
+- [ ] `T0828` · `DB-048` — Harden sql export — `tasks/backlog/T0828-harden-sql-export.md`
+- [ ] `T0829` · `DB-049` — Observe sql export — `tasks/backlog/T0829-observe-sql-export.md`
+- [ ] `T0830` · `DB-050` — Review sql export — `tasks/backlog/T0830-review-sql-export.md`
+- [ ] `T0831` · `DB-051` — Define gzip export — `tasks/backlog/T0831-define-gzip-export.md`
+- [ ] `T0832` · `DB-052` — Validate gzip export — `tasks/backlog/T0832-validate-gzip-export.md`
+- [ ] `T0833` · `DB-053` — Model gzip export — `tasks/backlog/T0833-model-gzip-export.md`
+- [ ] `T0834` · `DB-054` — Implement gzip export — `tasks/backlog/T0834-implement-gzip-export.md`
+- [ ] `T0835` · `DB-055` — Test gzip export — `tasks/backlog/T0835-test-gzip-export.md`
+- [ ] `T0836` · `DB-056` — Document gzip export — `tasks/backlog/T0836-document-gzip-export.md`
+- [ ] `T0837` · `DB-057` — Integrate gzip export — `tasks/backlog/T0837-integrate-gzip-export.md`
+- [ ] `T0838` · `DB-058` — Harden gzip export — `tasks/backlog/T0838-harden-gzip-export.md`
+- [ ] `T0839` · `DB-059` — Observe gzip export — `tasks/backlog/T0839-observe-gzip-export.md`
+- [ ] `T0840` · `DB-060` — Review gzip export — `tasks/backlog/T0840-review-gzip-export.md`
+- [ ] `T0841` · `DB-061` — Define database reset — `tasks/backlog/T0841-define-database-reset.md`
+- [ ] `T0842` · `DB-062` — Validate database reset — `tasks/backlog/T0842-validate-database-reset.md`
+- [ ] `T0843` · `DB-063` — Model database reset — `tasks/backlog/T0843-model-database-reset.md`
+- [ ] `T0844` · `DB-064` — Implement database reset — `tasks/backlog/T0844-implement-database-reset.md`
+- [ ] `T0845` · `DB-065` — Test database reset — `tasks/backlog/T0845-test-database-reset.md`
+- [ ] `T0846` · `DB-066` — Document database reset — `tasks/backlog/T0846-document-database-reset.md`
+- [ ] `T0847` · `DB-067` — Integrate database reset — `tasks/backlog/T0847-integrate-database-reset.md`
+- [ ] `T0848` · `DB-068` — Harden database reset — `tasks/backlog/T0848-harden-database-reset.md`
+- [ ] `T0849` · `DB-069` — Observe database reset — `tasks/backlog/T0849-observe-database-reset.md`
+- [ ] `T0850` · `DB-070` — Review database reset — `tasks/backlog/T0850-review-database-reset.md`
+- [ ] `T0851` · `DB-071` — Define search replace — `tasks/backlog/T0851-define-search-replace.md`
+- [ ] `T0852` · `DB-072` — Validate search replace — `tasks/backlog/T0852-validate-search-replace.md`
+- [ ] `T0853` · `DB-073` — Model search replace — `tasks/backlog/T0853-model-search-replace.md`
+- [ ] `T0854` · `DB-074` — Implement search replace — `tasks/backlog/T0854-implement-search-replace.md`
+- [ ] `T0855` · `DB-075` — Test search replace — `tasks/backlog/T0855-test-search-replace.md`
+- [ ] `T0856` · `DB-076` — Document search replace — `tasks/backlog/T0856-document-search-replace.md`
+- [ ] `T0857` · `DB-077` — Integrate search replace — `tasks/backlog/T0857-integrate-search-replace.md`
+- [ ] `T0858` · `DB-078` — Harden search replace — `tasks/backlog/T0858-harden-search-replace.md`
+- [ ] `T0859` · `DB-079` — Observe search replace — `tasks/backlog/T0859-observe-search-replace.md`
+- [ ] `T0860` · `DB-080` — Review search replace — `tasks/backlog/T0860-review-search-replace.md`

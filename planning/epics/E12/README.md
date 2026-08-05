@@ -1,74 +1,65 @@
-# E12 — Backup and restore
+# E12 — Clone Workflow
 
-Dải task: `T0921`–`T0990`.
+Mã UID: `CLONE`.
+Dải task: `T1011`–`T1070`.
 
-- [ ] `T0921` — Define backup request — `tasks/backlog/T0921-define-backup-request.md`
-- [ ] `T0922` — Validate backup request — `tasks/backlog/T0922-validate-backup-request.md`
-- [ ] `T0923` — Model backup request — `tasks/backlog/T0923-model-backup-request.md`
-- [ ] `T0924` — Implement backup request — `tasks/backlog/T0924-implement-backup-request.md`
-- [ ] `T0925` — Test backup request — `tasks/backlog/T0925-test-backup-request.md`
-- [ ] `T0926` — Document backup request — `tasks/backlog/T0926-document-backup-request.md`
-- [ ] `T0927` — Integrate backup request — `tasks/backlog/T0927-integrate-backup-request.md`
-- [ ] `T0928` — Harden backup request — `tasks/backlog/T0928-harden-backup-request.md`
-- [ ] `T0929` — Observe backup request — `tasks/backlog/T0929-observe-backup-request.md`
-- [ ] `T0930` — Review backup request — `tasks/backlog/T0930-review-backup-request.md`
-- [ ] `T0931` — Define database dump — `tasks/backlog/T0931-define-database-dump.md`
-- [ ] `T0932` — Validate database dump — `tasks/backlog/T0932-validate-database-dump.md`
-- [ ] `T0933` — Model database dump — `tasks/backlog/T0933-model-database-dump.md`
-- [ ] `T0934` — Implement database dump — `tasks/backlog/T0934-implement-database-dump.md`
-- [ ] `T0935` — Test database dump — `tasks/backlog/T0935-test-database-dump.md`
-- [ ] `T0936` — Document database dump — `tasks/backlog/T0936-document-database-dump.md`
-- [ ] `T0937` — Integrate database dump — `tasks/backlog/T0937-integrate-database-dump.md`
-- [ ] `T0938` — Harden database dump — `tasks/backlog/T0938-harden-database-dump.md`
-- [ ] `T0939` — Observe database dump — `tasks/backlog/T0939-observe-database-dump.md`
-- [ ] `T0940` — Review database dump — `tasks/backlog/T0940-review-database-dump.md`
-- [ ] `T0941` — Define source archive — `tasks/backlog/T0941-define-source-archive.md`
-- [ ] `T0942` — Validate source archive — `tasks/backlog/T0942-validate-source-archive.md`
-- [ ] `T0943` — Model source archive — `tasks/backlog/T0943-model-source-archive.md`
-- [ ] `T0944` — Implement source archive — `tasks/backlog/T0944-implement-source-archive.md`
-- [ ] `T0945` — Test source archive — `tasks/backlog/T0945-test-source-archive.md`
-- [ ] `T0946` — Document source archive — `tasks/backlog/T0946-document-source-archive.md`
-- [ ] `T0947` — Integrate source archive — `tasks/backlog/T0947-integrate-source-archive.md`
-- [ ] `T0948` — Harden source archive — `tasks/backlog/T0948-harden-source-archive.md`
-- [ ] `T0949` — Observe source archive — `tasks/backlog/T0949-observe-source-archive.md`
-- [ ] `T0950` — Review source archive — `tasks/backlog/T0950-review-source-archive.md`
-- [ ] `T0951` — Define backup metadata — `tasks/backlog/T0951-define-backup-metadata.md`
-- [ ] `T0952` — Validate backup metadata — `tasks/backlog/T0952-validate-backup-metadata.md`
-- [ ] `T0953` — Model backup metadata — `tasks/backlog/T0953-model-backup-metadata.md`
-- [ ] `T0954` — Implement backup metadata — `tasks/backlog/T0954-implement-backup-metadata.md`
-- [ ] `T0955` — Test backup metadata — `tasks/backlog/T0955-test-backup-metadata.md`
-- [ ] `T0956` — Document backup metadata — `tasks/backlog/T0956-document-backup-metadata.md`
-- [ ] `T0957` — Integrate backup metadata — `tasks/backlog/T0957-integrate-backup-metadata.md`
-- [ ] `T0958` — Harden backup metadata — `tasks/backlog/T0958-harden-backup-metadata.md`
-- [ ] `T0959` — Observe backup metadata — `tasks/backlog/T0959-observe-backup-metadata.md`
-- [ ] `T0960` — Review backup metadata — `tasks/backlog/T0960-review-backup-metadata.md`
-- [ ] `T0961` — Define integrity hash — `tasks/backlog/T0961-define-integrity-hash.md`
-- [ ] `T0962` — Validate integrity hash — `tasks/backlog/T0962-validate-integrity-hash.md`
-- [ ] `T0963` — Model integrity hash — `tasks/backlog/T0963-model-integrity-hash.md`
-- [ ] `T0964` — Implement integrity hash — `tasks/backlog/T0964-implement-integrity-hash.md`
-- [ ] `T0965` — Test integrity hash — `tasks/backlog/T0965-test-integrity-hash.md`
-- [ ] `T0966` — Document integrity hash — `tasks/backlog/T0966-document-integrity-hash.md`
-- [ ] `T0967` — Integrate integrity hash — `tasks/backlog/T0967-integrate-integrity-hash.md`
-- [ ] `T0968` — Harden integrity hash — `tasks/backlog/T0968-harden-integrity-hash.md`
-- [ ] `T0969` — Observe integrity hash — `tasks/backlog/T0969-observe-integrity-hash.md`
-- [ ] `T0970` — Review integrity hash — `tasks/backlog/T0970-review-integrity-hash.md`
-- [ ] `T0971` — Define backup listing — `tasks/backlog/T0971-define-backup-listing.md`
-- [ ] `T0972` — Validate backup listing — `tasks/backlog/T0972-validate-backup-listing.md`
-- [ ] `T0973` — Model backup listing — `tasks/backlog/T0973-model-backup-listing.md`
-- [ ] `T0974` — Implement backup listing — `tasks/backlog/T0974-implement-backup-listing.md`
-- [ ] `T0975` — Test backup listing — `tasks/backlog/T0975-test-backup-listing.md`
-- [ ] `T0976` — Document backup listing — `tasks/backlog/T0976-document-backup-listing.md`
-- [ ] `T0977` — Integrate backup listing — `tasks/backlog/T0977-integrate-backup-listing.md`
-- [ ] `T0978` — Harden backup listing — `tasks/backlog/T0978-harden-backup-listing.md`
-- [ ] `T0979` — Observe backup listing — `tasks/backlog/T0979-observe-backup-listing.md`
-- [ ] `T0980` — Review backup listing — `tasks/backlog/T0980-review-backup-listing.md`
-- [ ] `T0981` — Define backup deletion — `tasks/backlog/T0981-define-backup-deletion.md`
-- [ ] `T0982` — Validate backup deletion — `tasks/backlog/T0982-validate-backup-deletion.md`
-- [ ] `T0983` — Model backup deletion — `tasks/backlog/T0983-model-backup-deletion.md`
-- [ ] `T0984` — Implement backup deletion — `tasks/backlog/T0984-implement-backup-deletion.md`
-- [ ] `T0985` — Test backup deletion — `tasks/backlog/T0985-test-backup-deletion.md`
-- [ ] `T0986` — Document backup deletion — `tasks/backlog/T0986-document-backup-deletion.md`
-- [ ] `T0987` — Integrate backup deletion — `tasks/backlog/T0987-integrate-backup-deletion.md`
-- [ ] `T0988` — Harden backup deletion — `tasks/backlog/T0988-harden-backup-deletion.md`
-- [ ] `T0989` — Observe backup deletion — `tasks/backlog/T0989-observe-backup-deletion.md`
-- [ ] `T0990` — Review backup deletion — `tasks/backlog/T0990-review-backup-deletion.md`
+- [ ] `T1011` · `CLONE-001` — Define clone request — `tasks/backlog/T1011-define-clone-request.md`
+- [ ] `T1012` · `CLONE-002` — Validate clone request — `tasks/backlog/T1012-validate-clone-request.md`
+- [ ] `T1013` · `CLONE-003` — Model clone request — `tasks/backlog/T1013-model-clone-request.md`
+- [ ] `T1014` · `CLONE-004` — Implement clone request — `tasks/backlog/T1014-implement-clone-request.md`
+- [ ] `T1015` · `CLONE-005` — Test clone request — `tasks/backlog/T1015-test-clone-request.md`
+- [ ] `T1016` · `CLONE-006` — Document clone request — `tasks/backlog/T1016-document-clone-request.md`
+- [ ] `T1017` · `CLONE-007` — Integrate clone request — `tasks/backlog/T1017-integrate-clone-request.md`
+- [ ] `T1018` · `CLONE-008` — Harden clone request — `tasks/backlog/T1018-harden-clone-request.md`
+- [ ] `T1019` · `CLONE-009` — Observe clone request — `tasks/backlog/T1019-observe-clone-request.md`
+- [ ] `T1020` · `CLONE-010` — Review clone request — `tasks/backlog/T1020-review-clone-request.md`
+- [ ] `T1021` · `CLONE-011` — Define source copy — `tasks/backlog/T1021-define-source-copy.md`
+- [ ] `T1022` · `CLONE-012` — Validate source copy — `tasks/backlog/T1022-validate-source-copy.md`
+- [ ] `T1023` · `CLONE-013` — Model source copy — `tasks/backlog/T1023-model-source-copy.md`
+- [ ] `T1024` · `CLONE-014` — Implement source copy — `tasks/backlog/T1024-implement-source-copy.md`
+- [ ] `T1025` · `CLONE-015` — Test source copy — `tasks/backlog/T1025-test-source-copy.md`
+- [ ] `T1026` · `CLONE-016` — Document source copy — `tasks/backlog/T1026-document-source-copy.md`
+- [ ] `T1027` · `CLONE-017` — Integrate source copy — `tasks/backlog/T1027-integrate-source-copy.md`
+- [ ] `T1028` · `CLONE-018` — Harden source copy — `tasks/backlog/T1028-harden-source-copy.md`
+- [ ] `T1029` · `CLONE-019` — Observe source copy — `tasks/backlog/T1029-observe-source-copy.md`
+- [ ] `T1030` · `CLONE-020` — Review source copy — `tasks/backlog/T1030-review-source-copy.md`
+- [ ] `T1031` · `CLONE-021` — Define database snapshot — `tasks/backlog/T1031-define-database-snapshot.md`
+- [ ] `T1032` · `CLONE-022` — Validate database snapshot — `tasks/backlog/T1032-validate-database-snapshot.md`
+- [ ] `T1033` · `CLONE-023` — Model database snapshot — `tasks/backlog/T1033-model-database-snapshot.md`
+- [ ] `T1034` · `CLONE-024` — Implement database snapshot — `tasks/backlog/T1034-implement-database-snapshot.md`
+- [ ] `T1035` · `CLONE-025` — Test database snapshot — `tasks/backlog/T1035-test-database-snapshot.md`
+- [ ] `T1036` · `CLONE-026` — Document database snapshot — `tasks/backlog/T1036-document-database-snapshot.md`
+- [ ] `T1037` · `CLONE-027` — Integrate database snapshot — `tasks/backlog/T1037-integrate-database-snapshot.md`
+- [ ] `T1038` · `CLONE-028` — Harden database snapshot — `tasks/backlog/T1038-harden-database-snapshot.md`
+- [ ] `T1039` · `CLONE-029` — Observe database snapshot — `tasks/backlog/T1039-observe-database-snapshot.md`
+- [ ] `T1040` · `CLONE-030` — Review database snapshot — `tasks/backlog/T1040-review-database-snapshot.md`
+- [ ] `T1041` · `CLONE-031` — Define new site identity — `tasks/backlog/T1041-define-new-site-identity.md`
+- [ ] `T1042` · `CLONE-032` — Validate new site identity — `tasks/backlog/T1042-validate-new-site-identity.md`
+- [ ] `T1043` · `CLONE-033` — Model new site identity — `tasks/backlog/T1043-model-new-site-identity.md`
+- [ ] `T1044` · `CLONE-034` — Implement new site identity — `tasks/backlog/T1044-implement-new-site-identity.md`
+- [ ] `T1045` · `CLONE-035` — Test new site identity — `tasks/backlog/T1045-test-new-site-identity.md`
+- [ ] `T1046` · `CLONE-036` — Document new site identity — `tasks/backlog/T1046-document-new-site-identity.md`
+- [ ] `T1047` · `CLONE-037` — Integrate new site identity — `tasks/backlog/T1047-integrate-new-site-identity.md`
+- [ ] `T1048` · `CLONE-038` — Harden new site identity — `tasks/backlog/T1048-harden-new-site-identity.md`
+- [ ] `T1049` · `CLONE-039` — Observe new site identity — `tasks/backlog/T1049-observe-new-site-identity.md`
+- [ ] `T1050` · `CLONE-040` — Review new site identity — `tasks/backlog/T1050-review-new-site-identity.md`
+- [ ] `T1051` · `CLONE-041` — Define new domain — `tasks/backlog/T1051-define-new-domain.md`
+- [ ] `T1052` · `CLONE-042` — Validate new domain — `tasks/backlog/T1052-validate-new-domain.md`
+- [ ] `T1053` · `CLONE-043` — Model new domain — `tasks/backlog/T1053-model-new-domain.md`
+- [ ] `T1054` · `CLONE-044` — Implement new domain — `tasks/backlog/T1054-implement-new-domain.md`
+- [ ] `T1055` · `CLONE-045` — Test new domain — `tasks/backlog/T1055-test-new-domain.md`
+- [ ] `T1056` · `CLONE-046` — Document new domain — `tasks/backlog/T1056-document-new-domain.md`
+- [ ] `T1057` · `CLONE-047` — Integrate new domain — `tasks/backlog/T1057-integrate-new-domain.md`
+- [ ] `T1058` · `CLONE-048` — Harden new domain — `tasks/backlog/T1058-harden-new-domain.md`
+- [ ] `T1059` · `CLONE-049` — Observe new domain — `tasks/backlog/T1059-observe-new-domain.md`
+- [ ] `T1060` · `CLONE-050` — Review new domain — `tasks/backlog/T1060-review-new-domain.md`
+- [ ] `T1061` · `CLONE-051` — Define new environment — `tasks/backlog/T1061-define-new-environment.md`
+- [ ] `T1062` · `CLONE-052` — Validate new environment — `tasks/backlog/T1062-validate-new-environment.md`
+- [ ] `T1063` · `CLONE-053` — Model new environment — `tasks/backlog/T1063-model-new-environment.md`
+- [ ] `T1064` · `CLONE-054` — Implement new environment — `tasks/backlog/T1064-implement-new-environment.md`
+- [ ] `T1065` · `CLONE-055` — Test new environment — `tasks/backlog/T1065-test-new-environment.md`
+- [ ] `T1066` · `CLONE-056` — Document new environment — `tasks/backlog/T1066-document-new-environment.md`
+- [ ] `T1067` · `CLONE-057` — Integrate new environment — `tasks/backlog/T1067-integrate-new-environment.md`
+- [ ] `T1068` · `CLONE-058` — Harden new environment — `tasks/backlog/T1068-harden-new-environment.md`
+- [ ] `T1069` · `CLONE-059` — Observe new environment — `tasks/backlog/T1069-observe-new-environment.md`
+- [ ] `T1070` · `CLONE-060` — Review new environment — `tasks/backlog/T1070-review-new-environment.md`

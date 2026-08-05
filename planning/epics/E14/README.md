@@ -1,64 +1,55 @@
-# E14 — Blueprints
+# E14 — Runtime Version Switching
 
-Dải task: `T1051`–`T1110`.
+Mã UID: `RUNTIME`.
+Dải task: `T1131`–`T1180`.
 
-- [ ] `T1051` — Define blueprint schema — `tasks/backlog/T1051-define-blueprint-schema.md`
-- [ ] `T1052` — Validate blueprint schema — `tasks/backlog/T1052-validate-blueprint-schema.md`
-- [ ] `T1053` — Model blueprint schema — `tasks/backlog/T1053-model-blueprint-schema.md`
-- [ ] `T1054` — Implement blueprint schema — `tasks/backlog/T1054-implement-blueprint-schema.md`
-- [ ] `T1055` — Test blueprint schema — `tasks/backlog/T1055-test-blueprint-schema.md`
-- [ ] `T1056` — Document blueprint schema — `tasks/backlog/T1056-document-blueprint-schema.md`
-- [ ] `T1057` — Integrate blueprint schema — `tasks/backlog/T1057-integrate-blueprint-schema.md`
-- [ ] `T1058` — Harden blueprint schema — `tasks/backlog/T1058-harden-blueprint-schema.md`
-- [ ] `T1059` — Observe blueprint schema — `tasks/backlog/T1059-observe-blueprint-schema.md`
-- [ ] `T1060` — Review blueprint schema — `tasks/backlog/T1060-review-blueprint-schema.md`
-- [ ] `T1061` — Define blueprint metadata — `tasks/backlog/T1061-define-blueprint-metadata.md`
-- [ ] `T1062` — Validate blueprint metadata — `tasks/backlog/T1062-validate-blueprint-metadata.md`
-- [ ] `T1063` — Model blueprint metadata — `tasks/backlog/T1063-model-blueprint-metadata.md`
-- [ ] `T1064` — Implement blueprint metadata — `tasks/backlog/T1064-implement-blueprint-metadata.md`
-- [ ] `T1065` — Test blueprint metadata — `tasks/backlog/T1065-test-blueprint-metadata.md`
-- [ ] `T1066` — Document blueprint metadata — `tasks/backlog/T1066-document-blueprint-metadata.md`
-- [ ] `T1067` — Integrate blueprint metadata — `tasks/backlog/T1067-integrate-blueprint-metadata.md`
-- [ ] `T1068` — Harden blueprint metadata — `tasks/backlog/T1068-harden-blueprint-metadata.md`
-- [ ] `T1069` — Observe blueprint metadata — `tasks/backlog/T1069-observe-blueprint-metadata.md`
-- [ ] `T1070` — Review blueprint metadata — `tasks/backlog/T1070-review-blueprint-metadata.md`
-- [ ] `T1071` — Define config blueprint — `tasks/backlog/T1071-define-config-blueprint.md`
-- [ ] `T1072` — Validate config blueprint — `tasks/backlog/T1072-validate-config-blueprint.md`
-- [ ] `T1073` — Model config blueprint — `tasks/backlog/T1073-model-config-blueprint.md`
-- [ ] `T1074` — Implement config blueprint — `tasks/backlog/T1074-implement-config-blueprint.md`
-- [ ] `T1075` — Test config blueprint — `tasks/backlog/T1075-test-config-blueprint.md`
-- [ ] `T1076` — Document config blueprint — `tasks/backlog/T1076-document-config-blueprint.md`
-- [ ] `T1077` — Integrate config blueprint — `tasks/backlog/T1077-integrate-config-blueprint.md`
-- [ ] `T1078` — Harden config blueprint — `tasks/backlog/T1078-harden-config-blueprint.md`
-- [ ] `T1079` — Observe config blueprint — `tasks/backlog/T1079-observe-config-blueprint.md`
-- [ ] `T1080` — Review config blueprint — `tasks/backlog/T1080-review-config-blueprint.md`
-- [ ] `T1081` — Define full blueprint — `tasks/backlog/T1081-define-full-blueprint.md`
-- [ ] `T1082` — Validate full blueprint — `tasks/backlog/T1082-validate-full-blueprint.md`
-- [ ] `T1083` — Model full blueprint — `tasks/backlog/T1083-model-full-blueprint.md`
-- [ ] `T1084` — Implement full blueprint — `tasks/backlog/T1084-implement-full-blueprint.md`
-- [ ] `T1085` — Test full blueprint — `tasks/backlog/T1085-test-full-blueprint.md`
-- [ ] `T1086` — Document full blueprint — `tasks/backlog/T1086-document-full-blueprint.md`
-- [ ] `T1087` — Integrate full blueprint — `tasks/backlog/T1087-integrate-full-blueprint.md`
-- [ ] `T1088` — Harden full blueprint — `tasks/backlog/T1088-harden-full-blueprint.md`
-- [ ] `T1089` — Observe full blueprint — `tasks/backlog/T1089-observe-full-blueprint.md`
-- [ ] `T1090` — Review full blueprint — `tasks/backlog/T1090-review-full-blueprint.md`
-- [ ] `T1091` — Define plugin manifest — `tasks/backlog/T1091-define-plugin-manifest.md`
-- [ ] `T1092` — Validate plugin manifest — `tasks/backlog/T1092-validate-plugin-manifest.md`
-- [ ] `T1093` — Model plugin manifest — `tasks/backlog/T1093-model-plugin-manifest.md`
-- [ ] `T1094` — Implement plugin manifest — `tasks/backlog/T1094-implement-plugin-manifest.md`
-- [ ] `T1095` — Test plugin manifest — `tasks/backlog/T1095-test-plugin-manifest.md`
-- [ ] `T1096` — Document plugin manifest — `tasks/backlog/T1096-document-plugin-manifest.md`
-- [ ] `T1097` — Integrate plugin manifest — `tasks/backlog/T1097-integrate-plugin-manifest.md`
-- [ ] `T1098` — Harden plugin manifest — `tasks/backlog/T1098-harden-plugin-manifest.md`
-- [ ] `T1099` — Observe plugin manifest — `tasks/backlog/T1099-observe-plugin-manifest.md`
-- [ ] `T1100` — Review plugin manifest — `tasks/backlog/T1100-review-plugin-manifest.md`
-- [ ] `T1101` — Define theme manifest — `tasks/backlog/T1101-define-theme-manifest.md`
-- [ ] `T1102` — Validate theme manifest — `tasks/backlog/T1102-validate-theme-manifest.md`
-- [ ] `T1103` — Model theme manifest — `tasks/backlog/T1103-model-theme-manifest.md`
-- [ ] `T1104` — Implement theme manifest — `tasks/backlog/T1104-implement-theme-manifest.md`
-- [ ] `T1105` — Test theme manifest — `tasks/backlog/T1105-test-theme-manifest.md`
-- [ ] `T1106` — Document theme manifest — `tasks/backlog/T1106-document-theme-manifest.md`
-- [ ] `T1107` — Integrate theme manifest — `tasks/backlog/T1107-integrate-theme-manifest.md`
-- [ ] `T1108` — Harden theme manifest — `tasks/backlog/T1108-harden-theme-manifest.md`
-- [ ] `T1109` — Observe theme manifest — `tasks/backlog/T1109-observe-theme-manifest.md`
-- [ ] `T1110` — Review theme manifest — `tasks/backlog/T1110-review-theme-manifest.md`
+- [ ] `T1131` · `RUNTIME-001` — Define runtime catalog — `tasks/backlog/T1131-define-runtime-catalog.md`
+- [ ] `T1132` · `RUNTIME-002` — Validate runtime catalog — `tasks/backlog/T1132-validate-runtime-catalog.md`
+- [ ] `T1133` · `RUNTIME-003` — Model runtime catalog — `tasks/backlog/T1133-model-runtime-catalog.md`
+- [ ] `T1134` · `RUNTIME-004` — Implement runtime catalog — `tasks/backlog/T1134-implement-runtime-catalog.md`
+- [ ] `T1135` · `RUNTIME-005` — Test runtime catalog — `tasks/backlog/T1135-test-runtime-catalog.md`
+- [ ] `T1136` · `RUNTIME-006` — Document runtime catalog — `tasks/backlog/T1136-document-runtime-catalog.md`
+- [ ] `T1137` · `RUNTIME-007` — Integrate runtime catalog — `tasks/backlog/T1137-integrate-runtime-catalog.md`
+- [ ] `T1138` · `RUNTIME-008` — Harden runtime catalog — `tasks/backlog/T1138-harden-runtime-catalog.md`
+- [ ] `T1139` · `RUNTIME-009` — Observe runtime catalog — `tasks/backlog/T1139-observe-runtime-catalog.md`
+- [ ] `T1140` · `RUNTIME-010` — Review runtime catalog — `tasks/backlog/T1140-review-runtime-catalog.md`
+- [ ] `T1141` · `RUNTIME-011` — Define compatibility matrix — `tasks/backlog/T1141-define-compatibility-matrix.md`
+- [ ] `T1142` · `RUNTIME-012` — Validate compatibility matrix — `tasks/backlog/T1142-validate-compatibility-matrix.md`
+- [ ] `T1143` · `RUNTIME-013` — Model compatibility matrix — `tasks/backlog/T1143-model-compatibility-matrix.md`
+- [ ] `T1144` · `RUNTIME-014` — Implement compatibility matrix — `tasks/backlog/T1144-implement-compatibility-matrix.md`
+- [ ] `T1145` · `RUNTIME-015` — Test compatibility matrix — `tasks/backlog/T1145-test-compatibility-matrix.md`
+- [ ] `T1146` · `RUNTIME-016` — Document compatibility matrix — `tasks/backlog/T1146-document-compatibility-matrix.md`
+- [ ] `T1147` · `RUNTIME-017` — Integrate compatibility matrix — `tasks/backlog/T1147-integrate-compatibility-matrix.md`
+- [ ] `T1148` · `RUNTIME-018` — Harden compatibility matrix — `tasks/backlog/T1148-harden-compatibility-matrix.md`
+- [ ] `T1149` · `RUNTIME-019` — Observe compatibility matrix — `tasks/backlog/T1149-observe-compatibility-matrix.md`
+- [ ] `T1150` · `RUNTIME-020` — Review compatibility matrix — `tasks/backlog/T1150-review-compatibility-matrix.md`
+- [ ] `T1151` · `RUNTIME-021` — Define php preflight — `tasks/backlog/T1151-define-php-preflight.md`
+- [ ] `T1152` · `RUNTIME-022` — Validate php preflight — `tasks/backlog/T1152-validate-php-preflight.md`
+- [ ] `T1153` · `RUNTIME-023` — Model php preflight — `tasks/backlog/T1153-model-php-preflight.md`
+- [ ] `T1154` · `RUNTIME-024` — Implement php preflight — `tasks/backlog/T1154-implement-php-preflight.md`
+- [ ] `T1155` · `RUNTIME-025` — Test php preflight — `tasks/backlog/T1155-test-php-preflight.md`
+- [ ] `T1156` · `RUNTIME-026` — Document php preflight — `tasks/backlog/T1156-document-php-preflight.md`
+- [ ] `T1157` · `RUNTIME-027` — Integrate php preflight — `tasks/backlog/T1157-integrate-php-preflight.md`
+- [ ] `T1158` · `RUNTIME-028` — Harden php preflight — `tasks/backlog/T1158-harden-php-preflight.md`
+- [ ] `T1159` · `RUNTIME-029` — Observe php preflight — `tasks/backlog/T1159-observe-php-preflight.md`
+- [ ] `T1160` · `RUNTIME-030` — Review php preflight — `tasks/backlog/T1160-review-php-preflight.md`
+- [ ] `T1161` · `RUNTIME-031` — Define php switch — `tasks/backlog/T1161-define-php-switch.md`
+- [ ] `T1162` · `RUNTIME-032` — Validate php switch — `tasks/backlog/T1162-validate-php-switch.md`
+- [ ] `T1163` · `RUNTIME-033` — Model php switch — `tasks/backlog/T1163-model-php-switch.md`
+- [ ] `T1164` · `RUNTIME-034` — Implement php switch — `tasks/backlog/T1164-implement-php-switch.md`
+- [ ] `T1165` · `RUNTIME-035` — Test php switch — `tasks/backlog/T1165-test-php-switch.md`
+- [ ] `T1166` · `RUNTIME-036` — Document php switch — `tasks/backlog/T1166-document-php-switch.md`
+- [ ] `T1167` · `RUNTIME-037` — Integrate php switch — `tasks/backlog/T1167-integrate-php-switch.md`
+- [ ] `T1168` · `RUNTIME-038` — Harden php switch — `tasks/backlog/T1168-harden-php-switch.md`
+- [ ] `T1169` · `RUNTIME-039` — Observe php switch — `tasks/backlog/T1169-observe-php-switch.md`
+- [ ] `T1170` · `RUNTIME-040` — Review php switch — `tasks/backlog/T1170-review-php-switch.md`
+- [ ] `T1171` · `RUNTIME-041` — Define php rollback — `tasks/backlog/T1171-define-php-rollback.md`
+- [ ] `T1172` · `RUNTIME-042` — Validate php rollback — `tasks/backlog/T1172-validate-php-rollback.md`
+- [ ] `T1173` · `RUNTIME-043` — Model php rollback — `tasks/backlog/T1173-model-php-rollback.md`
+- [ ] `T1174` · `RUNTIME-044` — Implement php rollback — `tasks/backlog/T1174-implement-php-rollback.md`
+- [ ] `T1175` · `RUNTIME-045` — Test php rollback — `tasks/backlog/T1175-test-php-rollback.md`
+- [ ] `T1176` · `RUNTIME-046` — Document php rollback — `tasks/backlog/T1176-document-php-rollback.md`
+- [ ] `T1177` · `RUNTIME-047` — Integrate php rollback — `tasks/backlog/T1177-integrate-php-rollback.md`
+- [ ] `T1178` · `RUNTIME-048` — Harden php rollback — `tasks/backlog/T1178-harden-php-rollback.md`
+- [ ] `T1179` · `RUNTIME-049` — Observe php rollback — `tasks/backlog/T1179-observe-php-rollback.md`
+- [ ] `T1180` · `RUNTIME-050` — Review php rollback — `tasks/backlog/T1180-review-php-rollback.md`

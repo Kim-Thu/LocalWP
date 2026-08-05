@@ -1,54 +1,95 @@
-# E01 — Solution and project foundation
+# E01 — Domain Model
 
-Dải task: `T0041`–`T0090`.
+Mã UID: `DOM`.
+Dải task: `T0071`–`T0160`.
 
-- [ ] `T0041` — Define solution file — `tasks/backlog/T0041-define-solution-file.md`
-- [ ] `T0042` — Validate solution file — `tasks/backlog/T0042-validate-solution-file.md`
-- [ ] `T0043` — Model solution file — `tasks/backlog/T0043-model-solution-file.md`
-- [ ] `T0044` — Implement solution file — `tasks/backlog/T0044-implement-solution-file.md`
-- [ ] `T0045` — Test solution file — `tasks/backlog/T0045-test-solution-file.md`
-- [ ] `T0046` — Document solution file — `tasks/backlog/T0046-document-solution-file.md`
-- [ ] `T0047` — Integrate solution file — `tasks/backlog/T0047-integrate-solution-file.md`
-- [ ] `T0048` — Harden solution file — `tasks/backlog/T0048-harden-solution-file.md`
-- [ ] `T0049` — Observe solution file — `tasks/backlog/T0049-observe-solution-file.md`
-- [ ] `T0050` — Review solution file — `tasks/backlog/T0050-review-solution-file.md`
-- [ ] `T0051` — Define sdk pinning — `tasks/backlog/T0051-define-sdk-pinning.md`
-- [ ] `T0052` — Validate sdk pinning — `tasks/backlog/T0052-validate-sdk-pinning.md`
-- [ ] `T0053` — Model sdk pinning — `tasks/backlog/T0053-model-sdk-pinning.md`
-- [ ] `T0054` — Implement sdk pinning — `tasks/backlog/T0054-implement-sdk-pinning.md`
-- [ ] `T0055` — Test sdk pinning — `tasks/backlog/T0055-test-sdk-pinning.md`
-- [ ] `T0056` — Document sdk pinning — `tasks/backlog/T0056-document-sdk-pinning.md`
-- [ ] `T0057` — Integrate sdk pinning — `tasks/backlog/T0057-integrate-sdk-pinning.md`
-- [ ] `T0058` — Harden sdk pinning — `tasks/backlog/T0058-harden-sdk-pinning.md`
-- [ ] `T0059` — Observe sdk pinning — `tasks/backlog/T0059-observe-sdk-pinning.md`
-- [ ] `T0060` — Review sdk pinning — `tasks/backlog/T0060-review-sdk-pinning.md`
-- [ ] `T0061` — Define build properties — `tasks/backlog/T0061-define-build-properties.md`
-- [ ] `T0062` — Validate build properties — `tasks/backlog/T0062-validate-build-properties.md`
-- [ ] `T0063` — Model build properties — `tasks/backlog/T0063-model-build-properties.md`
-- [ ] `T0064` — Implement build properties — `tasks/backlog/T0064-implement-build-properties.md`
-- [ ] `T0065` — Test build properties — `tasks/backlog/T0065-test-build-properties.md`
-- [ ] `T0066` — Document build properties — `tasks/backlog/T0066-document-build-properties.md`
-- [ ] `T0067` — Integrate build properties — `tasks/backlog/T0067-integrate-build-properties.md`
-- [ ] `T0068` — Harden build properties — `tasks/backlog/T0068-harden-build-properties.md`
-- [ ] `T0069` — Observe build properties — `tasks/backlog/T0069-observe-build-properties.md`
-- [ ] `T0070` — Review build properties — `tasks/backlog/T0070-review-build-properties.md`
-- [ ] `T0071` — Define package management — `tasks/backlog/T0071-define-package-management.md`
-- [ ] `T0072` — Validate package management — `tasks/backlog/T0072-validate-package-management.md`
-- [ ] `T0073` — Model package management — `tasks/backlog/T0073-model-package-management.md`
-- [ ] `T0074` — Implement package management — `tasks/backlog/T0074-implement-package-management.md`
-- [ ] `T0075` — Test package management — `tasks/backlog/T0075-test-package-management.md`
-- [ ] `T0076` — Document package management — `tasks/backlog/T0076-document-package-management.md`
-- [ ] `T0077` — Integrate package management — `tasks/backlog/T0077-integrate-package-management.md`
-- [ ] `T0078` — Harden package management — `tasks/backlog/T0078-harden-package-management.md`
-- [ ] `T0079` — Observe package management — `tasks/backlog/T0079-observe-package-management.md`
-- [ ] `T0080` — Review package management — `tasks/backlog/T0080-review-package-management.md`
-- [ ] `T0081` — Define domain project — `tasks/backlog/T0081-define-domain-project.md`
-- [ ] `T0082` — Validate domain project — `tasks/backlog/T0082-validate-domain-project.md`
-- [ ] `T0083` — Model domain project — `tasks/backlog/T0083-model-domain-project.md`
-- [ ] `T0084` — Implement domain project — `tasks/backlog/T0084-implement-domain-project.md`
-- [ ] `T0085` — Test domain project — `tasks/backlog/T0085-test-domain-project.md`
-- [ ] `T0086` — Document domain project — `tasks/backlog/T0086-document-domain-project.md`
-- [ ] `T0087` — Integrate domain project — `tasks/backlog/T0087-integrate-domain-project.md`
-- [ ] `T0088` — Harden domain project — `tasks/backlog/T0088-harden-domain-project.md`
-- [ ] `T0089` — Observe domain project — `tasks/backlog/T0089-observe-domain-project.md`
-- [ ] `T0090` — Review domain project — `tasks/backlog/T0090-review-domain-project.md`
+- [ ] `T0071` · `DOM-001` — Define site identity — `tasks/backlog/T0071-define-site-identity.md`
+- [ ] `T0072` · `DOM-002` — Validate site identity — `tasks/backlog/T0072-validate-site-identity.md`
+- [ ] `T0073` · `DOM-003` — Model site identity — `tasks/backlog/T0073-model-site-identity.md`
+- [ ] `T0074` · `DOM-004` — Implement site identity — `tasks/backlog/T0074-implement-site-identity.md`
+- [ ] `T0075` · `DOM-005` — Test site identity — `tasks/backlog/T0075-test-site-identity.md`
+- [ ] `T0076` · `DOM-006` — Document site identity — `tasks/backlog/T0076-document-site-identity.md`
+- [ ] `T0077` · `DOM-007` — Integrate site identity — `tasks/backlog/T0077-integrate-site-identity.md`
+- [ ] `T0078` · `DOM-008` — Harden site identity — `tasks/backlog/T0078-harden-site-identity.md`
+- [ ] `T0079` · `DOM-009` — Observe site identity — `tasks/backlog/T0079-observe-site-identity.md`
+- [ ] `T0080` · `DOM-010` — Review site identity — `tasks/backlog/T0080-review-site-identity.md`
+- [ ] `T0081` · `DOM-011` — Define site slug — `tasks/backlog/T0081-define-site-slug.md`
+- [ ] `T0082` · `DOM-012` — Validate site slug — `tasks/backlog/T0082-validate-site-slug.md`
+- [ ] `T0083` · `DOM-013` — Model site slug — `tasks/backlog/T0083-model-site-slug.md`
+- [ ] `T0084` · `DOM-014` — Implement site slug — `tasks/backlog/T0084-implement-site-slug.md`
+- [ ] `T0085` · `DOM-015` — Test site slug — `tasks/backlog/T0085-test-site-slug.md`
+- [ ] `T0086` · `DOM-016` — Document site slug — `tasks/backlog/T0086-document-site-slug.md`
+- [ ] `T0087` · `DOM-017` — Integrate site slug — `tasks/backlog/T0087-integrate-site-slug.md`
+- [ ] `T0088` · `DOM-018` — Harden site slug — `tasks/backlog/T0088-harden-site-slug.md`
+- [ ] `T0089` · `DOM-019` — Observe site slug — `tasks/backlog/T0089-observe-site-slug.md`
+- [ ] `T0090` · `DOM-020` — Review site slug — `tasks/backlog/T0090-review-site-slug.md`
+- [ ] `T0091` · `DOM-021` — Define site domain — `tasks/backlog/T0091-define-site-domain.md`
+- [ ] `T0092` · `DOM-022` — Validate site domain — `tasks/backlog/T0092-validate-site-domain.md`
+- [ ] `T0093` · `DOM-023` — Model site domain — `tasks/backlog/T0093-model-site-domain.md`
+- [ ] `T0094` · `DOM-024` — Implement site domain — `tasks/backlog/T0094-implement-site-domain.md`
+- [ ] `T0095` · `DOM-025` — Test site domain — `tasks/backlog/T0095-test-site-domain.md`
+- [ ] `T0096` · `DOM-026` — Document site domain — `tasks/backlog/T0096-document-site-domain.md`
+- [ ] `T0097` · `DOM-027` — Integrate site domain — `tasks/backlog/T0097-integrate-site-domain.md`
+- [ ] `T0098` · `DOM-028` — Harden site domain — `tasks/backlog/T0098-harden-site-domain.md`
+- [ ] `T0099` · `DOM-029` — Observe site domain — `tasks/backlog/T0099-observe-site-domain.md`
+- [ ] `T0100` · `DOM-030` — Review site domain — `tasks/backlog/T0100-review-site-domain.md`
+- [ ] `T0101` · `DOM-031` — Define runtime state — `tasks/backlog/T0101-define-runtime-state.md`
+- [ ] `T0102` · `DOM-032` — Validate runtime state — `tasks/backlog/T0102-validate-runtime-state.md`
+- [ ] `T0103` · `DOM-033` — Model runtime state — `tasks/backlog/T0103-model-runtime-state.md`
+- [ ] `T0104` · `DOM-034` — Implement runtime state — `tasks/backlog/T0104-implement-runtime-state.md`
+- [ ] `T0105` · `DOM-035` — Test runtime state — `tasks/backlog/T0105-test-runtime-state.md`
+- [ ] `T0106` · `DOM-036` — Document runtime state — `tasks/backlog/T0106-document-runtime-state.md`
+- [ ] `T0107` · `DOM-037` — Integrate runtime state — `tasks/backlog/T0107-integrate-runtime-state.md`
+- [ ] `T0108` · `DOM-038` — Harden runtime state — `tasks/backlog/T0108-harden-runtime-state.md`
+- [ ] `T0109` · `DOM-039` — Observe runtime state — `tasks/backlog/T0109-observe-runtime-state.md`
+- [ ] `T0110` · `DOM-040` — Review runtime state — `tasks/backlog/T0110-review-runtime-state.md`
+- [ ] `T0111` · `DOM-041` — Define environment config — `tasks/backlog/T0111-define-environment-config.md`
+- [ ] `T0112` · `DOM-042` — Validate environment config — `tasks/backlog/T0112-validate-environment-config.md`
+- [ ] `T0113` · `DOM-043` — Model environment config — `tasks/backlog/T0113-model-environment-config.md`
+- [ ] `T0114` · `DOM-044` — Implement environment config — `tasks/backlog/T0114-implement-environment-config.md`
+- [ ] `T0115` · `DOM-045` — Test environment config — `tasks/backlog/T0115-test-environment-config.md`
+- [ ] `T0116` · `DOM-046` — Document environment config — `tasks/backlog/T0116-document-environment-config.md`
+- [ ] `T0117` · `DOM-047` — Integrate environment config — `tasks/backlog/T0117-integrate-environment-config.md`
+- [ ] `T0118` · `DOM-048` — Harden environment config — `tasks/backlog/T0118-harden-environment-config.md`
+- [ ] `T0119` · `DOM-049` — Observe environment config — `tasks/backlog/T0119-observe-environment-config.md`
+- [ ] `T0120` · `DOM-050` — Review environment config — `tasks/backlog/T0120-review-environment-config.md`
+- [ ] `T0121` · `DOM-051` — Define wordpress config — `tasks/backlog/T0121-define-wordpress-config.md`
+- [ ] `T0122` · `DOM-052` — Validate wordpress config — `tasks/backlog/T0122-validate-wordpress-config.md`
+- [ ] `T0123` · `DOM-053` — Model wordpress config — `tasks/backlog/T0123-model-wordpress-config.md`
+- [ ] `T0124` · `DOM-054` — Implement wordpress config — `tasks/backlog/T0124-implement-wordpress-config.md`
+- [ ] `T0125` · `DOM-055` — Test wordpress config — `tasks/backlog/T0125-test-wordpress-config.md`
+- [ ] `T0126` · `DOM-056` — Document wordpress config — `tasks/backlog/T0126-document-wordpress-config.md`
+- [ ] `T0127` · `DOM-057` — Integrate wordpress config — `tasks/backlog/T0127-integrate-wordpress-config.md`
+- [ ] `T0128` · `DOM-058` — Harden wordpress config — `tasks/backlog/T0128-harden-wordpress-config.md`
+- [ ] `T0129` · `DOM-059` — Observe wordpress config — `tasks/backlog/T0129-observe-wordpress-config.md`
+- [ ] `T0130` · `DOM-060` — Review wordpress config — `tasks/backlog/T0130-review-wordpress-config.md`
+- [ ] `T0131` · `DOM-061` — Define database config — `tasks/backlog/T0131-define-database-config.md`
+- [ ] `T0132` · `DOM-062` — Validate database config — `tasks/backlog/T0132-validate-database-config.md`
+- [ ] `T0133` · `DOM-063` — Model database config — `tasks/backlog/T0133-model-database-config.md`
+- [ ] `T0134` · `DOM-064` — Implement database config — `tasks/backlog/T0134-implement-database-config.md`
+- [ ] `T0135` · `DOM-065` — Test database config — `tasks/backlog/T0135-test-database-config.md`
+- [ ] `T0136` · `DOM-066` — Document database config — `tasks/backlog/T0136-document-database-config.md`
+- [ ] `T0137` · `DOM-067` — Integrate database config — `tasks/backlog/T0137-integrate-database-config.md`
+- [ ] `T0138` · `DOM-068` — Harden database config — `tasks/backlog/T0138-harden-database-config.md`
+- [ ] `T0139` · `DOM-069` — Observe database config — `tasks/backlog/T0139-observe-database-config.md`
+- [ ] `T0140` · `DOM-070` — Review database config — `tasks/backlog/T0140-review-database-config.md`
+- [ ] `T0141` · `DOM-071` — Define backup metadata — `tasks/backlog/T0141-define-backup-metadata.md`
+- [ ] `T0142` · `DOM-072` — Validate backup metadata — `tasks/backlog/T0142-validate-backup-metadata.md`
+- [ ] `T0143` · `DOM-073` — Model backup metadata — `tasks/backlog/T0143-model-backup-metadata.md`
+- [ ] `T0144` · `DOM-074` — Implement backup metadata — `tasks/backlog/T0144-implement-backup-metadata.md`
+- [ ] `T0145` · `DOM-075` — Test backup metadata — `tasks/backlog/T0145-test-backup-metadata.md`
+- [ ] `T0146` · `DOM-076` — Document backup metadata — `tasks/backlog/T0146-document-backup-metadata.md`
+- [ ] `T0147` · `DOM-077` — Integrate backup metadata — `tasks/backlog/T0147-integrate-backup-metadata.md`
+- [ ] `T0148` · `DOM-078` — Harden backup metadata — `tasks/backlog/T0148-harden-backup-metadata.md`
+- [ ] `T0149` · `DOM-079` — Observe backup metadata — `tasks/backlog/T0149-observe-backup-metadata.md`
+- [ ] `T0150` · `DOM-080` — Review backup metadata — `tasks/backlog/T0150-review-backup-metadata.md`
+- [ ] `T0151` · `DOM-081` — Define operation result — `tasks/backlog/T0151-define-operation-result.md`
+- [ ] `T0152` · `DOM-082` — Validate operation result — `tasks/backlog/T0152-validate-operation-result.md`
+- [ ] `T0153` · `DOM-083` — Model operation result — `tasks/backlog/T0153-model-operation-result.md`
+- [ ] `T0154` · `DOM-084` — Implement operation result — `tasks/backlog/T0154-implement-operation-result.md`
+- [ ] `T0155` · `DOM-085` — Test operation result — `tasks/backlog/T0155-test-operation-result.md`
+- [ ] `T0156` · `DOM-086` — Document operation result — `tasks/backlog/T0156-document-operation-result.md`
+- [ ] `T0157` · `DOM-087` — Integrate operation result — `tasks/backlog/T0157-integrate-operation-result.md`
+- [ ] `T0158` · `DOM-088` — Harden operation result — `tasks/backlog/T0158-harden-operation-result.md`
+- [ ] `T0159` · `DOM-089` — Observe operation result — `tasks/backlog/T0159-observe-operation-result.md`
+- [ ] `T0160` · `DOM-090` — Review operation result — `tasks/backlog/T0160-review-operation-result.md`

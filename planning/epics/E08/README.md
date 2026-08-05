@@ -1,84 +1,75 @@
-# E08 — Domain and SSL
+# E08 — Site Lifecycle and Logs
 
-Dải task: `T0611`–`T0690`.
+Mã UID: `LIFE`.
+Dải task: `T0711`–`T0780`.
 
-- [ ] `T0611` — Define hosts entry — `tasks/backlog/T0611-define-hosts-entry.md`
-- [ ] `T0612` — Validate hosts entry — `tasks/backlog/T0612-validate-hosts-entry.md`
-- [ ] `T0613` — Model hosts entry — `tasks/backlog/T0613-model-hosts-entry.md`
-- [ ] `T0614` — Implement hosts entry — `tasks/backlog/T0614-implement-hosts-entry.md`
-- [ ] `T0615` — Test hosts entry — `tasks/backlog/T0615-test-hosts-entry.md`
-- [ ] `T0616` — Document hosts entry — `tasks/backlog/T0616-document-hosts-entry.md`
-- [ ] `T0617` — Integrate hosts entry — `tasks/backlog/T0617-integrate-hosts-entry.md`
-- [ ] `T0618` — Harden hosts entry — `tasks/backlog/T0618-harden-hosts-entry.md`
-- [ ] `T0619` — Observe hosts entry — `tasks/backlog/T0619-observe-hosts-entry.md`
-- [ ] `T0620` — Review hosts entry — `tasks/backlog/T0620-review-hosts-entry.md`
-- [ ] `T0621` — Define elevated helper — `tasks/backlog/T0621-define-elevated-helper.md`
-- [ ] `T0622` — Validate elevated helper — `tasks/backlog/T0622-validate-elevated-helper.md`
-- [ ] `T0623` — Model elevated helper — `tasks/backlog/T0623-model-elevated-helper.md`
-- [ ] `T0624` — Implement elevated helper — `tasks/backlog/T0624-implement-elevated-helper.md`
-- [ ] `T0625` — Test elevated helper — `tasks/backlog/T0625-test-elevated-helper.md`
-- [ ] `T0626` — Document elevated helper — `tasks/backlog/T0626-document-elevated-helper.md`
-- [ ] `T0627` — Integrate elevated helper — `tasks/backlog/T0627-integrate-elevated-helper.md`
-- [ ] `T0628` — Harden elevated helper — `tasks/backlog/T0628-harden-elevated-helper.md`
-- [ ] `T0629` — Observe elevated helper — `tasks/backlog/T0629-observe-elevated-helper.md`
-- [ ] `T0630` — Review elevated helper — `tasks/backlog/T0630-review-elevated-helper.md`
-- [ ] `T0631` — Define ipc contract — `tasks/backlog/T0631-define-ipc-contract.md`
-- [ ] `T0632` — Validate ipc contract — `tasks/backlog/T0632-validate-ipc-contract.md`
-- [ ] `T0633` — Model ipc contract — `tasks/backlog/T0633-model-ipc-contract.md`
-- [ ] `T0634` — Implement ipc contract — `tasks/backlog/T0634-implement-ipc-contract.md`
-- [ ] `T0635` — Test ipc contract — `tasks/backlog/T0635-test-ipc-contract.md`
-- [ ] `T0636` — Document ipc contract — `tasks/backlog/T0636-document-ipc-contract.md`
-- [ ] `T0637` — Integrate ipc contract — `tasks/backlog/T0637-integrate-ipc-contract.md`
-- [ ] `T0638` — Harden ipc contract — `tasks/backlog/T0638-harden-ipc-contract.md`
-- [ ] `T0639` — Observe ipc contract — `tasks/backlog/T0639-observe-ipc-contract.md`
-- [ ] `T0640` — Review ipc contract — `tasks/backlog/T0640-review-ipc-contract.md`
-- [ ] `T0641` — Define root ca — `tasks/backlog/T0641-define-root-ca.md`
-- [ ] `T0642` — Validate root ca — `tasks/backlog/T0642-validate-root-ca.md`
-- [ ] `T0643` — Model root ca — `tasks/backlog/T0643-model-root-ca.md`
-- [ ] `T0644` — Implement root ca — `tasks/backlog/T0644-implement-root-ca.md`
-- [ ] `T0645` — Test root ca — `tasks/backlog/T0645-test-root-ca.md`
-- [ ] `T0646` — Document root ca — `tasks/backlog/T0646-document-root-ca.md`
-- [ ] `T0647` — Integrate root ca — `tasks/backlog/T0647-integrate-root-ca.md`
-- [ ] `T0648` — Harden root ca — `tasks/backlog/T0648-harden-root-ca.md`
-- [ ] `T0649` — Observe root ca — `tasks/backlog/T0649-observe-root-ca.md`
-- [ ] `T0650` — Review root ca — `tasks/backlog/T0650-review-root-ca.md`
-- [ ] `T0651` — Define certificate trust — `tasks/backlog/T0651-define-certificate-trust.md`
-- [ ] `T0652` — Validate certificate trust — `tasks/backlog/T0652-validate-certificate-trust.md`
-- [ ] `T0653` — Model certificate trust — `tasks/backlog/T0653-model-certificate-trust.md`
-- [ ] `T0654` — Implement certificate trust — `tasks/backlog/T0654-implement-certificate-trust.md`
-- [ ] `T0655` — Test certificate trust — `tasks/backlog/T0655-test-certificate-trust.md`
-- [ ] `T0656` — Document certificate trust — `tasks/backlog/T0656-document-certificate-trust.md`
-- [ ] `T0657` — Integrate certificate trust — `tasks/backlog/T0657-integrate-certificate-trust.md`
-- [ ] `T0658` — Harden certificate trust — `tasks/backlog/T0658-harden-certificate-trust.md`
-- [ ] `T0659` — Observe certificate trust — `tasks/backlog/T0659-observe-certificate-trust.md`
-- [ ] `T0660` — Review certificate trust — `tasks/backlog/T0660-review-certificate-trust.md`
-- [ ] `T0661` — Define domain certificate — `tasks/backlog/T0661-define-domain-certificate.md`
-- [ ] `T0662` — Validate domain certificate — `tasks/backlog/T0662-validate-domain-certificate.md`
-- [ ] `T0663` — Model domain certificate — `tasks/backlog/T0663-model-domain-certificate.md`
-- [ ] `T0664` — Implement domain certificate — `tasks/backlog/T0664-implement-domain-certificate.md`
-- [ ] `T0665` — Test domain certificate — `tasks/backlog/T0665-test-domain-certificate.md`
-- [ ] `T0666` — Document domain certificate — `tasks/backlog/T0666-document-domain-certificate.md`
-- [ ] `T0667` — Integrate domain certificate — `tasks/backlog/T0667-integrate-domain-certificate.md`
-- [ ] `T0668` — Harden domain certificate — `tasks/backlog/T0668-harden-domain-certificate.md`
-- [ ] `T0669` — Observe domain certificate — `tasks/backlog/T0669-observe-domain-certificate.md`
-- [ ] `T0670` — Review domain certificate — `tasks/backlog/T0670-review-domain-certificate.md`
-- [ ] `T0671` — Define nginx tls — `tasks/backlog/T0671-define-nginx-tls.md`
-- [ ] `T0672` — Validate nginx tls — `tasks/backlog/T0672-validate-nginx-tls.md`
-- [ ] `T0673` — Model nginx tls — `tasks/backlog/T0673-model-nginx-tls.md`
-- [ ] `T0674` — Implement nginx tls — `tasks/backlog/T0674-implement-nginx-tls.md`
-- [ ] `T0675` — Test nginx tls — `tasks/backlog/T0675-test-nginx-tls.md`
-- [ ] `T0676` — Document nginx tls — `tasks/backlog/T0676-document-nginx-tls.md`
-- [ ] `T0677` — Integrate nginx tls — `tasks/backlog/T0677-integrate-nginx-tls.md`
-- [ ] `T0678` — Harden nginx tls — `tasks/backlog/T0678-harden-nginx-tls.md`
-- [ ] `T0679` — Observe nginx tls — `tasks/backlog/T0679-observe-nginx-tls.md`
-- [ ] `T0680` — Review nginx tls — `tasks/backlog/T0680-review-nginx-tls.md`
-- [ ] `T0681` — Define trust status — `tasks/backlog/T0681-define-trust-status.md`
-- [ ] `T0682` — Validate trust status — `tasks/backlog/T0682-validate-trust-status.md`
-- [ ] `T0683` — Model trust status — `tasks/backlog/T0683-model-trust-status.md`
-- [ ] `T0684` — Implement trust status — `tasks/backlog/T0684-implement-trust-status.md`
-- [ ] `T0685` — Test trust status — `tasks/backlog/T0685-test-trust-status.md`
-- [ ] `T0686` — Document trust status — `tasks/backlog/T0686-document-trust-status.md`
-- [ ] `T0687` — Integrate trust status — `tasks/backlog/T0687-integrate-trust-status.md`
-- [ ] `T0688` — Harden trust status — `tasks/backlog/T0688-harden-trust-status.md`
-- [ ] `T0689` — Observe trust status — `tasks/backlog/T0689-observe-trust-status.md`
-- [ ] `T0690` — Review trust status — `tasks/backlog/T0690-review-trust-status.md`
+- [ ] `T0711` · `LIFE-001` — Define site start — `tasks/backlog/T0711-define-site-start.md`
+- [ ] `T0712` · `LIFE-002` — Validate site start — `tasks/backlog/T0712-validate-site-start.md`
+- [ ] `T0713` · `LIFE-003` — Model site start — `tasks/backlog/T0713-model-site-start.md`
+- [ ] `T0714` · `LIFE-004` — Implement site start — `tasks/backlog/T0714-implement-site-start.md`
+- [ ] `T0715` · `LIFE-005` — Test site start — `tasks/backlog/T0715-test-site-start.md`
+- [ ] `T0716` · `LIFE-006` — Document site start — `tasks/backlog/T0716-document-site-start.md`
+- [ ] `T0717` · `LIFE-007` — Integrate site start — `tasks/backlog/T0717-integrate-site-start.md`
+- [ ] `T0718` · `LIFE-008` — Harden site start — `tasks/backlog/T0718-harden-site-start.md`
+- [ ] `T0719` · `LIFE-009` — Observe site start — `tasks/backlog/T0719-observe-site-start.md`
+- [ ] `T0720` · `LIFE-010` — Review site start — `tasks/backlog/T0720-review-site-start.md`
+- [ ] `T0721` · `LIFE-011` — Define site stop — `tasks/backlog/T0721-define-site-stop.md`
+- [ ] `T0722` · `LIFE-012` — Validate site stop — `tasks/backlog/T0722-validate-site-stop.md`
+- [ ] `T0723` · `LIFE-013` — Model site stop — `tasks/backlog/T0723-model-site-stop.md`
+- [ ] `T0724` · `LIFE-014` — Implement site stop — `tasks/backlog/T0724-implement-site-stop.md`
+- [ ] `T0725` · `LIFE-015` — Test site stop — `tasks/backlog/T0725-test-site-stop.md`
+- [ ] `T0726` · `LIFE-016` — Document site stop — `tasks/backlog/T0726-document-site-stop.md`
+- [ ] `T0727` · `LIFE-017` — Integrate site stop — `tasks/backlog/T0727-integrate-site-stop.md`
+- [ ] `T0728` · `LIFE-018` — Harden site stop — `tasks/backlog/T0728-harden-site-stop.md`
+- [ ] `T0729` · `LIFE-019` — Observe site stop — `tasks/backlog/T0729-observe-site-stop.md`
+- [ ] `T0730` · `LIFE-020` — Review site stop — `tasks/backlog/T0730-review-site-stop.md`
+- [ ] `T0731` · `LIFE-021` — Define site restart — `tasks/backlog/T0731-define-site-restart.md`
+- [ ] `T0732` · `LIFE-022` — Validate site restart — `tasks/backlog/T0732-validate-site-restart.md`
+- [ ] `T0733` · `LIFE-023` — Model site restart — `tasks/backlog/T0733-model-site-restart.md`
+- [ ] `T0734` · `LIFE-024` — Implement site restart — `tasks/backlog/T0734-implement-site-restart.md`
+- [ ] `T0735` · `LIFE-025` — Test site restart — `tasks/backlog/T0735-test-site-restart.md`
+- [ ] `T0736` · `LIFE-026` — Document site restart — `tasks/backlog/T0736-document-site-restart.md`
+- [ ] `T0737` · `LIFE-027` — Integrate site restart — `tasks/backlog/T0737-integrate-site-restart.md`
+- [ ] `T0738` · `LIFE-028` — Harden site restart — `tasks/backlog/T0738-harden-site-restart.md`
+- [ ] `T0739` · `LIFE-029` — Observe site restart — `tasks/backlog/T0739-observe-site-restart.md`
+- [ ] `T0740` · `LIFE-030` — Review site restart — `tasks/backlog/T0740-review-site-restart.md`
+- [ ] `T0741` · `LIFE-031` — Define site delete — `tasks/backlog/T0741-define-site-delete.md`
+- [ ] `T0742` · `LIFE-032` — Validate site delete — `tasks/backlog/T0742-validate-site-delete.md`
+- [ ] `T0743` · `LIFE-033` — Model site delete — `tasks/backlog/T0743-model-site-delete.md`
+- [ ] `T0744` · `LIFE-034` — Implement site delete — `tasks/backlog/T0744-implement-site-delete.md`
+- [ ] `T0745` · `LIFE-035` — Test site delete — `tasks/backlog/T0745-test-site-delete.md`
+- [ ] `T0746` · `LIFE-036` — Document site delete — `tasks/backlog/T0746-document-site-delete.md`
+- [ ] `T0747` · `LIFE-037` — Integrate site delete — `tasks/backlog/T0747-integrate-site-delete.md`
+- [ ] `T0748` · `LIFE-038` — Harden site delete — `tasks/backlog/T0748-harden-site-delete.md`
+- [ ] `T0749` · `LIFE-039` — Observe site delete — `tasks/backlog/T0749-observe-site-delete.md`
+- [ ] `T0750` · `LIFE-040` — Review site delete — `tasks/backlog/T0750-review-site-delete.md`
+- [ ] `T0751` · `LIFE-041` — Define container status — `tasks/backlog/T0751-define-container-status.md`
+- [ ] `T0752` · `LIFE-042` — Validate container status — `tasks/backlog/T0752-validate-container-status.md`
+- [ ] `T0753` · `LIFE-043` — Model container status — `tasks/backlog/T0753-model-container-status.md`
+- [ ] `T0754` · `LIFE-044` — Implement container status — `tasks/backlog/T0754-implement-container-status.md`
+- [ ] `T0755` · `LIFE-045` — Test container status — `tasks/backlog/T0755-test-container-status.md`
+- [ ] `T0756` · `LIFE-046` — Document container status — `tasks/backlog/T0756-document-container-status.md`
+- [ ] `T0757` · `LIFE-047` — Integrate container status — `tasks/backlog/T0757-integrate-container-status.md`
+- [ ] `T0758` · `LIFE-048` — Harden container status — `tasks/backlog/T0758-harden-container-status.md`
+- [ ] `T0759` · `LIFE-049` — Observe container status — `tasks/backlog/T0759-observe-container-status.md`
+- [ ] `T0760` · `LIFE-050` — Review container status — `tasks/backlog/T0760-review-container-status.md`
+- [ ] `T0761` · `LIFE-051` — Define health status — `tasks/backlog/T0761-define-health-status.md`
+- [ ] `T0762` · `LIFE-052` — Validate health status — `tasks/backlog/T0762-validate-health-status.md`
+- [ ] `T0763` · `LIFE-053` — Model health status — `tasks/backlog/T0763-model-health-status.md`
+- [ ] `T0764` · `LIFE-054` — Implement health status — `tasks/backlog/T0764-implement-health-status.md`
+- [ ] `T0765` · `LIFE-055` — Test health status — `tasks/backlog/T0765-test-health-status.md`
+- [ ] `T0766` · `LIFE-056` — Document health status — `tasks/backlog/T0766-document-health-status.md`
+- [ ] `T0767` · `LIFE-057` — Integrate health status — `tasks/backlog/T0767-integrate-health-status.md`
+- [ ] `T0768` · `LIFE-058` — Harden health status — `tasks/backlog/T0768-harden-health-status.md`
+- [ ] `T0769` · `LIFE-059` — Observe health status — `tasks/backlog/T0769-observe-health-status.md`
+- [ ] `T0770` · `LIFE-060` — Review health status — `tasks/backlog/T0770-review-health-status.md`
+- [ ] `T0771` · `LIFE-061` — Define last-started state — `tasks/backlog/T0771-define-last-started-state.md`
+- [ ] `T0772` · `LIFE-062` — Validate last-started state — `tasks/backlog/T0772-validate-last-started-state.md`
+- [ ] `T0773` · `LIFE-063` — Model last-started state — `tasks/backlog/T0773-model-last-started-state.md`
+- [ ] `T0774` · `LIFE-064` — Implement last-started state — `tasks/backlog/T0774-implement-last-started-state.md`
+- [ ] `T0775` · `LIFE-065` — Test last-started state — `tasks/backlog/T0775-test-last-started-state.md`
+- [ ] `T0776` · `LIFE-066` — Document last-started state — `tasks/backlog/T0776-document-last-started-state.md`
+- [ ] `T0777` · `LIFE-067` — Integrate last-started state — `tasks/backlog/T0777-integrate-last-started-state.md`
+- [ ] `T0778` · `LIFE-068` — Harden last-started state — `tasks/backlog/T0778-harden-last-started-state.md`
+- [ ] `T0779` · `LIFE-069` — Observe last-started state — `tasks/backlog/T0779-observe-last-started-state.md`
+- [ ] `T0780` · `LIFE-070` — Review last-started state — `tasks/backlog/T0780-review-last-started-state.md`

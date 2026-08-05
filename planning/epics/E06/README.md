@@ -1,104 +1,105 @@
-# E06 — Compose and config generation
+# E06 — Site Provisioning
 
-Dải task: `T0411`–`T0510`.
+Mã UID: `PROVISION`.
+Dải task: `T0531`–`T0630`.
 
-- [ ] `T0411` — Define compose model — `tasks/backlog/T0411-define-compose-model.md`
-- [ ] `T0412` — Validate compose model — `tasks/backlog/T0412-validate-compose-model.md`
-- [ ] `T0413` — Model compose model — `tasks/backlog/T0413-model-compose-model.md`
-- [ ] `T0414` — Implement compose model — `tasks/backlog/T0414-implement-compose-model.md`
-- [ ] `T0415` — Test compose model — `tasks/backlog/T0415-test-compose-model.md`
-- [ ] `T0416` — Document compose model — `tasks/backlog/T0416-document-compose-model.md`
-- [ ] `T0417` — Integrate compose model — `tasks/backlog/T0417-integrate-compose-model.md`
-- [ ] `T0418` — Harden compose model — `tasks/backlog/T0418-harden-compose-model.md`
-- [ ] `T0419` — Observe compose model — `tasks/backlog/T0419-observe-compose-model.md`
-- [ ] `T0420` — Review compose model — `tasks/backlog/T0420-review-compose-model.md`
-- [ ] `T0421` — Define image catalog — `tasks/backlog/T0421-define-image-catalog.md`
-- [ ] `T0422` — Validate image catalog — `tasks/backlog/T0422-validate-image-catalog.md`
-- [ ] `T0423` — Model image catalog — `tasks/backlog/T0423-model-image-catalog.md`
-- [ ] `T0424` — Implement image catalog — `tasks/backlog/T0424-implement-image-catalog.md`
-- [ ] `T0425` — Test image catalog — `tasks/backlog/T0425-test-image-catalog.md`
-- [ ] `T0426` — Document image catalog — `tasks/backlog/T0426-document-image-catalog.md`
-- [ ] `T0427` — Integrate image catalog — `tasks/backlog/T0427-integrate-image-catalog.md`
-- [ ] `T0428` — Harden image catalog — `tasks/backlog/T0428-harden-image-catalog.md`
-- [ ] `T0429` — Observe image catalog — `tasks/backlog/T0429-observe-image-catalog.md`
-- [ ] `T0430` — Review image catalog — `tasks/backlog/T0430-review-image-catalog.md`
-- [ ] `T0431` — Define service naming — `tasks/backlog/T0431-define-service-naming.md`
-- [ ] `T0432` — Validate service naming — `tasks/backlog/T0432-validate-service-naming.md`
-- [ ] `T0433` — Model service naming — `tasks/backlog/T0433-model-service-naming.md`
-- [ ] `T0434` — Implement service naming — `tasks/backlog/T0434-implement-service-naming.md`
-- [ ] `T0435` — Test service naming — `tasks/backlog/T0435-test-service-naming.md`
-- [ ] `T0436` — Document service naming — `tasks/backlog/T0436-document-service-naming.md`
-- [ ] `T0437` — Integrate service naming — `tasks/backlog/T0437-integrate-service-naming.md`
-- [ ] `T0438` — Harden service naming — `tasks/backlog/T0438-harden-service-naming.md`
-- [ ] `T0439` — Observe service naming — `tasks/backlog/T0439-observe-service-naming.md`
-- [ ] `T0440` — Review service naming — `tasks/backlog/T0440-review-service-naming.md`
-- [ ] `T0441` — Define network naming — `tasks/backlog/T0441-define-network-naming.md`
-- [ ] `T0442` — Validate network naming — `tasks/backlog/T0442-validate-network-naming.md`
-- [ ] `T0443` — Model network naming — `tasks/backlog/T0443-model-network-naming.md`
-- [ ] `T0444` — Implement network naming — `tasks/backlog/T0444-implement-network-naming.md`
-- [ ] `T0445` — Test network naming — `tasks/backlog/T0445-test-network-naming.md`
-- [ ] `T0446` — Document network naming — `tasks/backlog/T0446-document-network-naming.md`
-- [ ] `T0447` — Integrate network naming — `tasks/backlog/T0447-integrate-network-naming.md`
-- [ ] `T0448` — Harden network naming — `tasks/backlog/T0448-harden-network-naming.md`
-- [ ] `T0449` — Observe network naming — `tasks/backlog/T0449-observe-network-naming.md`
-- [ ] `T0450` — Review network naming — `tasks/backlog/T0450-review-network-naming.md`
-- [ ] `T0451` — Define volume naming — `tasks/backlog/T0451-define-volume-naming.md`
-- [ ] `T0452` — Validate volume naming — `tasks/backlog/T0452-validate-volume-naming.md`
-- [ ] `T0453` — Model volume naming — `tasks/backlog/T0453-model-volume-naming.md`
-- [ ] `T0454` — Implement volume naming — `tasks/backlog/T0454-implement-volume-naming.md`
-- [ ] `T0455` — Test volume naming — `tasks/backlog/T0455-test-volume-naming.md`
-- [ ] `T0456` — Document volume naming — `tasks/backlog/T0456-document-volume-naming.md`
-- [ ] `T0457` — Integrate volume naming — `tasks/backlog/T0457-integrate-volume-naming.md`
-- [ ] `T0458` — Harden volume naming — `tasks/backlog/T0458-harden-volume-naming.md`
-- [ ] `T0459` — Observe volume naming — `tasks/backlog/T0459-observe-volume-naming.md`
-- [ ] `T0460` — Review volume naming — `tasks/backlog/T0460-review-volume-naming.md`
-- [ ] `T0461` — Define nginx config — `tasks/backlog/T0461-define-nginx-config.md`
-- [ ] `T0462` — Validate nginx config — `tasks/backlog/T0462-validate-nginx-config.md`
-- [ ] `T0463` — Model nginx config — `tasks/backlog/T0463-model-nginx-config.md`
-- [ ] `T0464` — Implement nginx config — `tasks/backlog/T0464-implement-nginx-config.md`
-- [ ] `T0465` — Test nginx config — `tasks/backlog/T0465-test-nginx-config.md`
-- [ ] `T0466` — Document nginx config — `tasks/backlog/T0466-document-nginx-config.md`
-- [ ] `T0467` — Integrate nginx config — `tasks/backlog/T0467-integrate-nginx-config.md`
-- [ ] `T0468` — Harden nginx config — `tasks/backlog/T0468-harden-nginx-config.md`
-- [ ] `T0469` — Observe nginx config — `tasks/backlog/T0469-observe-nginx-config.md`
-- [ ] `T0470` — Review nginx config — `tasks/backlog/T0470-review-nginx-config.md`
-- [ ] `T0471` — Define php config — `tasks/backlog/T0471-define-php-config.md`
-- [ ] `T0472` — Validate php config — `tasks/backlog/T0472-validate-php-config.md`
-- [ ] `T0473` — Model php config — `tasks/backlog/T0473-model-php-config.md`
-- [ ] `T0474` — Implement php config — `tasks/backlog/T0474-implement-php-config.md`
-- [ ] `T0475` — Test php config — `tasks/backlog/T0475-test-php-config.md`
-- [ ] `T0476` — Document php config — `tasks/backlog/T0476-document-php-config.md`
-- [ ] `T0477` — Integrate php config — `tasks/backlog/T0477-integrate-php-config.md`
-- [ ] `T0478` — Harden php config — `tasks/backlog/T0478-harden-php-config.md`
-- [ ] `T0479` — Observe php config — `tasks/backlog/T0479-observe-php-config.md`
-- [ ] `T0480` — Review php config — `tasks/backlog/T0480-review-php-config.md`
-- [ ] `T0481` — Define database config — `tasks/backlog/T0481-define-database-config.md`
-- [ ] `T0482` — Validate database config — `tasks/backlog/T0482-validate-database-config.md`
-- [ ] `T0483` — Model database config — `tasks/backlog/T0483-model-database-config.md`
-- [ ] `T0484` — Implement database config — `tasks/backlog/T0484-implement-database-config.md`
-- [ ] `T0485` — Test database config — `tasks/backlog/T0485-test-database-config.md`
-- [ ] `T0486` — Document database config — `tasks/backlog/T0486-document-database-config.md`
-- [ ] `T0487` — Integrate database config — `tasks/backlog/T0487-integrate-database-config.md`
-- [ ] `T0488` — Harden database config — `tasks/backlog/T0488-harden-database-config.md`
-- [ ] `T0489` — Observe database config — `tasks/backlog/T0489-observe-database-config.md`
-- [ ] `T0490` — Review database config — `tasks/backlog/T0490-review-database-config.md`
-- [ ] `T0491` — Define health checks — `tasks/backlog/T0491-define-health-checks.md`
-- [ ] `T0492` — Validate health checks — `tasks/backlog/T0492-validate-health-checks.md`
-- [ ] `T0493` — Model health checks — `tasks/backlog/T0493-model-health-checks.md`
-- [ ] `T0494` — Implement health checks — `tasks/backlog/T0494-implement-health-checks.md`
-- [ ] `T0495` — Test health checks — `tasks/backlog/T0495-test-health-checks.md`
-- [ ] `T0496` — Document health checks — `tasks/backlog/T0496-document-health-checks.md`
-- [ ] `T0497` — Integrate health checks — `tasks/backlog/T0497-integrate-health-checks.md`
-- [ ] `T0498` — Harden health checks — `tasks/backlog/T0498-harden-health-checks.md`
-- [ ] `T0499` — Observe health checks — `tasks/backlog/T0499-observe-health-checks.md`
-- [ ] `T0500` — Review health checks — `tasks/backlog/T0500-review-health-checks.md`
-- [ ] `T0501` — Define config snapshots — `tasks/backlog/T0501-define-config-snapshots.md`
-- [ ] `T0502` — Validate config snapshots — `tasks/backlog/T0502-validate-config-snapshots.md`
-- [ ] `T0503` — Model config snapshots — `tasks/backlog/T0503-model-config-snapshots.md`
-- [ ] `T0504` — Implement config snapshots — `tasks/backlog/T0504-implement-config-snapshots.md`
-- [ ] `T0505` — Test config snapshots — `tasks/backlog/T0505-test-config-snapshots.md`
-- [ ] `T0506` — Document config snapshots — `tasks/backlog/T0506-document-config-snapshots.md`
-- [ ] `T0507` — Integrate config snapshots — `tasks/backlog/T0507-integrate-config-snapshots.md`
-- [ ] `T0508` — Harden config snapshots — `tasks/backlog/T0508-harden-config-snapshots.md`
-- [ ] `T0509` — Observe config snapshots — `tasks/backlog/T0509-observe-config-snapshots.md`
-- [ ] `T0510` — Review config snapshots — `tasks/backlog/T0510-review-config-snapshots.md`
+- [ ] `T0531` · `PROVISION-001` — Define create-site request — `tasks/backlog/T0531-define-create-site-request.md`
+- [ ] `T0532` · `PROVISION-002` — Validate create-site request — `tasks/backlog/T0532-validate-create-site-request.md`
+- [ ] `T0533` · `PROVISION-003` — Model create-site request — `tasks/backlog/T0533-model-create-site-request.md`
+- [ ] `T0534` · `PROVISION-004` — Implement create-site request — `tasks/backlog/T0534-implement-create-site-request.md`
+- [ ] `T0535` · `PROVISION-005` — Test create-site request — `tasks/backlog/T0535-test-create-site-request.md`
+- [ ] `T0536` · `PROVISION-006` — Document create-site request — `tasks/backlog/T0536-document-create-site-request.md`
+- [ ] `T0537` · `PROVISION-007` — Integrate create-site request — `tasks/backlog/T0537-integrate-create-site-request.md`
+- [ ] `T0538` · `PROVISION-008` — Harden create-site request — `tasks/backlog/T0538-harden-create-site-request.md`
+- [ ] `T0539` · `PROVISION-009` — Observe create-site request — `tasks/backlog/T0539-observe-create-site-request.md`
+- [ ] `T0540` · `PROVISION-010` — Review create-site request — `tasks/backlog/T0540-review-create-site-request.md`
+- [ ] `T0541` · `PROVISION-011` — Define wizard validation — `tasks/backlog/T0541-define-wizard-validation.md`
+- [ ] `T0542` · `PROVISION-012` — Validate wizard validation — `tasks/backlog/T0542-validate-wizard-validation.md`
+- [ ] `T0543` · `PROVISION-013` — Model wizard validation — `tasks/backlog/T0543-model-wizard-validation.md`
+- [ ] `T0544` · `PROVISION-014` — Implement wizard validation — `tasks/backlog/T0544-implement-wizard-validation.md`
+- [ ] `T0545` · `PROVISION-015` — Test wizard validation — `tasks/backlog/T0545-test-wizard-validation.md`
+- [ ] `T0546` · `PROVISION-016` — Document wizard validation — `tasks/backlog/T0546-document-wizard-validation.md`
+- [ ] `T0547` · `PROVISION-017` — Integrate wizard validation — `tasks/backlog/T0547-integrate-wizard-validation.md`
+- [ ] `T0548` · `PROVISION-018` — Harden wizard validation — `tasks/backlog/T0548-harden-wizard-validation.md`
+- [ ] `T0549` · `PROVISION-019` — Observe wizard validation — `tasks/backlog/T0549-observe-wizard-validation.md`
+- [ ] `T0550` · `PROVISION-020` — Review wizard validation — `tasks/backlog/T0550-review-wizard-validation.md`
+- [ ] `T0551` · `PROVISION-021` — Define site directory — `tasks/backlog/T0551-define-site-directory.md`
+- [ ] `T0552` · `PROVISION-022` — Validate site directory — `tasks/backlog/T0552-validate-site-directory.md`
+- [ ] `T0553` · `PROVISION-023` — Model site directory — `tasks/backlog/T0553-model-site-directory.md`
+- [ ] `T0554` · `PROVISION-024` — Implement site directory — `tasks/backlog/T0554-implement-site-directory.md`
+- [ ] `T0555` · `PROVISION-025` — Test site directory — `tasks/backlog/T0555-test-site-directory.md`
+- [ ] `T0556` · `PROVISION-026` — Document site directory — `tasks/backlog/T0556-document-site-directory.md`
+- [ ] `T0557` · `PROVISION-027` — Integrate site directory — `tasks/backlog/T0557-integrate-site-directory.md`
+- [ ] `T0558` · `PROVISION-028` — Harden site directory — `tasks/backlog/T0558-harden-site-directory.md`
+- [ ] `T0559` · `PROVISION-029` — Observe site directory — `tasks/backlog/T0559-observe-site-directory.md`
+- [ ] `T0560` · `PROVISION-030` — Review site directory — `tasks/backlog/T0560-review-site-directory.md`
+- [ ] `T0561` · `PROVISION-031` — Define config generation — `tasks/backlog/T0561-define-config-generation.md`
+- [ ] `T0562` · `PROVISION-032` — Validate config generation — `tasks/backlog/T0562-validate-config-generation.md`
+- [ ] `T0563` · `PROVISION-033` — Model config generation — `tasks/backlog/T0563-model-config-generation.md`
+- [ ] `T0564` · `PROVISION-034` — Implement config generation — `tasks/backlog/T0564-implement-config-generation.md`
+- [ ] `T0565` · `PROVISION-035` — Test config generation — `tasks/backlog/T0565-test-config-generation.md`
+- [ ] `T0566` · `PROVISION-036` — Document config generation — `tasks/backlog/T0566-document-config-generation.md`
+- [ ] `T0567` · `PROVISION-037` — Integrate config generation — `tasks/backlog/T0567-integrate-config-generation.md`
+- [ ] `T0568` · `PROVISION-038` — Harden config generation — `tasks/backlog/T0568-harden-config-generation.md`
+- [ ] `T0569` · `PROVISION-039` — Observe config generation — `tasks/backlog/T0569-observe-config-generation.md`
+- [ ] `T0570` · `PROVISION-040` — Review config generation — `tasks/backlog/T0570-review-config-generation.md`
+- [ ] `T0571` · `PROVISION-041` — Define image pull — `tasks/backlog/T0571-define-image-pull.md`
+- [ ] `T0572` · `PROVISION-042` — Validate image pull — `tasks/backlog/T0572-validate-image-pull.md`
+- [ ] `T0573` · `PROVISION-043` — Model image pull — `tasks/backlog/T0573-model-image-pull.md`
+- [ ] `T0574` · `PROVISION-044` — Implement image pull — `tasks/backlog/T0574-implement-image-pull.md`
+- [ ] `T0575` · `PROVISION-045` — Test image pull — `tasks/backlog/T0575-test-image-pull.md`
+- [ ] `T0576` · `PROVISION-046` — Document image pull — `tasks/backlog/T0576-document-image-pull.md`
+- [ ] `T0577` · `PROVISION-047` — Integrate image pull — `tasks/backlog/T0577-integrate-image-pull.md`
+- [ ] `T0578` · `PROVISION-048` — Harden image pull — `tasks/backlog/T0578-harden-image-pull.md`
+- [ ] `T0579` · `PROVISION-049` — Observe image pull — `tasks/backlog/T0579-observe-image-pull.md`
+- [ ] `T0580` · `PROVISION-050` — Review image pull — `tasks/backlog/T0580-review-image-pull.md`
+- [ ] `T0581` · `PROVISION-051` — Define container startup — `tasks/backlog/T0581-define-container-startup.md`
+- [ ] `T0582` · `PROVISION-052` — Validate container startup — `tasks/backlog/T0582-validate-container-startup.md`
+- [ ] `T0583` · `PROVISION-053` — Model container startup — `tasks/backlog/T0583-model-container-startup.md`
+- [ ] `T0584` · `PROVISION-054` — Implement container startup — `tasks/backlog/T0584-implement-container-startup.md`
+- [ ] `T0585` · `PROVISION-055` — Test container startup — `tasks/backlog/T0585-test-container-startup.md`
+- [ ] `T0586` · `PROVISION-056` — Document container startup — `tasks/backlog/T0586-document-container-startup.md`
+- [ ] `T0587` · `PROVISION-057` — Integrate container startup — `tasks/backlog/T0587-integrate-container-startup.md`
+- [ ] `T0588` · `PROVISION-058` — Harden container startup — `tasks/backlog/T0588-harden-container-startup.md`
+- [ ] `T0589` · `PROVISION-059` — Observe container startup — `tasks/backlog/T0589-observe-container-startup.md`
+- [ ] `T0590` · `PROVISION-060` — Review container startup — `tasks/backlog/T0590-review-container-startup.md`
+- [ ] `T0591` · `PROVISION-061` — Define database readiness — `tasks/backlog/T0591-define-database-readiness.md`
+- [ ] `T0592` · `PROVISION-062` — Validate database readiness — `tasks/backlog/T0592-validate-database-readiness.md`
+- [ ] `T0593` · `PROVISION-063` — Model database readiness — `tasks/backlog/T0593-model-database-readiness.md`
+- [ ] `T0594` · `PROVISION-064` — Implement database readiness — `tasks/backlog/T0594-implement-database-readiness.md`
+- [ ] `T0595` · `PROVISION-065` — Test database readiness — `tasks/backlog/T0595-test-database-readiness.md`
+- [ ] `T0596` · `PROVISION-066` — Document database readiness — `tasks/backlog/T0596-document-database-readiness.md`
+- [ ] `T0597` · `PROVISION-067` — Integrate database readiness — `tasks/backlog/T0597-integrate-database-readiness.md`
+- [ ] `T0598` · `PROVISION-068` — Harden database readiness — `tasks/backlog/T0598-harden-database-readiness.md`
+- [ ] `T0599` · `PROVISION-069` — Observe database readiness — `tasks/backlog/T0599-observe-database-readiness.md`
+- [ ] `T0600` · `PROVISION-070` — Review database readiness — `tasks/backlog/T0600-review-database-readiness.md`
+- [ ] `T0601` · `PROVISION-071` — Define wp-cli install — `tasks/backlog/T0601-define-wpcli-install.md`
+- [ ] `T0602` · `PROVISION-072` — Validate wp-cli install — `tasks/backlog/T0602-validate-wpcli-install.md`
+- [ ] `T0603` · `PROVISION-073` — Model wp-cli install — `tasks/backlog/T0603-model-wpcli-install.md`
+- [ ] `T0604` · `PROVISION-074` — Implement wp-cli install — `tasks/backlog/T0604-implement-wpcli-install.md`
+- [ ] `T0605` · `PROVISION-075` — Test wp-cli install — `tasks/backlog/T0605-test-wpcli-install.md`
+- [ ] `T0606` · `PROVISION-076` — Document wp-cli install — `tasks/backlog/T0606-document-wpcli-install.md`
+- [ ] `T0607` · `PROVISION-077` — Integrate wp-cli install — `tasks/backlog/T0607-integrate-wpcli-install.md`
+- [ ] `T0608` · `PROVISION-078` — Harden wp-cli install — `tasks/backlog/T0608-harden-wpcli-install.md`
+- [ ] `T0609` · `PROVISION-079` — Observe wp-cli install — `tasks/backlog/T0609-observe-wpcli-install.md`
+- [ ] `T0610` · `PROVISION-080` — Review wp-cli install — `tasks/backlog/T0610-review-wpcli-install.md`
+- [ ] `T0611` · `PROVISION-081` — Define http verification — `tasks/backlog/T0611-define-http-verification.md`
+- [ ] `T0612` · `PROVISION-082` — Validate http verification — `tasks/backlog/T0612-validate-http-verification.md`
+- [ ] `T0613` · `PROVISION-083` — Model http verification — `tasks/backlog/T0613-model-http-verification.md`
+- [ ] `T0614` · `PROVISION-084` — Implement http verification — `tasks/backlog/T0614-implement-http-verification.md`
+- [ ] `T0615` · `PROVISION-085` — Test http verification — `tasks/backlog/T0615-test-http-verification.md`
+- [ ] `T0616` · `PROVISION-086` — Document http verification — `tasks/backlog/T0616-document-http-verification.md`
+- [ ] `T0617` · `PROVISION-087` — Integrate http verification — `tasks/backlog/T0617-integrate-http-verification.md`
+- [ ] `T0618` · `PROVISION-088` — Harden http verification — `tasks/backlog/T0618-harden-http-verification.md`
+- [ ] `T0619` · `PROVISION-089` — Observe http verification — `tasks/backlog/T0619-observe-http-verification.md`
+- [ ] `T0620` · `PROVISION-090` — Review http verification — `tasks/backlog/T0620-review-http-verification.md`
+- [ ] `T0621` · `PROVISION-091` — Define provision rollback — `tasks/backlog/T0621-define-provision-rollback.md`
+- [ ] `T0622` · `PROVISION-092` — Validate provision rollback — `tasks/backlog/T0622-validate-provision-rollback.md`
+- [ ] `T0623` · `PROVISION-093` — Model provision rollback — `tasks/backlog/T0623-model-provision-rollback.md`
+- [ ] `T0624` · `PROVISION-094` — Implement provision rollback — `tasks/backlog/T0624-implement-provision-rollback.md`
+- [ ] `T0625` · `PROVISION-095` — Test provision rollback — `tasks/backlog/T0625-test-provision-rollback.md`
+- [ ] `T0626` · `PROVISION-096` — Document provision rollback — `tasks/backlog/T0626-document-provision-rollback.md`
+- [ ] `T0627` · `PROVISION-097` — Integrate provision rollback — `tasks/backlog/T0627-integrate-provision-rollback.md`
+- [ ] `T0628` · `PROVISION-098` — Harden provision rollback — `tasks/backlog/T0628-harden-provision-rollback.md`
+- [ ] `T0629` · `PROVISION-099` — Observe provision rollback — `tasks/backlog/T0629-observe-provision-rollback.md`
+- [ ] `T0630` · `PROVISION-100` — Review provision rollback — `tasks/backlog/T0630-review-provision-rollback.md`

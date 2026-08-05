@@ -4,99 +4,112 @@
 
 ## Task hiện tại
 
-`T0001`
+`T0001` — `BOOT-001` — Initialize .NET 8 solution
 
 ## Tổng quan
 
 - Tổng task: **1220**
+- Mỗi task có ID thứ tự và UID bất biến theo epic.
 - Mỗi task: một branch, một PR, một kết quả nhỏ có thể rollback.
 
-## E00 — Repository and governance
+## E00 — Repository Bootstrap and Engineering Foundation
 
-- Dải: `T0001`–`T0040`
+- UID prefix: `BOOT`
+- Dải: `T0001`–`T0070`
 - Chi tiết: `planning/epics/E00/README.md`
 
-## E01 — Solution and project foundation
+## E01 — Domain Model
 
-- Dải: `T0041`–`T0090`
+- UID prefix: `DOM`
+- Dải: `T0071`–`T0160`
 - Chi tiết: `planning/epics/E01/README.md`
 
-## E02 — Domain model
+## E02 — Persistence and Settings
 
-- Dải: `T0091`–`T0160`
+- UID prefix: `PERSIST`
+- Dải: `T0161`–`T0250`
 - Chi tiết: `planning/epics/E02/README.md`
 
-## E03 — Persistence and settings
+## E03 — Avalonia Shell and MVVM
 
-- Dải: `T0161`–`T0230`
+- UID prefix: `UI`
+- Dải: `T0251`–`T0340`
 - Chi tiết: `planning/epics/E03/README.md`
 
-## E04 — Avalonia shell and MVVM
+## E04 — Process Runner and Docker Diagnostics
 
-- Dải: `T0231`–`T0320`
+- UID prefix: `PROC`
+- Dải: `T0341`–`T0430`
 - Chi tiết: `planning/epics/E04/README.md`
 
-## E05 — Process runner and Docker diagnostics
+## E05 — Compose and Config Generation
 
-- Dải: `T0321`–`T0410`
+- UID prefix: `COMPOSE`
+- Dải: `T0431`–`T0530`
 - Chi tiết: `planning/epics/E05/README.md`
 
-## E06 — Compose and config generation
+## E06 — Site Provisioning
 
-- Dải: `T0411`–`T0510`
+- UID prefix: `PROVISION`
+- Dải: `T0531`–`T0630`
 - Chi tiết: `planning/epics/E06/README.md`
 
-## E07 — Site provisioning
+## E07 — Domain and SSL
 
-- Dải: `T0511`–`T0610`
+- UID prefix: `SSL`
+- Dải: `T0631`–`T0710`
 - Chi tiết: `planning/epics/E07/README.md`
 
-## E08 — Domain and SSL
+## E08 — Site Lifecycle and Logs
 
-- Dải: `T0611`–`T0690`
+- UID prefix: `LIFE`
+- Dải: `T0711`–`T0780`
 - Chi tiết: `planning/epics/E08/README.md`
 
-## E09 — Site lifecycle and logs
+## E09 — Database Tools
 
-- Dải: `T0691`–`T0760`
+- UID prefix: `DB`
+- Dải: `T0781`–`T0860`
 - Chi tiết: `planning/epics/E09/README.md`
 
-## E10 — Database tools
+## E10 — WordPress Tools
 
-- Dải: `T0761`–`T0840`
+- UID prefix: `WP`
+- Dải: `T0861`–`T0940`
 - Chi tiết: `planning/epics/E10/README.md`
 
-## E11 — WordPress tools
+## E11 — Backup and Restore
 
-- Dải: `T0841`–`T0920`
+- UID prefix: `BACKUP`
+- Dải: `T0941`–`T1010`
 - Chi tiết: `planning/epics/E11/README.md`
 
-## E12 — Backup and restore
+## E12 — Clone Workflow
 
-- Dải: `T0921`–`T0990`
+- UID prefix: `CLONE`
+- Dải: `T1011`–`T1070`
 - Chi tiết: `planning/epics/E12/README.md`
 
-## E13 — Clone workflow
+## E13 — Blueprints
 
-- Dải: `T0991`–`T1050`
+- UID prefix: `BLUEPRINT`
+- Dải: `T1071`–`T1130`
 - Chi tiết: `planning/epics/E13/README.md`
 
-## E14 — Blueprints
+## E14 — Runtime Version Switching
 
-- Dải: `T1051`–`T1110`
+- UID prefix: `RUNTIME`
+- Dải: `T1131`–`T1180`
 - Chi tiết: `planning/epics/E14/README.md`
 
-## E15 — Runtime version switching
+## E15 — Diagnostics and Repair
 
-- Dải: `T1111`–`T1160`
+- UID prefix: `DIAG`
+- Dải: `T1181`–`T1200`
 - Chi tiết: `planning/epics/E15/README.md`
 
-## E16 — Diagnostics and repair
+## E16 — Packaging Release and Stabilization
 
-- Dải: `T1161`–`T1190`
+- UID prefix: `RELEASE`
+- Dải: `T1201`–`T1220`
 - Chi tiết: `planning/epics/E16/README.md`
-
-## E17 — Packaging release and stabilization
-
-- Dải: `T1191`–`T1220`
-- Chi tiết: `planning/epics/E17/README.md`

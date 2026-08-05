@@ -1,0 +1,84 @@
+# E10 — Database tools
+
+Dải task: `T0761`–`T0840`.
+
+- [ ] `T0761` — Define connection details — `tasks/backlog/T0761-define-connection-details.md`
+- [ ] `T0762` — Validate connection details — `tasks/backlog/T0762-validate-connection-details.md`
+- [ ] `T0763` — Model connection details — `tasks/backlog/T0763-model-connection-details.md`
+- [ ] `T0764` — Implement connection details — `tasks/backlog/T0764-implement-connection-details.md`
+- [ ] `T0765` — Test connection details — `tasks/backlog/T0765-test-connection-details.md`
+- [ ] `T0766` — Document connection details — `tasks/backlog/T0766-document-connection-details.md`
+- [ ] `T0767` — Integrate connection details — `tasks/backlog/T0767-integrate-connection-details.md`
+- [ ] `T0768` — Harden connection details — `tasks/backlog/T0768-harden-connection-details.md`
+- [ ] `T0769` — Observe connection details — `tasks/backlog/T0769-observe-connection-details.md`
+- [ ] `T0770` — Review connection details — `tasks/backlog/T0770-review-connection-details.md`
+- [ ] `T0771` — Define adminer — `tasks/backlog/T0771-define-adminer.md`
+- [ ] `T0772` — Validate adminer — `tasks/backlog/T0772-validate-adminer.md`
+- [ ] `T0773` — Model adminer — `tasks/backlog/T0773-model-adminer.md`
+- [ ] `T0774` — Implement adminer — `tasks/backlog/T0774-implement-adminer.md`
+- [ ] `T0775` — Test adminer — `tasks/backlog/T0775-test-adminer.md`
+- [ ] `T0776` — Document adminer — `tasks/backlog/T0776-document-adminer.md`
+- [ ] `T0777` — Integrate adminer — `tasks/backlog/T0777-integrate-adminer.md`
+- [ ] `T0778` — Harden adminer — `tasks/backlog/T0778-harden-adminer.md`
+- [ ] `T0779` — Observe adminer — `tasks/backlog/T0779-observe-adminer.md`
+- [ ] `T0780` — Review adminer — `tasks/backlog/T0780-review-adminer.md`
+- [ ] `T0781` — Define sql import — `tasks/backlog/T0781-define-sql-import.md`
+- [ ] `T0782` — Validate sql import — `tasks/backlog/T0782-validate-sql-import.md`
+- [ ] `T0783` — Model sql import — `tasks/backlog/T0783-model-sql-import.md`
+- [ ] `T0784` — Implement sql import — `tasks/backlog/T0784-implement-sql-import.md`
+- [ ] `T0785` — Test sql import — `tasks/backlog/T0785-test-sql-import.md`
+- [ ] `T0786` — Document sql import — `tasks/backlog/T0786-document-sql-import.md`
+- [ ] `T0787` — Integrate sql import — `tasks/backlog/T0787-integrate-sql-import.md`
+- [ ] `T0788` — Harden sql import — `tasks/backlog/T0788-harden-sql-import.md`
+- [ ] `T0789` — Observe sql import — `tasks/backlog/T0789-observe-sql-import.md`
+- [ ] `T0790` — Review sql import — `tasks/backlog/T0790-review-sql-import.md`
+- [ ] `T0791` — Define gzip import — `tasks/backlog/T0791-define-gzip-import.md`
+- [ ] `T0792` — Validate gzip import — `tasks/backlog/T0792-validate-gzip-import.md`
+- [ ] `T0793` — Model gzip import — `tasks/backlog/T0793-model-gzip-import.md`
+- [ ] `T0794` — Implement gzip import — `tasks/backlog/T0794-implement-gzip-import.md`
+- [ ] `T0795` — Test gzip import — `tasks/backlog/T0795-test-gzip-import.md`
+- [ ] `T0796` — Document gzip import — `tasks/backlog/T0796-document-gzip-import.md`
+- [ ] `T0797` — Integrate gzip import — `tasks/backlog/T0797-integrate-gzip-import.md`
+- [ ] `T0798` — Harden gzip import — `tasks/backlog/T0798-harden-gzip-import.md`
+- [ ] `T0799` — Observe gzip import — `tasks/backlog/T0799-observe-gzip-import.md`
+- [ ] `T0800` — Review gzip import — `tasks/backlog/T0800-review-gzip-import.md`
+- [ ] `T0801` — Define sql export — `tasks/backlog/T0801-define-sql-export.md`
+- [ ] `T0802` — Validate sql export — `tasks/backlog/T0802-validate-sql-export.md`
+- [ ] `T0803` — Model sql export — `tasks/backlog/T0803-model-sql-export.md`
+- [ ] `T0804` — Implement sql export — `tasks/backlog/T0804-implement-sql-export.md`
+- [ ] `T0805` — Test sql export — `tasks/backlog/T0805-test-sql-export.md`
+- [ ] `T0806` — Document sql export — `tasks/backlog/T0806-document-sql-export.md`
+- [ ] `T0807` — Integrate sql export — `tasks/backlog/T0807-integrate-sql-export.md`
+- [ ] `T0808` — Harden sql export — `tasks/backlog/T0808-harden-sql-export.md`
+- [ ] `T0809` — Observe sql export — `tasks/backlog/T0809-observe-sql-export.md`
+- [ ] `T0810` — Review sql export — `tasks/backlog/T0810-review-sql-export.md`
+- [ ] `T0811` — Define gzip export — `tasks/backlog/T0811-define-gzip-export.md`
+- [ ] `T0812` — Validate gzip export — `tasks/backlog/T0812-validate-gzip-export.md`
+- [ ] `T0813` — Model gzip export — `tasks/backlog/T0813-model-gzip-export.md`
+- [ ] `T0814` — Implement gzip export — `tasks/backlog/T0814-implement-gzip-export.md`
+- [ ] `T0815` — Test gzip export — `tasks/backlog/T0815-test-gzip-export.md`
+- [ ] `T0816` — Document gzip export — `tasks/backlog/T0816-document-gzip-export.md`
+- [ ] `T0817` — Integrate gzip export — `tasks/backlog/T0817-integrate-gzip-export.md`
+- [ ] `T0818` — Harden gzip export — `tasks/backlog/T0818-harden-gzip-export.md`
+- [ ] `T0819` — Observe gzip export — `tasks/backlog/T0819-observe-gzip-export.md`
+- [ ] `T0820` — Review gzip export — `tasks/backlog/T0820-review-gzip-export.md`
+- [ ] `T0821` — Define database reset — `tasks/backlog/T0821-define-database-reset.md`
+- [ ] `T0822` — Validate database reset — `tasks/backlog/T0822-validate-database-reset.md`
+- [ ] `T0823` — Model database reset — `tasks/backlog/T0823-model-database-reset.md`
+- [ ] `T0824` — Implement database reset — `tasks/backlog/T0824-implement-database-reset.md`
+- [ ] `T0825` — Test database reset — `tasks/backlog/T0825-test-database-reset.md`
+- [ ] `T0826` — Document database reset — `tasks/backlog/T0826-document-database-reset.md`
+- [ ] `T0827` — Integrate database reset — `tasks/backlog/T0827-integrate-database-reset.md`
+- [ ] `T0828` — Harden database reset — `tasks/backlog/T0828-harden-database-reset.md`
+- [ ] `T0829` — Observe database reset — `tasks/backlog/T0829-observe-database-reset.md`
+- [ ] `T0830` — Review database reset — `tasks/backlog/T0830-review-database-reset.md`
+- [ ] `T0831` — Define search replace — `tasks/backlog/T0831-define-search-replace.md`
+- [ ] `T0832` — Validate search replace — `tasks/backlog/T0832-validate-search-replace.md`
+- [ ] `T0833` — Model search replace — `tasks/backlog/T0833-model-search-replace.md`
+- [ ] `T0834` — Implement search replace — `tasks/backlog/T0834-implement-search-replace.md`
+- [ ] `T0835` — Test search replace — `tasks/backlog/T0835-test-search-replace.md`
+- [ ] `T0836` — Document search replace — `tasks/backlog/T0836-document-search-replace.md`
+- [ ] `T0837` — Integrate search replace — `tasks/backlog/T0837-integrate-search-replace.md`
+- [ ] `T0838` — Harden search replace — `tasks/backlog/T0838-harden-search-replace.md`
+- [ ] `T0839` — Observe search replace — `tasks/backlog/T0839-observe-search-replace.md`
+- [ ] `T0840` — Review search replace — `tasks/backlog/T0840-review-search-replace.md`

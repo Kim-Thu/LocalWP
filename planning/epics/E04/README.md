@@ -1,0 +1,94 @@
+# E04 — Avalonia shell and MVVM
+
+Dải task: `T0231`–`T0320`.
+
+- [ ] `T0231` — Define main window — `tasks/backlog/T0231-define-main-window.md`
+- [ ] `T0232` — Validate main window — `tasks/backlog/T0232-validate-main-window.md`
+- [ ] `T0233` — Model main window — `tasks/backlog/T0233-model-main-window.md`
+- [ ] `T0234` — Implement main window — `tasks/backlog/T0234-implement-main-window.md`
+- [ ] `T0235` — Test main window — `tasks/backlog/T0235-test-main-window.md`
+- [ ] `T0236` — Document main window — `tasks/backlog/T0236-document-main-window.md`
+- [ ] `T0237` — Integrate main window — `tasks/backlog/T0237-integrate-main-window.md`
+- [ ] `T0238` — Harden main window — `tasks/backlog/T0238-harden-main-window.md`
+- [ ] `T0239` — Observe main window — `tasks/backlog/T0239-observe-main-window.md`
+- [ ] `T0240` — Review main window — `tasks/backlog/T0240-review-main-window.md`
+- [ ] `T0241` — Define sidebar — `tasks/backlog/T0241-define-sidebar.md`
+- [ ] `T0242` — Validate sidebar — `tasks/backlog/T0242-validate-sidebar.md`
+- [ ] `T0243` — Model sidebar — `tasks/backlog/T0243-model-sidebar.md`
+- [ ] `T0244` — Implement sidebar — `tasks/backlog/T0244-implement-sidebar.md`
+- [ ] `T0245` — Test sidebar — `tasks/backlog/T0245-test-sidebar.md`
+- [ ] `T0246` — Document sidebar — `tasks/backlog/T0246-document-sidebar.md`
+- [ ] `T0247` — Integrate sidebar — `tasks/backlog/T0247-integrate-sidebar.md`
+- [ ] `T0248` — Harden sidebar — `tasks/backlog/T0248-harden-sidebar.md`
+- [ ] `T0249` — Observe sidebar — `tasks/backlog/T0249-observe-sidebar.md`
+- [ ] `T0250` — Review sidebar — `tasks/backlog/T0250-review-sidebar.md`
+- [ ] `T0251` — Define site list — `tasks/backlog/T0251-define-site-list.md`
+- [ ] `T0252` — Validate site list — `tasks/backlog/T0252-validate-site-list.md`
+- [ ] `T0253` — Model site list — `tasks/backlog/T0253-model-site-list.md`
+- [ ] `T0254` — Implement site list — `tasks/backlog/T0254-implement-site-list.md`
+- [ ] `T0255` — Test site list — `tasks/backlog/T0255-test-site-list.md`
+- [ ] `T0256` — Document site list — `tasks/backlog/T0256-document-site-list.md`
+- [ ] `T0257` — Integrate site list — `tasks/backlog/T0257-integrate-site-list.md`
+- [ ] `T0258` — Harden site list — `tasks/backlog/T0258-harden-site-list.md`
+- [ ] `T0259` — Observe site list — `tasks/backlog/T0259-observe-site-list.md`
+- [ ] `T0260` — Review site list — `tasks/backlog/T0260-review-site-list.md`
+- [ ] `T0261` — Define site search — `tasks/backlog/T0261-define-site-search.md`
+- [ ] `T0262` — Validate site search — `tasks/backlog/T0262-validate-site-search.md`
+- [ ] `T0263` — Model site search — `tasks/backlog/T0263-model-site-search.md`
+- [ ] `T0264` — Implement site search — `tasks/backlog/T0264-implement-site-search.md`
+- [ ] `T0265` — Test site search — `tasks/backlog/T0265-test-site-search.md`
+- [ ] `T0266` — Document site search — `tasks/backlog/T0266-document-site-search.md`
+- [ ] `T0267` — Integrate site search — `tasks/backlog/T0267-integrate-site-search.md`
+- [ ] `T0268` — Harden site search — `tasks/backlog/T0268-harden-site-search.md`
+- [ ] `T0269` — Observe site search — `tasks/backlog/T0269-observe-site-search.md`
+- [ ] `T0270` — Review site search — `tasks/backlog/T0270-review-site-search.md`
+- [ ] `T0271` — Define navigation service — `tasks/backlog/T0271-define-navigation-service.md`
+- [ ] `T0272` — Validate navigation service — `tasks/backlog/T0272-validate-navigation-service.md`
+- [ ] `T0273` — Model navigation service — `tasks/backlog/T0273-model-navigation-service.md`
+- [ ] `T0274` — Implement navigation service — `tasks/backlog/T0274-implement-navigation-service.md`
+- [ ] `T0275` — Test navigation service — `tasks/backlog/T0275-test-navigation-service.md`
+- [ ] `T0276` — Document navigation service — `tasks/backlog/T0276-document-navigation-service.md`
+- [ ] `T0277` — Integrate navigation service — `tasks/backlog/T0277-integrate-navigation-service.md`
+- [ ] `T0278` — Harden navigation service — `tasks/backlog/T0278-harden-navigation-service.md`
+- [ ] `T0279` — Observe navigation service — `tasks/backlog/T0279-observe-navigation-service.md`
+- [ ] `T0280` — Review navigation service — `tasks/backlog/T0280-review-navigation-service.md`
+- [ ] `T0281` — Define dialog service — `tasks/backlog/T0281-define-dialog-service.md`
+- [ ] `T0282` — Validate dialog service — `tasks/backlog/T0282-validate-dialog-service.md`
+- [ ] `T0283` — Model dialog service — `tasks/backlog/T0283-model-dialog-service.md`
+- [ ] `T0284` — Implement dialog service — `tasks/backlog/T0284-implement-dialog-service.md`
+- [ ] `T0285` — Test dialog service — `tasks/backlog/T0285-test-dialog-service.md`
+- [ ] `T0286` — Document dialog service — `tasks/backlog/T0286-document-dialog-service.md`
+- [ ] `T0287` — Integrate dialog service — `tasks/backlog/T0287-integrate-dialog-service.md`
+- [ ] `T0288` — Harden dialog service — `tasks/backlog/T0288-harden-dialog-service.md`
+- [ ] `T0289` — Observe dialog service — `tasks/backlog/T0289-observe-dialog-service.md`
+- [ ] `T0290` — Review dialog service — `tasks/backlog/T0290-review-dialog-service.md`
+- [ ] `T0291` — Define toast service — `tasks/backlog/T0291-define-toast-service.md`
+- [ ] `T0292` — Validate toast service — `tasks/backlog/T0292-validate-toast-service.md`
+- [ ] `T0293` — Model toast service — `tasks/backlog/T0293-model-toast-service.md`
+- [ ] `T0294` — Implement toast service — `tasks/backlog/T0294-implement-toast-service.md`
+- [ ] `T0295` — Test toast service — `tasks/backlog/T0295-test-toast-service.md`
+- [ ] `T0296` — Document toast service — `tasks/backlog/T0296-document-toast-service.md`
+- [ ] `T0297` — Integrate toast service — `tasks/backlog/T0297-integrate-toast-service.md`
+- [ ] `T0298` — Harden toast service — `tasks/backlog/T0298-harden-toast-service.md`
+- [ ] `T0299` — Observe toast service — `tasks/backlog/T0299-observe-toast-service.md`
+- [ ] `T0300` — Review toast service — `tasks/backlog/T0300-review-toast-service.md`
+- [ ] `T0301` — Define progress overlay — `tasks/backlog/T0301-define-progress-overlay.md`
+- [ ] `T0302` — Validate progress overlay — `tasks/backlog/T0302-validate-progress-overlay.md`
+- [ ] `T0303` — Model progress overlay — `tasks/backlog/T0303-model-progress-overlay.md`
+- [ ] `T0304` — Implement progress overlay — `tasks/backlog/T0304-implement-progress-overlay.md`
+- [ ] `T0305` — Test progress overlay — `tasks/backlog/T0305-test-progress-overlay.md`
+- [ ] `T0306` — Document progress overlay — `tasks/backlog/T0306-document-progress-overlay.md`
+- [ ] `T0307` — Integrate progress overlay — `tasks/backlog/T0307-integrate-progress-overlay.md`
+- [ ] `T0308` — Harden progress overlay — `tasks/backlog/T0308-harden-progress-overlay.md`
+- [ ] `T0309` — Observe progress overlay — `tasks/backlog/T0309-observe-progress-overlay.md`
+- [ ] `T0310` — Review progress overlay — `tasks/backlog/T0310-review-progress-overlay.md`
+- [ ] `T0311` — Define theme resources — `tasks/backlog/T0311-define-theme-resources.md`
+- [ ] `T0312` — Validate theme resources — `tasks/backlog/T0312-validate-theme-resources.md`
+- [ ] `T0313` — Model theme resources — `tasks/backlog/T0313-model-theme-resources.md`
+- [ ] `T0314` — Implement theme resources — `tasks/backlog/T0314-implement-theme-resources.md`
+- [ ] `T0315` — Test theme resources — `tasks/backlog/T0315-test-theme-resources.md`
+- [ ] `T0316` — Document theme resources — `tasks/backlog/T0316-document-theme-resources.md`
+- [ ] `T0317` — Integrate theme resources — `tasks/backlog/T0317-integrate-theme-resources.md`
+- [ ] `T0318` — Harden theme resources — `tasks/backlog/T0318-harden-theme-resources.md`
+- [ ] `T0319` — Observe theme resources — `tasks/backlog/T0319-observe-theme-resources.md`
+- [ ] `T0320` — Review theme resources — `tasks/backlog/T0320-review-theme-resources.md`

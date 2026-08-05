@@ -1,0 +1,54 @@
+# E01 — Solution and project foundation
+
+Dải task: `T0041`–`T0090`.
+
+- [ ] `T0041` — Define solution file — `tasks/backlog/T0041-define-solution-file.md`
+- [ ] `T0042` — Validate solution file — `tasks/backlog/T0042-validate-solution-file.md`
+- [ ] `T0043` — Model solution file — `tasks/backlog/T0043-model-solution-file.md`
+- [ ] `T0044` — Implement solution file — `tasks/backlog/T0044-implement-solution-file.md`
+- [ ] `T0045` — Test solution file — `tasks/backlog/T0045-test-solution-file.md`
+- [ ] `T0046` — Document solution file — `tasks/backlog/T0046-document-solution-file.md`
+- [ ] `T0047` — Integrate solution file — `tasks/backlog/T0047-integrate-solution-file.md`
+- [ ] `T0048` — Harden solution file — `tasks/backlog/T0048-harden-solution-file.md`
+- [ ] `T0049` — Observe solution file — `tasks/backlog/T0049-observe-solution-file.md`
+- [ ] `T0050` — Review solution file — `tasks/backlog/T0050-review-solution-file.md`
+- [ ] `T0051` — Define sdk pinning — `tasks/backlog/T0051-define-sdk-pinning.md`
+- [ ] `T0052` — Validate sdk pinning — `tasks/backlog/T0052-validate-sdk-pinning.md`
+- [ ] `T0053` — Model sdk pinning — `tasks/backlog/T0053-model-sdk-pinning.md`
+- [ ] `T0054` — Implement sdk pinning — `tasks/backlog/T0054-implement-sdk-pinning.md`
+- [ ] `T0055` — Test sdk pinning — `tasks/backlog/T0055-test-sdk-pinning.md`
+- [ ] `T0056` — Document sdk pinning — `tasks/backlog/T0056-document-sdk-pinning.md`
+- [ ] `T0057` — Integrate sdk pinning — `tasks/backlog/T0057-integrate-sdk-pinning.md`
+- [ ] `T0058` — Harden sdk pinning — `tasks/backlog/T0058-harden-sdk-pinning.md`
+- [ ] `T0059` — Observe sdk pinning — `tasks/backlog/T0059-observe-sdk-pinning.md`
+- [ ] `T0060` — Review sdk pinning — `tasks/backlog/T0060-review-sdk-pinning.md`
+- [ ] `T0061` — Define build properties — `tasks/backlog/T0061-define-build-properties.md`
+- [ ] `T0062` — Validate build properties — `tasks/backlog/T0062-validate-build-properties.md`
+- [ ] `T0063` — Model build properties — `tasks/backlog/T0063-model-build-properties.md`
+- [ ] `T0064` — Implement build properties — `tasks/backlog/T0064-implement-build-properties.md`
+- [ ] `T0065` — Test build properties — `tasks/backlog/T0065-test-build-properties.md`
+- [ ] `T0066` — Document build properties — `tasks/backlog/T0066-document-build-properties.md`
+- [ ] `T0067` — Integrate build properties — `tasks/backlog/T0067-integrate-build-properties.md`
+- [ ] `T0068` — Harden build properties — `tasks/backlog/T0068-harden-build-properties.md`
+- [ ] `T0069` — Observe build properties — `tasks/backlog/T0069-observe-build-properties.md`
+- [ ] `T0070` — Review build properties — `tasks/backlog/T0070-review-build-properties.md`
+- [ ] `T0071` — Define package management — `tasks/backlog/T0071-define-package-management.md`
+- [ ] `T0072` — Validate package management — `tasks/backlog/T0072-validate-package-management.md`
+- [ ] `T0073` — Model package management — `tasks/backlog/T0073-model-package-management.md`
+- [ ] `T0074` — Implement package management — `tasks/backlog/T0074-implement-package-management.md`
+- [ ] `T0075` — Test package management — `tasks/backlog/T0075-test-package-management.md`
+- [ ] `T0076` — Document package management — `tasks/backlog/T0076-document-package-management.md`
+- [ ] `T0077` — Integrate package management — `tasks/backlog/T0077-integrate-package-management.md`
+- [ ] `T0078` — Harden package management — `tasks/backlog/T0078-harden-package-management.md`
+- [ ] `T0079` — Observe package management — `tasks/backlog/T0079-observe-package-management.md`
+- [ ] `T0080` — Review package management — `tasks/backlog/T0080-review-package-management.md`
+- [ ] `T0081` — Define domain project — `tasks/backlog/T0081-define-domain-project.md`
+- [ ] `T0082` — Validate domain project — `tasks/backlog/T0082-validate-domain-project.md`
+- [ ] `T0083` — Model domain project — `tasks/backlog/T0083-model-domain-project.md`
+- [ ] `T0084` — Implement domain project — `tasks/backlog/T0084-implement-domain-project.md`
+- [ ] `T0085` — Test domain project — `tasks/backlog/T0085-test-domain-project.md`
+- [ ] `T0086` — Document domain project — `tasks/backlog/T0086-document-domain-project.md`
+- [ ] `T0087` — Integrate domain project — `tasks/backlog/T0087-integrate-domain-project.md`
+- [ ] `T0088` — Harden domain project — `tasks/backlog/T0088-harden-domain-project.md`
+- [ ] `T0089` — Observe domain project — `tasks/backlog/T0089-observe-domain-project.md`
+- [ ] `T0090` — Review domain project — `tasks/backlog/T0090-review-domain-project.md`

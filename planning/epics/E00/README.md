@@ -1,0 +1,44 @@
+# E00 — Repository and governance
+
+Dải task: `T0001`–`T0040`.
+
+- [ ] `T0001` — Define repository metadata — `tasks/backlog/T0001-define-repository-metadata.md`
+- [ ] `T0002` — Validate repository metadata — `tasks/backlog/T0002-validate-repository-metadata.md`
+- [ ] `T0003` — Model repository metadata — `tasks/backlog/T0003-model-repository-metadata.md`
+- [ ] `T0004` — Implement repository metadata — `tasks/backlog/T0004-implement-repository-metadata.md`
+- [ ] `T0005` — Test repository metadata — `tasks/backlog/T0005-test-repository-metadata.md`
+- [ ] `T0006` — Document repository metadata — `tasks/backlog/T0006-document-repository-metadata.md`
+- [ ] `T0007` — Integrate repository metadata — `tasks/backlog/T0007-integrate-repository-metadata.md`
+- [ ] `T0008` — Harden repository metadata — `tasks/backlog/T0008-harden-repository-metadata.md`
+- [ ] `T0009` — Observe repository metadata — `tasks/backlog/T0009-observe-repository-metadata.md`
+- [ ] `T0010` — Review repository metadata — `tasks/backlog/T0010-review-repository-metadata.md`
+- [ ] `T0011` — Define branch policy — `tasks/backlog/T0011-define-branch-policy.md`
+- [ ] `T0012` — Validate branch policy — `tasks/backlog/T0012-validate-branch-policy.md`
+- [ ] `T0013` — Model branch policy — `tasks/backlog/T0013-model-branch-policy.md`
+- [ ] `T0014` — Implement branch policy — `tasks/backlog/T0014-implement-branch-policy.md`
+- [ ] `T0015` — Test branch policy — `tasks/backlog/T0015-test-branch-policy.md`
+- [ ] `T0016` — Document branch policy — `tasks/backlog/T0016-document-branch-policy.md`
+- [ ] `T0017` — Integrate branch policy — `tasks/backlog/T0017-integrate-branch-policy.md`
+- [ ] `T0018` — Harden branch policy — `tasks/backlog/T0018-harden-branch-policy.md`
+- [ ] `T0019` — Observe branch policy — `tasks/backlog/T0019-observe-branch-policy.md`
+- [ ] `T0020` — Review branch policy — `tasks/backlog/T0020-review-branch-policy.md`
+- [ ] `T0021` — Define commit policy — `tasks/backlog/T0021-define-commit-policy.md`
+- [ ] `T0022` — Validate commit policy — `tasks/backlog/T0022-validate-commit-policy.md`
+- [ ] `T0023` — Model commit policy — `tasks/backlog/T0023-model-commit-policy.md`
+- [ ] `T0024` — Implement commit policy — `tasks/backlog/T0024-implement-commit-policy.md`
+- [ ] `T0025` — Test commit policy — `tasks/backlog/T0025-test-commit-policy.md`
+- [ ] `T0026` — Document commit policy — `tasks/backlog/T0026-document-commit-policy.md`
+- [ ] `T0027` — Integrate commit policy — `tasks/backlog/T0027-integrate-commit-policy.md`
+- [ ] `T0028` — Harden commit policy — `tasks/backlog/T0028-harden-commit-policy.md`
+- [ ] `T0029` — Observe commit policy — `tasks/backlog/T0029-observe-commit-policy.md`
+- [ ] `T0030` — Review commit policy — `tasks/backlog/T0030-review-commit-policy.md`
+- [ ] `T0031` — Define pull request template — `tasks/backlog/T0031-define-pull-request-template.md`
+- [ ] `T0032` — Validate pull request template — `tasks/backlog/T0032-validate-pull-request-template.md`
+- [ ] `T0033` — Model pull request template — `tasks/backlog/T0033-model-pull-request-template.md`
+- [ ] `T0034` — Implement pull request template — `tasks/backlog/T0034-implement-pull-request-template.md`
+- [ ] `T0035` — Test pull request template — `tasks/backlog/T0035-test-pull-request-template.md`
+- [ ] `T0036` — Document pull request template — `tasks/backlog/T0036-document-pull-request-template.md`
+- [ ] `T0037` — Integrate pull request template — `tasks/backlog/T0037-integrate-pull-request-template.md`
+- [ ] `T0038` — Harden pull request template — `tasks/backlog/T0038-harden-pull-request-template.md`
+- [ ] `T0039` — Observe pull request template — `tasks/backlog/T0039-observe-pull-request-template.md`
+- [ ] `T0040` — Review pull request template — `tasks/backlog/T0040-review-pull-request-template.md`

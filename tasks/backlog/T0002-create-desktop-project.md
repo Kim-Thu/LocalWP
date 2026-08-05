@@ -4,7 +4,7 @@
 `BOOT-002`
 
 ## Trạng thái
-`review`
+`done`
 
 ## Epic
 `E00 — Repository Bootstrap and Engineering Foundation`
@@ -47,7 +47,7 @@ Hoàn thành duy nhất phần **create Desktop project** theo BRD, SRS và ki�
 - [x] Project target `.NET 8` và có entry point tối thiểu.
 - [x] Project đã được thêm vào `LocalWP.sln`.
 - [x] Không thêm Avalonia hoặc package ngoài phạm vi task.
-- [ ] CI, security scan và format xanh.
+- [x] CI, security scan và format xanh.
 
 ## Kiểm tra bắt buộc
 ```bash

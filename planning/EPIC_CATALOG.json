@@ -1,0 +1,20 @@
+[
+  {"id":"E00","name":"Repository and governance","start":1,"end":40,"prefix":"maint"},
+  {"id":"E01","name":"Solution and project foundation","start":41,"end":90,"prefix":"feat"},
+  {"id":"E02","name":"Domain model","start":91,"end":160,"prefix":"feat"},
+  {"id":"E03","name":"Persistence and settings","start":161,"end":230,"prefix":"feat"},
+  {"id":"E04","name":"Avalonia shell and MVVM","start":231,"end":320,"prefix":"feat"},
+  {"id":"E05","name":"Process runner and Docker diagnostics","start":321,"end":410,"prefix":"feat"},
+  {"id":"E06","name":"Compose and config generation","start":411,"end":510,"prefix":"feat"},
+  {"id":"E07","name":"Site provisioning","start":511,"end":610,"prefix":"feat"},
+  {"id":"E08","name":"Domain and SSL","start":611,"end":690,"prefix":"security"},
+  {"id":"E09","name":"Site lifecycle and logs","start":691,"end":760,"prefix":"feat"},
+  {"id":"E10","name":"Database tools","start":761,"end":840,"prefix":"feat"},
+  {"id":"E11","name":"WordPress tools","start":841,"end":920,"prefix":"feat"},
+  {"id":"E12","name":"Backup and restore","start":921,"end":990,"prefix":"feat"},
+  {"id":"E13","name":"Clone workflow","start":991,"end":1050,"prefix":"feat"},
+  {"id":"E14","name":"Blueprints","start":1051,"end":1110,"prefix":"feat"},
+  {"id":"E15","name":"Runtime version switching","start":1111,"end":1160,"prefix":"feat"},
+  {"id":"E16","name":"Diagnostics and repair","start":1161,"end":1190,"prefix":"fix"},
+  {"id":"E17","name":"Packaging release and stabilization","start":1191,"end":1220,"prefix":"ci"}
+]

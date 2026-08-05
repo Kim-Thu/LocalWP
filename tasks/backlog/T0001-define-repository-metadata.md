@@ -1,66 +1,52 @@
 # T0001 — Define repository metadata
 
 ## Trạng thái
-`backlog`
+`review`
 
 ## Epic
 `E00 — Repository and governance`
 
 ## Dependency bắt buộc
-- `Repository bootstrap` phải hoàn thành và merge.
+- `Repository bootstrap` đã hoàn thành và merge qua PR #1.
 
 ## Branch bắt buộc
-`maint/define-repository-metadata-yyyyMMdd-HHmm`
+`maint/define-repository-metadata-20260806-0601`
 
 ## Mục tiêu
 Hoàn thành duy nhất phần **define repository metadata** theo BRD, SRS và kiến trúc hiện hành.
 
-## Phạm vi
-- Thực hiện thay đổi nhỏ nhất đủ đạt mục tiêu.
-- Chỉ sửa file trực tiếp cần thiết.
-- Cập nhật test và tài liệu khi hành vi thay đổi.
+## Phạm vi đã thực hiện
+- Tạo `docs/REPOSITORY_METADATA.md` làm nguồn metadata chuẩn.
+- Xác định tên sản phẩm, repository owner, stack, nền tảng MVP, trạng thái và mô tả repository.
+- Xác định GitHub description và topics đề xuất.
+- Đồng bộ `README.md` với metadata chuẩn.
+- Chặn việc tái sử dụng tên cũ `LocalBox` trong tài liệu và namespace mới.
 
 ## Ngoài phạm vi
-- Không làm nội dung task kế tiếp.
-- Không đổi kiến trúc/package chính nếu chưa có ADR.
-- Không refactor ngoài phạm vi.
-
-## Yêu cầu triển khai
-- Tuân thủ `AGENTS.md` và `docs/DEVELOPMENT_RULES.md`.
-- UI không gọi trực tiếp Infrastructure.
-- I/O/process phải async, có cancellation/timeout khi phù hợp.
-- Error có ngữ cảnh; log có cấu trúc và không chứa secret.
-- Thay đổi dữ liệu rủi ro phải có backup hoặc rollback.
+- Không thay đổi GitHub repository settings bằng API.
+- Không tạo solution hoặc project .NET.
+- Không làm nội dung `T0002`.
+- Không đổi kiến trúc hoặc package.
 
 ## Yêu cầu bảo mật
-- Validate input tại boundary.
-- Không ghép shell command từ input thô.
-- Không ghi password, token, key hoặc connection secret vào log.
-- Chặn path traversal/archive traversal khi có file/path.
-- Chỉ yêu cầu quyền nâng cao cho thao tác bắt buộc.
+- Không thêm secret hoặc credential.
+- Không thêm script hoặc executable.
+- Không ghi dữ liệu nhạy cảm vào metadata.
 
 ## Acceptance criteria
-- [ ] Mục tiêu hoạt động và quan sát được.
-- [ ] Không mở rộng ngoài phạm vi.
-- [ ] Build không có warning mới.
-- [ ] Test phù hợp đã thêm/cập nhật.
-- [ ] CI, security scan và format xanh.
+- [x] Có nguồn chuẩn xác định repository metadata.
+- [x] README dùng đúng tên, stack và trạng thái dự án.
+- [x] Tài liệu liên kết đến BRD, SRS, PLAN, master task và agent entry point.
+- [x] Không mở rộng ngoài phạm vi.
+- [x] Không có secret.
 
 ## Kiểm tra bắt buộc
-```bash
-dotnet restore
-dotnet build --configuration Release --no-restore
-dotnet test --configuration Release --no-build
-dotnet format --verify-no-changes
-```
-
-Task Docker phải chạy thêm:
-```bash
-docker compose -f docker/compose.dev.yml config
-```
+- Kiểm tra Markdown render đúng.
+- Kiểm tra toàn bộ liên kết file nội bộ tồn tại.
+- CI và security scan phải xanh trên PR.
 
 ## Rollback
-Revert PR. Thay đổi dữ liệu phải dùng rollback/backup ghi trong PR.
+Revert PR. Không có thay đổi dữ liệu hoặc runtime.
 
 ## Task mở khóa tiếp theo
 - `T0002`

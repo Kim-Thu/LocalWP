@@ -37,7 +37,7 @@ jobs:
           test -f planning/epics/E00/README.md
           test -f planning/epics/E16/README.md
           grep -q 'BOOT-001' MASTER_TASK_PLAN.md
-          grep -q 'Initialize .NET 8 solution' tasks/backlog/T0001-initialize-net-8-solution.md
+          grep -qi 'initialize .net 8 solution' tasks/backlog/T0001-initialize-net-8-solution.md
       - name: Commit generated backlog
         shell: bash
         run: |

@@ -1,74 +1,95 @@
-# E02 — Domain model
+# E02 — Persistence and Settings
 
-Dải task: `T0091`–`T0160`.
+Mã UID: `PERSIST`.
+Dải task: `T0161`–`T0250`.
 
-- [ ] `T0091` — Define site identity — `tasks/backlog/T0091-define-site-identity.md`
-- [ ] `T0092` — Validate site identity — `tasks/backlog/T0092-validate-site-identity.md`
-- [ ] `T0093` — Model site identity — `tasks/backlog/T0093-model-site-identity.md`
-- [ ] `T0094` — Implement site identity — `tasks/backlog/T0094-implement-site-identity.md`
-- [ ] `T0095` — Test site identity — `tasks/backlog/T0095-test-site-identity.md`
-- [ ] `T0096` — Document site identity — `tasks/backlog/T0096-document-site-identity.md`
-- [ ] `T0097` — Integrate site identity — `tasks/backlog/T0097-integrate-site-identity.md`
-- [ ] `T0098` — Harden site identity — `tasks/backlog/T0098-harden-site-identity.md`
-- [ ] `T0099` — Observe site identity — `tasks/backlog/T0099-observe-site-identity.md`
-- [ ] `T0100` — Review site identity — `tasks/backlog/T0100-review-site-identity.md`
-- [ ] `T0101` — Define site slug — `tasks/backlog/T0101-define-site-slug.md`
-- [ ] `T0102` — Validate site slug — `tasks/backlog/T0102-validate-site-slug.md`
-- [ ] `T0103` — Model site slug — `tasks/backlog/T0103-model-site-slug.md`
-- [ ] `T0104` — Implement site slug — `tasks/backlog/T0104-implement-site-slug.md`
-- [ ] `T0105` — Test site slug — `tasks/backlog/T0105-test-site-slug.md`
-- [ ] `T0106` — Document site slug — `tasks/backlog/T0106-document-site-slug.md`
-- [ ] `T0107` — Integrate site slug — `tasks/backlog/T0107-integrate-site-slug.md`
-- [ ] `T0108` — Harden site slug — `tasks/backlog/T0108-harden-site-slug.md`
-- [ ] `T0109` — Observe site slug — `tasks/backlog/T0109-observe-site-slug.md`
-- [ ] `T0110` — Review site slug — `tasks/backlog/T0110-review-site-slug.md`
-- [ ] `T0111` — Define site domain — `tasks/backlog/T0111-define-site-domain.md`
-- [ ] `T0112` — Validate site domain — `tasks/backlog/T0112-validate-site-domain.md`
-- [ ] `T0113` — Model site domain — `tasks/backlog/T0113-model-site-domain.md`
-- [ ] `T0114` — Implement site domain — `tasks/backlog/T0114-implement-site-domain.md`
-- [ ] `T0115` — Test site domain — `tasks/backlog/T0115-test-site-domain.md`
-- [ ] `T0116` — Document site domain — `tasks/backlog/T0116-document-site-domain.md`
-- [ ] `T0117` — Integrate site domain — `tasks/backlog/T0117-integrate-site-domain.md`
-- [ ] `T0118` — Harden site domain — `tasks/backlog/T0118-harden-site-domain.md`
-- [ ] `T0119` — Observe site domain — `tasks/backlog/T0119-observe-site-domain.md`
-- [ ] `T0120` — Review site domain — `tasks/backlog/T0120-review-site-domain.md`
-- [ ] `T0121` — Define runtime state — `tasks/backlog/T0121-define-runtime-state.md`
-- [ ] `T0122` — Validate runtime state — `tasks/backlog/T0122-validate-runtime-state.md`
-- [ ] `T0123` — Model runtime state — `tasks/backlog/T0123-model-runtime-state.md`
-- [ ] `T0124` — Implement runtime state — `tasks/backlog/T0124-implement-runtime-state.md`
-- [ ] `T0125` — Test runtime state — `tasks/backlog/T0125-test-runtime-state.md`
-- [ ] `T0126` — Document runtime state — `tasks/backlog/T0126-document-runtime-state.md`
-- [ ] `T0127` — Integrate runtime state — `tasks/backlog/T0127-integrate-runtime-state.md`
-- [ ] `T0128` — Harden runtime state — `tasks/backlog/T0128-harden-runtime-state.md`
-- [ ] `T0129` — Observe runtime state — `tasks/backlog/T0129-observe-runtime-state.md`
-- [ ] `T0130` — Review runtime state — `tasks/backlog/T0130-review-runtime-state.md`
-- [ ] `T0131` — Define environment config — `tasks/backlog/T0131-define-environment-config.md`
-- [ ] `T0132` — Validate environment config — `tasks/backlog/T0132-validate-environment-config.md`
-- [ ] `T0133` — Model environment config — `tasks/backlog/T0133-model-environment-config.md`
-- [ ] `T0134` — Implement environment config — `tasks/backlog/T0134-implement-environment-config.md`
-- [ ] `T0135` — Test environment config — `tasks/backlog/T0135-test-environment-config.md`
-- [ ] `T0136` — Document environment config — `tasks/backlog/T0136-document-environment-config.md`
-- [ ] `T0137` — Integrate environment config — `tasks/backlog/T0137-integrate-environment-config.md`
-- [ ] `T0138` — Harden environment config — `tasks/backlog/T0138-harden-environment-config.md`
-- [ ] `T0139` — Observe environment config — `tasks/backlog/T0139-observe-environment-config.md`
-- [ ] `T0140` — Review environment config — `tasks/backlog/T0140-review-environment-config.md`
-- [ ] `T0141` — Define wordpress config — `tasks/backlog/T0141-define-wordpress-config.md`
-- [ ] `T0142` — Validate wordpress config — `tasks/backlog/T0142-validate-wordpress-config.md`
-- [ ] `T0143` — Model wordpress config — `tasks/backlog/T0143-model-wordpress-config.md`
-- [ ] `T0144` — Implement wordpress config — `tasks/backlog/T0144-implement-wordpress-config.md`
-- [ ] `T0145` — Test wordpress config — `tasks/backlog/T0145-test-wordpress-config.md`
-- [ ] `T0146` — Document wordpress config — `tasks/backlog/T0146-document-wordpress-config.md`
-- [ ] `T0147` — Integrate wordpress config — `tasks/backlog/T0147-integrate-wordpress-config.md`
-- [ ] `T0148` — Harden wordpress config — `tasks/backlog/T0148-harden-wordpress-config.md`
-- [ ] `T0149` — Observe wordpress config — `tasks/backlog/T0149-observe-wordpress-config.md`
-- [ ] `T0150` — Review wordpress config — `tasks/backlog/T0150-review-wordpress-config.md`
-- [ ] `T0151` — Define database config — `tasks/backlog/T0151-define-database-config.md`
-- [ ] `T0152` — Validate database config — `tasks/backlog/T0152-validate-database-config.md`
-- [ ] `T0153` — Model database config — `tasks/backlog/T0153-model-database-config.md`
-- [ ] `T0154` — Implement database config — `tasks/backlog/T0154-implement-database-config.md`
-- [ ] `T0155` — Test database config — `tasks/backlog/T0155-test-database-config.md`
-- [ ] `T0156` — Document database config — `tasks/backlog/T0156-document-database-config.md`
-- [ ] `T0157` — Integrate database config — `tasks/backlog/T0157-integrate-database-config.md`
-- [ ] `T0158` — Harden database config — `tasks/backlog/T0158-harden-database-config.md`
-- [ ] `T0159` — Observe database config — `tasks/backlog/T0159-observe-database-config.md`
-- [ ] `T0160` — Review database config — `tasks/backlog/T0160-review-database-config.md`
+- [ ] `T0161` · `PERSIST-001` — Define site repository — `tasks/backlog/T0161-define-site-repository.md`
+- [ ] `T0162` · `PERSIST-002` — Validate site repository — `tasks/backlog/T0162-validate-site-repository.md`
+- [ ] `T0163` · `PERSIST-003` — Model site repository — `tasks/backlog/T0163-model-site-repository.md`
+- [ ] `T0164` · `PERSIST-004` — Implement site repository — `tasks/backlog/T0164-implement-site-repository.md`
+- [ ] `T0165` · `PERSIST-005` — Test site repository — `tasks/backlog/T0165-test-site-repository.md`
+- [ ] `T0166` · `PERSIST-006` — Document site repository — `tasks/backlog/T0166-document-site-repository.md`
+- [ ] `T0167` · `PERSIST-007` — Integrate site repository — `tasks/backlog/T0167-integrate-site-repository.md`
+- [ ] `T0168` · `PERSIST-008` — Harden site repository — `tasks/backlog/T0168-harden-site-repository.md`
+- [ ] `T0169` · `PERSIST-009` — Observe site repository — `tasks/backlog/T0169-observe-site-repository.md`
+- [ ] `T0170` · `PERSIST-010` — Review site repository — `tasks/backlog/T0170-review-site-repository.md`
+- [ ] `T0171` · `PERSIST-011` — Define settings repository — `tasks/backlog/T0171-define-settings-repository.md`
+- [ ] `T0172` · `PERSIST-012` — Validate settings repository — `tasks/backlog/T0172-validate-settings-repository.md`
+- [ ] `T0173` · `PERSIST-013` — Model settings repository — `tasks/backlog/T0173-model-settings-repository.md`
+- [ ] `T0174` · `PERSIST-014` — Implement settings repository — `tasks/backlog/T0174-implement-settings-repository.md`
+- [ ] `T0175` · `PERSIST-015` — Test settings repository — `tasks/backlog/T0175-test-settings-repository.md`
+- [ ] `T0176` · `PERSIST-016` — Document settings repository — `tasks/backlog/T0176-document-settings-repository.md`
+- [ ] `T0177` · `PERSIST-017` — Integrate settings repository — `tasks/backlog/T0177-integrate-settings-repository.md`
+- [ ] `T0178` · `PERSIST-018` — Harden settings repository — `tasks/backlog/T0178-harden-settings-repository.md`
+- [ ] `T0179` · `PERSIST-019` — Observe settings repository — `tasks/backlog/T0179-observe-settings-repository.md`
+- [ ] `T0180` · `PERSIST-020` — Review settings repository — `tasks/backlog/T0180-review-settings-repository.md`
+- [ ] `T0181` · `PERSIST-021` — Define atomic json write — `tasks/backlog/T0181-define-atomic-json-write.md`
+- [ ] `T0182` · `PERSIST-022` — Validate atomic json write — `tasks/backlog/T0182-validate-atomic-json-write.md`
+- [ ] `T0183` · `PERSIST-023` — Model atomic json write — `tasks/backlog/T0183-model-atomic-json-write.md`
+- [ ] `T0184` · `PERSIST-024` — Implement atomic json write — `tasks/backlog/T0184-implement-atomic-json-write.md`
+- [ ] `T0185` · `PERSIST-025` — Test atomic json write — `tasks/backlog/T0185-test-atomic-json-write.md`
+- [ ] `T0186` · `PERSIST-026` — Document atomic json write — `tasks/backlog/T0186-document-atomic-json-write.md`
+- [ ] `T0187` · `PERSIST-027` — Integrate atomic json write — `tasks/backlog/T0187-integrate-atomic-json-write.md`
+- [ ] `T0188` · `PERSIST-028` — Harden atomic json write — `tasks/backlog/T0188-harden-atomic-json-write.md`
+- [ ] `T0189` · `PERSIST-029` — Observe atomic json write — `tasks/backlog/T0189-observe-atomic-json-write.md`
+- [ ] `T0190` · `PERSIST-030` — Review atomic json write — `tasks/backlog/T0190-review-atomic-json-write.md`
+- [ ] `T0191` · `PERSIST-031` — Define schema version — `tasks/backlog/T0191-define-schema-version.md`
+- [ ] `T0192` · `PERSIST-032` — Validate schema version — `tasks/backlog/T0192-validate-schema-version.md`
+- [ ] `T0193` · `PERSIST-033` — Model schema version — `tasks/backlog/T0193-model-schema-version.md`
+- [ ] `T0194` · `PERSIST-034` — Implement schema version — `tasks/backlog/T0194-implement-schema-version.md`
+- [ ] `T0195` · `PERSIST-035` — Test schema version — `tasks/backlog/T0195-test-schema-version.md`
+- [ ] `T0196` · `PERSIST-036` — Document schema version — `tasks/backlog/T0196-document-schema-version.md`
+- [ ] `T0197` · `PERSIST-037` — Integrate schema version — `tasks/backlog/T0197-integrate-schema-version.md`
+- [ ] `T0198` · `PERSIST-038` — Harden schema version — `tasks/backlog/T0198-harden-schema-version.md`
+- [ ] `T0199` · `PERSIST-039` — Observe schema version — `tasks/backlog/T0199-observe-schema-version.md`
+- [ ] `T0200` · `PERSIST-040` — Review schema version — `tasks/backlog/T0200-review-schema-version.md`
+- [ ] `T0201` · `PERSIST-041` — Define migration pipeline — `tasks/backlog/T0201-define-migration-pipeline.md`
+- [ ] `T0202` · `PERSIST-042` — Validate migration pipeline — `tasks/backlog/T0202-validate-migration-pipeline.md`
+- [ ] `T0203` · `PERSIST-043` — Model migration pipeline — `tasks/backlog/T0203-model-migration-pipeline.md`
+- [ ] `T0204` · `PERSIST-044` — Implement migration pipeline — `tasks/backlog/T0204-implement-migration-pipeline.md`
+- [ ] `T0205` · `PERSIST-045` — Test migration pipeline — `tasks/backlog/T0205-test-migration-pipeline.md`
+- [ ] `T0206` · `PERSIST-046` — Document migration pipeline — `tasks/backlog/T0206-document-migration-pipeline.md`
+- [ ] `T0207` · `PERSIST-047` — Integrate migration pipeline — `tasks/backlog/T0207-integrate-migration-pipeline.md`
+- [ ] `T0208` · `PERSIST-048` — Harden migration pipeline — `tasks/backlog/T0208-harden-migration-pipeline.md`
+- [ ] `T0209` · `PERSIST-049` — Observe migration pipeline — `tasks/backlog/T0209-observe-migration-pipeline.md`
+- [ ] `T0210` · `PERSIST-050` — Review migration pipeline — `tasks/backlog/T0210-review-migration-pipeline.md`
+- [ ] `T0211` · `PERSIST-051` — Define index recovery — `tasks/backlog/T0211-define-index-recovery.md`
+- [ ] `T0212` · `PERSIST-052` — Validate index recovery — `tasks/backlog/T0212-validate-index-recovery.md`
+- [ ] `T0213` · `PERSIST-053` — Model index recovery — `tasks/backlog/T0213-model-index-recovery.md`
+- [ ] `T0214` · `PERSIST-054` — Implement index recovery — `tasks/backlog/T0214-implement-index-recovery.md`
+- [ ] `T0215` · `PERSIST-055` — Test index recovery — `tasks/backlog/T0215-test-index-recovery.md`
+- [ ] `T0216` · `PERSIST-056` — Document index recovery — `tasks/backlog/T0216-document-index-recovery.md`
+- [ ] `T0217` · `PERSIST-057` — Integrate index recovery — `tasks/backlog/T0217-integrate-index-recovery.md`
+- [ ] `T0218` · `PERSIST-058` — Harden index recovery — `tasks/backlog/T0218-harden-index-recovery.md`
+- [ ] `T0219` · `PERSIST-059` — Observe index recovery — `tasks/backlog/T0219-observe-index-recovery.md`
+- [ ] `T0220` · `PERSIST-060` — Review index recovery — `tasks/backlog/T0220-review-index-recovery.md`
+- [ ] `T0221` · `PERSIST-061` — Define path provider — `tasks/backlog/T0221-define-path-provider.md`
+- [ ] `T0222` · `PERSIST-062` — Validate path provider — `tasks/backlog/T0222-validate-path-provider.md`
+- [ ] `T0223` · `PERSIST-063` — Model path provider — `tasks/backlog/T0223-model-path-provider.md`
+- [ ] `T0224` · `PERSIST-064` — Implement path provider — `tasks/backlog/T0224-implement-path-provider.md`
+- [ ] `T0225` · `PERSIST-065` — Test path provider — `tasks/backlog/T0225-test-path-provider.md`
+- [ ] `T0226` · `PERSIST-066` — Document path provider — `tasks/backlog/T0226-document-path-provider.md`
+- [ ] `T0227` · `PERSIST-067` — Integrate path provider — `tasks/backlog/T0227-integrate-path-provider.md`
+- [ ] `T0228` · `PERSIST-068` — Harden path provider — `tasks/backlog/T0228-harden-path-provider.md`
+- [ ] `T0229` · `PERSIST-069` — Observe path provider — `tasks/backlog/T0229-observe-path-provider.md`
+- [ ] `T0230` · `PERSIST-070` — Review path provider — `tasks/backlog/T0230-review-path-provider.md`
+- [ ] `T0231` · `PERSIST-071` — Define secret storage — `tasks/backlog/T0231-define-secret-storage.md`
+- [ ] `T0232` · `PERSIST-072` — Validate secret storage — `tasks/backlog/T0232-validate-secret-storage.md`
+- [ ] `T0233` · `PERSIST-073` — Model secret storage — `tasks/backlog/T0233-model-secret-storage.md`
+- [ ] `T0234` · `PERSIST-074` — Implement secret storage — `tasks/backlog/T0234-implement-secret-storage.md`
+- [ ] `T0235` · `PERSIST-075` — Test secret storage — `tasks/backlog/T0235-test-secret-storage.md`
+- [ ] `T0236` · `PERSIST-076` — Document secret storage — `tasks/backlog/T0236-document-secret-storage.md`
+- [ ] `T0237` · `PERSIST-077` — Integrate secret storage — `tasks/backlog/T0237-integrate-secret-storage.md`
+- [ ] `T0238` · `PERSIST-078` — Harden secret storage — `tasks/backlog/T0238-harden-secret-storage.md`
+- [ ] `T0239` · `PERSIST-079` — Observe secret storage — `tasks/backlog/T0239-observe-secret-storage.md`
+- [ ] `T0240` · `PERSIST-080` — Review secret storage — `tasks/backlog/T0240-review-secret-storage.md`
+- [ ] `T0241` · `PERSIST-081` — Define configuration validation — `tasks/backlog/T0241-define-configuration-validation.md`
+- [ ] `T0242` · `PERSIST-082` — Validate configuration validation — `tasks/backlog/T0242-validate-configuration-validation.md`
+- [ ] `T0243` · `PERSIST-083` — Model configuration validation — `tasks/backlog/T0243-model-configuration-validation.md`
+- [ ] `T0244` · `PERSIST-084` — Implement configuration validation — `tasks/backlog/T0244-implement-configuration-validation.md`
+- [ ] `T0245` · `PERSIST-085` — Test configuration validation — `tasks/backlog/T0245-test-configuration-validation.md`
+- [ ] `T0246` · `PERSIST-086` — Document configuration validation — `tasks/backlog/T0246-document-configuration-validation.md`
+- [ ] `T0247` · `PERSIST-087` — Integrate configuration validation — `tasks/backlog/T0247-integrate-configuration-validation.md`
+- [ ] `T0248` · `PERSIST-088` — Harden configuration validation — `tasks/backlog/T0248-harden-configuration-validation.md`
+- [ ] `T0249` · `PERSIST-089` — Observe configuration validation — `tasks/backlog/T0249-observe-configuration-validation.md`
+- [ ] `T0250` · `PERSIST-090` — Review configuration validation — `tasks/backlog/T0250-review-configuration-validation.md`

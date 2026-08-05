@@ -1,84 +1,85 @@
-# E10 — Database tools
+# E10 — WordPress Tools
 
-Dải task: `T0761`–`T0840`.
+Mã UID: `WP`.
+Dải task: `T0861`–`T0940`.
 
-- [ ] `T0761` — Define connection details — `tasks/backlog/T0761-define-connection-details.md`
-- [ ] `T0762` — Validate connection details — `tasks/backlog/T0762-validate-connection-details.md`
-- [ ] `T0763` — Model connection details — `tasks/backlog/T0763-model-connection-details.md`
-- [ ] `T0764` — Implement connection details — `tasks/backlog/T0764-implement-connection-details.md`
-- [ ] `T0765` — Test connection details — `tasks/backlog/T0765-test-connection-details.md`
-- [ ] `T0766` — Document connection details — `tasks/backlog/T0766-document-connection-details.md`
-- [ ] `T0767` — Integrate connection details — `tasks/backlog/T0767-integrate-connection-details.md`
-- [ ] `T0768` — Harden connection details — `tasks/backlog/T0768-harden-connection-details.md`
-- [ ] `T0769` — Observe connection details — `tasks/backlog/T0769-observe-connection-details.md`
-- [ ] `T0770` — Review connection details — `tasks/backlog/T0770-review-connection-details.md`
-- [ ] `T0771` — Define adminer — `tasks/backlog/T0771-define-adminer.md`
-- [ ] `T0772` — Validate adminer — `tasks/backlog/T0772-validate-adminer.md`
-- [ ] `T0773` — Model adminer — `tasks/backlog/T0773-model-adminer.md`
-- [ ] `T0774` — Implement adminer — `tasks/backlog/T0774-implement-adminer.md`
-- [ ] `T0775` — Test adminer — `tasks/backlog/T0775-test-adminer.md`
-- [ ] `T0776` — Document adminer — `tasks/backlog/T0776-document-adminer.md`
-- [ ] `T0777` — Integrate adminer — `tasks/backlog/T0777-integrate-adminer.md`
-- [ ] `T0778` — Harden adminer — `tasks/backlog/T0778-harden-adminer.md`
-- [ ] `T0779` — Observe adminer — `tasks/backlog/T0779-observe-adminer.md`
-- [ ] `T0780` — Review adminer — `tasks/backlog/T0780-review-adminer.md`
-- [ ] `T0781` — Define sql import — `tasks/backlog/T0781-define-sql-import.md`
-- [ ] `T0782` — Validate sql import — `tasks/backlog/T0782-validate-sql-import.md`
-- [ ] `T0783` — Model sql import — `tasks/backlog/T0783-model-sql-import.md`
-- [ ] `T0784` — Implement sql import — `tasks/backlog/T0784-implement-sql-import.md`
-- [ ] `T0785` — Test sql import — `tasks/backlog/T0785-test-sql-import.md`
-- [ ] `T0786` — Document sql import — `tasks/backlog/T0786-document-sql-import.md`
-- [ ] `T0787` — Integrate sql import — `tasks/backlog/T0787-integrate-sql-import.md`
-- [ ] `T0788` — Harden sql import — `tasks/backlog/T0788-harden-sql-import.md`
-- [ ] `T0789` — Observe sql import — `tasks/backlog/T0789-observe-sql-import.md`
-- [ ] `T0790` — Review sql import — `tasks/backlog/T0790-review-sql-import.md`
-- [ ] `T0791` — Define gzip import — `tasks/backlog/T0791-define-gzip-import.md`
-- [ ] `T0792` — Validate gzip import — `tasks/backlog/T0792-validate-gzip-import.md`
-- [ ] `T0793` — Model gzip import — `tasks/backlog/T0793-model-gzip-import.md`
-- [ ] `T0794` — Implement gzip import — `tasks/backlog/T0794-implement-gzip-import.md`
-- [ ] `T0795` — Test gzip import — `tasks/backlog/T0795-test-gzip-import.md`
-- [ ] `T0796` — Document gzip import — `tasks/backlog/T0796-document-gzip-import.md`
-- [ ] `T0797` — Integrate gzip import — `tasks/backlog/T0797-integrate-gzip-import.md`
-- [ ] `T0798` — Harden gzip import — `tasks/backlog/T0798-harden-gzip-import.md`
-- [ ] `T0799` — Observe gzip import — `tasks/backlog/T0799-observe-gzip-import.md`
-- [ ] `T0800` — Review gzip import — `tasks/backlog/T0800-review-gzip-import.md`
-- [ ] `T0801` — Define sql export — `tasks/backlog/T0801-define-sql-export.md`
-- [ ] `T0802` — Validate sql export — `tasks/backlog/T0802-validate-sql-export.md`
-- [ ] `T0803` — Model sql export — `tasks/backlog/T0803-model-sql-export.md`
-- [ ] `T0804` — Implement sql export — `tasks/backlog/T0804-implement-sql-export.md`
-- [ ] `T0805` — Test sql export — `tasks/backlog/T0805-test-sql-export.md`
-- [ ] `T0806` — Document sql export — `tasks/backlog/T0806-document-sql-export.md`
-- [ ] `T0807` — Integrate sql export — `tasks/backlog/T0807-integrate-sql-export.md`
-- [ ] `T0808` — Harden sql export — `tasks/backlog/T0808-harden-sql-export.md`
-- [ ] `T0809` — Observe sql export — `tasks/backlog/T0809-observe-sql-export.md`
-- [ ] `T0810` — Review sql export — `tasks/backlog/T0810-review-sql-export.md`
-- [ ] `T0811` — Define gzip export — `tasks/backlog/T0811-define-gzip-export.md`
-- [ ] `T0812` — Validate gzip export — `tasks/backlog/T0812-validate-gzip-export.md`
-- [ ] `T0813` — Model gzip export — `tasks/backlog/T0813-model-gzip-export.md`
-- [ ] `T0814` — Implement gzip export — `tasks/backlog/T0814-implement-gzip-export.md`
-- [ ] `T0815` — Test gzip export — `tasks/backlog/T0815-test-gzip-export.md`
-- [ ] `T0816` — Document gzip export — `tasks/backlog/T0816-document-gzip-export.md`
-- [ ] `T0817` — Integrate gzip export — `tasks/backlog/T0817-integrate-gzip-export.md`
-- [ ] `T0818` — Harden gzip export — `tasks/backlog/T0818-harden-gzip-export.md`
-- [ ] `T0819` — Observe gzip export — `tasks/backlog/T0819-observe-gzip-export.md`
-- [ ] `T0820` — Review gzip export — `tasks/backlog/T0820-review-gzip-export.md`
-- [ ] `T0821` — Define database reset — `tasks/backlog/T0821-define-database-reset.md`
-- [ ] `T0822` — Validate database reset — `tasks/backlog/T0822-validate-database-reset.md`
-- [ ] `T0823` — Model database reset — `tasks/backlog/T0823-model-database-reset.md`
-- [ ] `T0824` — Implement database reset — `tasks/backlog/T0824-implement-database-reset.md`
-- [ ] `T0825` — Test database reset — `tasks/backlog/T0825-test-database-reset.md`
-- [ ] `T0826` — Document database reset — `tasks/backlog/T0826-document-database-reset.md`
-- [ ] `T0827` — Integrate database reset — `tasks/backlog/T0827-integrate-database-reset.md`
-- [ ] `T0828` — Harden database reset — `tasks/backlog/T0828-harden-database-reset.md`
-- [ ] `T0829` — Observe database reset — `tasks/backlog/T0829-observe-database-reset.md`
-- [ ] `T0830` — Review database reset — `tasks/backlog/T0830-review-database-reset.md`
-- [ ] `T0831` — Define search replace — `tasks/backlog/T0831-define-search-replace.md`
-- [ ] `T0832` — Validate search replace — `tasks/backlog/T0832-validate-search-replace.md`
-- [ ] `T0833` — Model search replace — `tasks/backlog/T0833-model-search-replace.md`
-- [ ] `T0834` — Implement search replace — `tasks/backlog/T0834-implement-search-replace.md`
-- [ ] `T0835` — Test search replace — `tasks/backlog/T0835-test-search-replace.md`
-- [ ] `T0836` — Document search replace — `tasks/backlog/T0836-document-search-replace.md`
-- [ ] `T0837` — Integrate search replace — `tasks/backlog/T0837-integrate-search-replace.md`
-- [ ] `T0838` — Harden search replace — `tasks/backlog/T0838-harden-search-replace.md`
-- [ ] `T0839` — Observe search replace — `tasks/backlog/T0839-observe-search-replace.md`
-- [ ] `T0840` — Review search replace — `tasks/backlog/T0840-review-search-replace.md`
+- [ ] `T0861` · `WP-001` — Define wp-cli wrapper — `tasks/backlog/T0861-define-wpcli-wrapper.md`
+- [ ] `T0862` · `WP-002` — Validate wp-cli wrapper — `tasks/backlog/T0862-validate-wpcli-wrapper.md`
+- [ ] `T0863` · `WP-003` — Model wp-cli wrapper — `tasks/backlog/T0863-model-wpcli-wrapper.md`
+- [ ] `T0864` · `WP-004` — Implement wp-cli wrapper — `tasks/backlog/T0864-implement-wpcli-wrapper.md`
+- [ ] `T0865` · `WP-005` — Test wp-cli wrapper — `tasks/backlog/T0865-test-wpcli-wrapper.md`
+- [ ] `T0866` · `WP-006` — Document wp-cli wrapper — `tasks/backlog/T0866-document-wpcli-wrapper.md`
+- [ ] `T0867` · `WP-007` — Integrate wp-cli wrapper — `tasks/backlog/T0867-integrate-wpcli-wrapper.md`
+- [ ] `T0868` · `WP-008` — Harden wp-cli wrapper — `tasks/backlog/T0868-harden-wpcli-wrapper.md`
+- [ ] `T0869` · `WP-009` — Observe wp-cli wrapper — `tasks/backlog/T0869-observe-wpcli-wrapper.md`
+- [ ] `T0870` · `WP-010` — Review wp-cli wrapper — `tasks/backlog/T0870-review-wpcli-wrapper.md`
+- [ ] `T0871` · `WP-011` — Define core status — `tasks/backlog/T0871-define-core-status.md`
+- [ ] `T0872` · `WP-012` — Validate core status — `tasks/backlog/T0872-validate-core-status.md`
+- [ ] `T0873` · `WP-013` — Model core status — `tasks/backlog/T0873-model-core-status.md`
+- [ ] `T0874` · `WP-014` — Implement core status — `tasks/backlog/T0874-implement-core-status.md`
+- [ ] `T0875` · `WP-015` — Test core status — `tasks/backlog/T0875-test-core-status.md`
+- [ ] `T0876` · `WP-016` — Document core status — `tasks/backlog/T0876-document-core-status.md`
+- [ ] `T0877` · `WP-017` — Integrate core status — `tasks/backlog/T0877-integrate-core-status.md`
+- [ ] `T0878` · `WP-018` — Harden core status — `tasks/backlog/T0878-harden-core-status.md`
+- [ ] `T0879` · `WP-019` — Observe core status — `tasks/backlog/T0879-observe-core-status.md`
+- [ ] `T0880` · `WP-020` — Review core status — `tasks/backlog/T0880-review-core-status.md`
+- [ ] `T0881` · `WP-021` — Define core update — `tasks/backlog/T0881-define-core-update.md`
+- [ ] `T0882` · `WP-022` — Validate core update — `tasks/backlog/T0882-validate-core-update.md`
+- [ ] `T0883` · `WP-023` — Model core update — `tasks/backlog/T0883-model-core-update.md`
+- [ ] `T0884` · `WP-024` — Implement core update — `tasks/backlog/T0884-implement-core-update.md`
+- [ ] `T0885` · `WP-025` — Test core update — `tasks/backlog/T0885-test-core-update.md`
+- [ ] `T0886` · `WP-026` — Document core update — `tasks/backlog/T0886-document-core-update.md`
+- [ ] `T0887` · `WP-027` — Integrate core update — `tasks/backlog/T0887-integrate-core-update.md`
+- [ ] `T0888` · `WP-028` — Harden core update — `tasks/backlog/T0888-harden-core-update.md`
+- [ ] `T0889` · `WP-029` — Observe core update — `tasks/backlog/T0889-observe-core-update.md`
+- [ ] `T0890` · `WP-030` — Review core update — `tasks/backlog/T0890-review-core-update.md`
+- [ ] `T0891` · `WP-031` — Define plugin list — `tasks/backlog/T0891-define-plugin-list.md`
+- [ ] `T0892` · `WP-032` — Validate plugin list — `tasks/backlog/T0892-validate-plugin-list.md`
+- [ ] `T0893` · `WP-033` — Model plugin list — `tasks/backlog/T0893-model-plugin-list.md`
+- [ ] `T0894` · `WP-034` — Implement plugin list — `tasks/backlog/T0894-implement-plugin-list.md`
+- [ ] `T0895` · `WP-035` — Test plugin list — `tasks/backlog/T0895-test-plugin-list.md`
+- [ ] `T0896` · `WP-036` — Document plugin list — `tasks/backlog/T0896-document-plugin-list.md`
+- [ ] `T0897` · `WP-037` — Integrate plugin list — `tasks/backlog/T0897-integrate-plugin-list.md`
+- [ ] `T0898` · `WP-038` — Harden plugin list — `tasks/backlog/T0898-harden-plugin-list.md`
+- [ ] `T0899` · `WP-039` — Observe plugin list — `tasks/backlog/T0899-observe-plugin-list.md`
+- [ ] `T0900` · `WP-040` — Review plugin list — `tasks/backlog/T0900-review-plugin-list.md`
+- [ ] `T0901` · `WP-041` — Define plugin install — `tasks/backlog/T0901-define-plugin-install.md`
+- [ ] `T0902` · `WP-042` — Validate plugin install — `tasks/backlog/T0902-validate-plugin-install.md`
+- [ ] `T0903` · `WP-043` — Model plugin install — `tasks/backlog/T0903-model-plugin-install.md`
+- [ ] `T0904` · `WP-044` — Implement plugin install — `tasks/backlog/T0904-implement-plugin-install.md`
+- [ ] `T0905` · `WP-045` — Test plugin install — `tasks/backlog/T0905-test-plugin-install.md`
+- [ ] `T0906` · `WP-046` — Document plugin install — `tasks/backlog/T0906-document-plugin-install.md`
+- [ ] `T0907` · `WP-047` — Integrate plugin install — `tasks/backlog/T0907-integrate-plugin-install.md`
+- [ ] `T0908` · `WP-048` — Harden plugin install — `tasks/backlog/T0908-harden-plugin-install.md`
+- [ ] `T0909` · `WP-049` — Observe plugin install — `tasks/backlog/T0909-observe-plugin-install.md`
+- [ ] `T0910` · `WP-050` — Review plugin install — `tasks/backlog/T0910-review-plugin-install.md`
+- [ ] `T0911` · `WP-051` — Define plugin activation — `tasks/backlog/T0911-define-plugin-activation.md`
+- [ ] `T0912` · `WP-052` — Validate plugin activation — `tasks/backlog/T0912-validate-plugin-activation.md`
+- [ ] `T0913` · `WP-053` — Model plugin activation — `tasks/backlog/T0913-model-plugin-activation.md`
+- [ ] `T0914` · `WP-054` — Implement plugin activation — `tasks/backlog/T0914-implement-plugin-activation.md`
+- [ ] `T0915` · `WP-055` — Test plugin activation — `tasks/backlog/T0915-test-plugin-activation.md`
+- [ ] `T0916` · `WP-056` — Document plugin activation — `tasks/backlog/T0916-document-plugin-activation.md`
+- [ ] `T0917` · `WP-057` — Integrate plugin activation — `tasks/backlog/T0917-integrate-plugin-activation.md`
+- [ ] `T0918` · `WP-058` — Harden plugin activation — `tasks/backlog/T0918-harden-plugin-activation.md`
+- [ ] `T0919` · `WP-059` — Observe plugin activation — `tasks/backlog/T0919-observe-plugin-activation.md`
+- [ ] `T0920` · `WP-060` — Review plugin activation — `tasks/backlog/T0920-review-plugin-activation.md`
+- [ ] `T0921` · `WP-061` — Define plugin update — `tasks/backlog/T0921-define-plugin-update.md`
+- [ ] `T0922` · `WP-062` — Validate plugin update — `tasks/backlog/T0922-validate-plugin-update.md`
+- [ ] `T0923` · `WP-063` — Model plugin update — `tasks/backlog/T0923-model-plugin-update.md`
+- [ ] `T0924` · `WP-064` — Implement plugin update — `tasks/backlog/T0924-implement-plugin-update.md`
+- [ ] `T0925` · `WP-065` — Test plugin update — `tasks/backlog/T0925-test-plugin-update.md`
+- [ ] `T0926` · `WP-066` — Document plugin update — `tasks/backlog/T0926-document-plugin-update.md`
+- [ ] `T0927` · `WP-067` — Integrate plugin update — `tasks/backlog/T0927-integrate-plugin-update.md`
+- [ ] `T0928` · `WP-068` — Harden plugin update — `tasks/backlog/T0928-harden-plugin-update.md`
+- [ ] `T0929` · `WP-069` — Observe plugin update — `tasks/backlog/T0929-observe-plugin-update.md`
+- [ ] `T0930` · `WP-070` — Review plugin update — `tasks/backlog/T0930-review-plugin-update.md`
+- [ ] `T0931` · `WP-071` — Define theme list — `tasks/backlog/T0931-define-theme-list.md`
+- [ ] `T0932` · `WP-072` — Validate theme list — `tasks/backlog/T0932-validate-theme-list.md`
+- [ ] `T0933` · `WP-073` — Model theme list — `tasks/backlog/T0933-model-theme-list.md`
+- [ ] `T0934` · `WP-074` — Implement theme list — `tasks/backlog/T0934-implement-theme-list.md`
+- [ ] `T0935` · `WP-075` — Test theme list — `tasks/backlog/T0935-test-theme-list.md`
+- [ ] `T0936` · `WP-076` — Document theme list — `tasks/backlog/T0936-document-theme-list.md`
+- [ ] `T0937` · `WP-077` — Integrate theme list — `tasks/backlog/T0937-integrate-theme-list.md`
+- [ ] `T0938` · `WP-078` — Harden theme list — `tasks/backlog/T0938-harden-theme-list.md`
+- [ ] `T0939` · `WP-079` — Observe theme list — `tasks/backlog/T0939-observe-theme-list.md`
+- [ ] `T0940` · `WP-080` — Review theme list — `tasks/backlog/T0940-review-theme-list.md`

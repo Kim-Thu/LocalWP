@@ -1,104 +1,85 @@
-# E07 — Site provisioning
+# E07 — Domain and SSL
 
-Dải task: `T0511`–`T0610`.
+Mã UID: `SSL`.
+Dải task: `T0631`–`T0710`.
 
-- [ ] `T0511` — Define create-site request — `tasks/backlog/T0511-define-create-site-request.md`
-- [ ] `T0512` — Validate create-site request — `tasks/backlog/T0512-validate-create-site-request.md`
-- [ ] `T0513` — Model create-site request — `tasks/backlog/T0513-model-create-site-request.md`
-- [ ] `T0514` — Implement create-site request — `tasks/backlog/T0514-implement-create-site-request.md`
-- [ ] `T0515` — Test create-site request — `tasks/backlog/T0515-test-create-site-request.md`
-- [ ] `T0516` — Document create-site request — `tasks/backlog/T0516-document-create-site-request.md`
-- [ ] `T0517` — Integrate create-site request — `tasks/backlog/T0517-integrate-create-site-request.md`
-- [ ] `T0518` — Harden create-site request — `tasks/backlog/T0518-harden-create-site-request.md`
-- [ ] `T0519` — Observe create-site request — `tasks/backlog/T0519-observe-create-site-request.md`
-- [ ] `T0520` — Review create-site request — `tasks/backlog/T0520-review-create-site-request.md`
-- [ ] `T0521` — Define wizard validation — `tasks/backlog/T0521-define-wizard-validation.md`
-- [ ] `T0522` — Validate wizard validation — `tasks/backlog/T0522-validate-wizard-validation.md`
-- [ ] `T0523` — Model wizard validation — `tasks/backlog/T0523-model-wizard-validation.md`
-- [ ] `T0524` — Implement wizard validation — `tasks/backlog/T0524-implement-wizard-validation.md`
-- [ ] `T0525` — Test wizard validation — `tasks/backlog/T0525-test-wizard-validation.md`
-- [ ] `T0526` — Document wizard validation — `tasks/backlog/T0526-document-wizard-validation.md`
-- [ ] `T0527` — Integrate wizard validation — `tasks/backlog/T0527-integrate-wizard-validation.md`
-- [ ] `T0528` — Harden wizard validation — `tasks/backlog/T0528-harden-wizard-validation.md`
-- [ ] `T0529` — Observe wizard validation — `tasks/backlog/T0529-observe-wizard-validation.md`
-- [ ] `T0530` — Review wizard validation — `tasks/backlog/T0530-review-wizard-validation.md`
-- [ ] `T0531` — Define site directory — `tasks/backlog/T0531-define-site-directory.md`
-- [ ] `T0532` — Validate site directory — `tasks/backlog/T0532-validate-site-directory.md`
-- [ ] `T0533` — Model site directory — `tasks/backlog/T0533-model-site-directory.md`
-- [ ] `T0534` — Implement site directory — `tasks/backlog/T0534-implement-site-directory.md`
-- [ ] `T0535` — Test site directory — `tasks/backlog/T0535-test-site-directory.md`
-- [ ] `T0536` — Document site directory — `tasks/backlog/T0536-document-site-directory.md`
-- [ ] `T0537` — Integrate site directory — `tasks/backlog/T0537-integrate-site-directory.md`
-- [ ] `T0538` — Harden site directory — `tasks/backlog/T0538-harden-site-directory.md`
-- [ ] `T0539` — Observe site directory — `tasks/backlog/T0539-observe-site-directory.md`
-- [ ] `T0540` — Review site directory — `tasks/backlog/T0540-review-site-directory.md`
-- [ ] `T0541` — Define config generation — `tasks/backlog/T0541-define-config-generation.md`
-- [ ] `T0542` — Validate config generation — `tasks/backlog/T0542-validate-config-generation.md`
-- [ ] `T0543` — Model config generation — `tasks/backlog/T0543-model-config-generation.md`
-- [ ] `T0544` — Implement config generation — `tasks/backlog/T0544-implement-config-generation.md`
-- [ ] `T0545` — Test config generation — `tasks/backlog/T0545-test-config-generation.md`
-- [ ] `T0546` — Document config generation — `tasks/backlog/T0546-document-config-generation.md`
-- [ ] `T0547` — Integrate config generation — `tasks/backlog/T0547-integrate-config-generation.md`
-- [ ] `T0548` — Harden config generation — `tasks/backlog/T0548-harden-config-generation.md`
-- [ ] `T0549` — Observe config generation — `tasks/backlog/T0549-observe-config-generation.md`
-- [ ] `T0550` — Review config generation — `tasks/backlog/T0550-review-config-generation.md`
-- [ ] `T0551` — Define image pull — `tasks/backlog/T0551-define-image-pull.md`
-- [ ] `T0552` — Validate image pull — `tasks/backlog/T0552-validate-image-pull.md`
-- [ ] `T0553` — Model image pull — `tasks/backlog/T0553-model-image-pull.md`
-- [ ] `T0554` — Implement image pull — `tasks/backlog/T0554-implement-image-pull.md`
-- [ ] `T0555` — Test image pull — `tasks/backlog/T0555-test-image-pull.md`
-- [ ] `T0556` — Document image pull — `tasks/backlog/T0556-document-image-pull.md`
-- [ ] `T0557` — Integrate image pull — `tasks/backlog/T0557-integrate-image-pull.md`
-- [ ] `T0558` — Harden image pull — `tasks/backlog/T0558-harden-image-pull.md`
-- [ ] `T0559` — Observe image pull — `tasks/backlog/T0559-observe-image-pull.md`
-- [ ] `T0560` — Review image pull — `tasks/backlog/T0560-review-image-pull.md`
-- [ ] `T0561` — Define container startup — `tasks/backlog/T0561-define-container-startup.md`
-- [ ] `T0562` — Validate container startup — `tasks/backlog/T0562-validate-container-startup.md`
-- [ ] `T0563` — Model container startup — `tasks/backlog/T0563-model-container-startup.md`
-- [ ] `T0564` — Implement container startup — `tasks/backlog/T0564-implement-container-startup.md`
-- [ ] `T0565` — Test container startup — `tasks/backlog/T0565-test-container-startup.md`
-- [ ] `T0566` — Document container startup — `tasks/backlog/T0566-document-container-startup.md`
-- [ ] `T0567` — Integrate container startup — `tasks/backlog/T0567-integrate-container-startup.md`
-- [ ] `T0568` — Harden container startup — `tasks/backlog/T0568-harden-container-startup.md`
-- [ ] `T0569` — Observe container startup — `tasks/backlog/T0569-observe-container-startup.md`
-- [ ] `T0570` — Review container startup — `tasks/backlog/T0570-review-container-startup.md`
-- [ ] `T0571` — Define database readiness — `tasks/backlog/T0571-define-database-readiness.md`
-- [ ] `T0572` — Validate database readiness — `tasks/backlog/T0572-validate-database-readiness.md`
-- [ ] `T0573` — Model database readiness — `tasks/backlog/T0573-model-database-readiness.md`
-- [ ] `T0574` — Implement database readiness — `tasks/backlog/T0574-implement-database-readiness.md`
-- [ ] `T0575` — Test database readiness — `tasks/backlog/T0575-test-database-readiness.md`
-- [ ] `T0576` — Document database readiness — `tasks/backlog/T0576-document-database-readiness.md`
-- [ ] `T0577` — Integrate database readiness — `tasks/backlog/T0577-integrate-database-readiness.md`
-- [ ] `T0578` — Harden database readiness — `tasks/backlog/T0578-harden-database-readiness.md`
-- [ ] `T0579` — Observe database readiness — `tasks/backlog/T0579-observe-database-readiness.md`
-- [ ] `T0580` — Review database readiness — `tasks/backlog/T0580-review-database-readiness.md`
-- [ ] `T0581` — Define wp-cli install — `tasks/backlog/T0581-define-wpcli-install.md`
-- [ ] `T0582` — Validate wp-cli install — `tasks/backlog/T0582-validate-wpcli-install.md`
-- [ ] `T0583` — Model wp-cli install — `tasks/backlog/T0583-model-wpcli-install.md`
-- [ ] `T0584` — Implement wp-cli install — `tasks/backlog/T0584-implement-wpcli-install.md`
-- [ ] `T0585` — Test wp-cli install — `tasks/backlog/T0585-test-wpcli-install.md`
-- [ ] `T0586` — Document wp-cli install — `tasks/backlog/T0586-document-wpcli-install.md`
-- [ ] `T0587` — Integrate wp-cli install — `tasks/backlog/T0587-integrate-wpcli-install.md`
-- [ ] `T0588` — Harden wp-cli install — `tasks/backlog/T0588-harden-wpcli-install.md`
-- [ ] `T0589` — Observe wp-cli install — `tasks/backlog/T0589-observe-wpcli-install.md`
-- [ ] `T0590` — Review wp-cli install — `tasks/backlog/T0590-review-wpcli-install.md`
-- [ ] `T0591` — Define http verification — `tasks/backlog/T0591-define-http-verification.md`
-- [ ] `T0592` — Validate http verification — `tasks/backlog/T0592-validate-http-verification.md`
-- [ ] `T0593` — Model http verification — `tasks/backlog/T0593-model-http-verification.md`
-- [ ] `T0594` — Implement http verification — `tasks/backlog/T0594-implement-http-verification.md`
-- [ ] `T0595` — Test http verification — `tasks/backlog/T0595-test-http-verification.md`
-- [ ] `T0596` — Document http verification — `tasks/backlog/T0596-document-http-verification.md`
-- [ ] `T0597` — Integrate http verification — `tasks/backlog/T0597-integrate-http-verification.md`
-- [ ] `T0598` — Harden http verification — `tasks/backlog/T0598-harden-http-verification.md`
-- [ ] `T0599` — Observe http verification — `tasks/backlog/T0599-observe-http-verification.md`
-- [ ] `T0600` — Review http verification — `tasks/backlog/T0600-review-http-verification.md`
-- [ ] `T0601` — Define provision rollback — `tasks/backlog/T0601-define-provision-rollback.md`
-- [ ] `T0602` — Validate provision rollback — `tasks/backlog/T0602-validate-provision-rollback.md`
-- [ ] `T0603` — Model provision rollback — `tasks/backlog/T0603-model-provision-rollback.md`
-- [ ] `T0604` — Implement provision rollback — `tasks/backlog/T0604-implement-provision-rollback.md`
-- [ ] `T0605` — Test provision rollback — `tasks/backlog/T0605-test-provision-rollback.md`
-- [ ] `T0606` — Document provision rollback — `tasks/backlog/T0606-document-provision-rollback.md`
-- [ ] `T0607` — Integrate provision rollback — `tasks/backlog/T0607-integrate-provision-rollback.md`
-- [ ] `T0608` — Harden provision rollback — `tasks/backlog/T0608-harden-provision-rollback.md`
-- [ ] `T0609` — Observe provision rollback — `tasks/backlog/T0609-observe-provision-rollback.md`
-- [ ] `T0610` — Review provision rollback — `tasks/backlog/T0610-review-provision-rollback.md`
+- [ ] `T0631` · `SSL-001` — Define hosts entry — `tasks/backlog/T0631-define-hosts-entry.md`
+- [ ] `T0632` · `SSL-002` — Validate hosts entry — `tasks/backlog/T0632-validate-hosts-entry.md`
+- [ ] `T0633` · `SSL-003` — Model hosts entry — `tasks/backlog/T0633-model-hosts-entry.md`
+- [ ] `T0634` · `SSL-004` — Implement hosts entry — `tasks/backlog/T0634-implement-hosts-entry.md`
+- [ ] `T0635` · `SSL-005` — Test hosts entry — `tasks/backlog/T0635-test-hosts-entry.md`
+- [ ] `T0636` · `SSL-006` — Document hosts entry — `tasks/backlog/T0636-document-hosts-entry.md`
+- [ ] `T0637` · `SSL-007` — Integrate hosts entry — `tasks/backlog/T0637-integrate-hosts-entry.md`
+- [ ] `T0638` · `SSL-008` — Harden hosts entry — `tasks/backlog/T0638-harden-hosts-entry.md`
+- [ ] `T0639` · `SSL-009` — Observe hosts entry — `tasks/backlog/T0639-observe-hosts-entry.md`
+- [ ] `T0640` · `SSL-010` — Review hosts entry — `tasks/backlog/T0640-review-hosts-entry.md`
+- [ ] `T0641` · `SSL-011` — Define elevated helper — `tasks/backlog/T0641-define-elevated-helper.md`
+- [ ] `T0642` · `SSL-012` — Validate elevated helper — `tasks/backlog/T0642-validate-elevated-helper.md`
+- [ ] `T0643` · `SSL-013` — Model elevated helper — `tasks/backlog/T0643-model-elevated-helper.md`
+- [ ] `T0644` · `SSL-014` — Implement elevated helper — `tasks/backlog/T0644-implement-elevated-helper.md`
+- [ ] `T0645` · `SSL-015` — Test elevated helper — `tasks/backlog/T0645-test-elevated-helper.md`
+- [ ] `T0646` · `SSL-016` — Document elevated helper — `tasks/backlog/T0646-document-elevated-helper.md`
+- [ ] `T0647` · `SSL-017` — Integrate elevated helper — `tasks/backlog/T0647-integrate-elevated-helper.md`
+- [ ] `T0648` · `SSL-018` — Harden elevated helper — `tasks/backlog/T0648-harden-elevated-helper.md`
+- [ ] `T0649` · `SSL-019` — Observe elevated helper — `tasks/backlog/T0649-observe-elevated-helper.md`
+- [ ] `T0650` · `SSL-020` — Review elevated helper — `tasks/backlog/T0650-review-elevated-helper.md`
+- [ ] `T0651` · `SSL-021` — Define ipc contract — `tasks/backlog/T0651-define-ipc-contract.md`
+- [ ] `T0652` · `SSL-022` — Validate ipc contract — `tasks/backlog/T0652-validate-ipc-contract.md`
+- [ ] `T0653` · `SSL-023` — Model ipc contract — `tasks/backlog/T0653-model-ipc-contract.md`
+- [ ] `T0654` · `SSL-024` — Implement ipc contract — `tasks/backlog/T0654-implement-ipc-contract.md`
+- [ ] `T0655` · `SSL-025` — Test ipc contract — `tasks/backlog/T0655-test-ipc-contract.md`
+- [ ] `T0656` · `SSL-026` — Document ipc contract — `tasks/backlog/T0656-document-ipc-contract.md`
+- [ ] `T0657` · `SSL-027` — Integrate ipc contract — `tasks/backlog/T0657-integrate-ipc-contract.md`
+- [ ] `T0658` · `SSL-028` — Harden ipc contract — `tasks/backlog/T0658-harden-ipc-contract.md`
+- [ ] `T0659` · `SSL-029` — Observe ipc contract — `tasks/backlog/T0659-observe-ipc-contract.md`
+- [ ] `T0660` · `SSL-030` — Review ipc contract — `tasks/backlog/T0660-review-ipc-contract.md`
+- [ ] `T0661` · `SSL-031` — Define root ca — `tasks/backlog/T0661-define-root-ca.md`
+- [ ] `T0662` · `SSL-032` — Validate root ca — `tasks/backlog/T0662-validate-root-ca.md`
+- [ ] `T0663` · `SSL-033` — Model root ca — `tasks/backlog/T0663-model-root-ca.md`
+- [ ] `T0664` · `SSL-034` — Implement root ca — `tasks/backlog/T0664-implement-root-ca.md`
+- [ ] `T0665` · `SSL-035` — Test root ca — `tasks/backlog/T0665-test-root-ca.md`
+- [ ] `T0666` · `SSL-036` — Document root ca — `tasks/backlog/T0666-document-root-ca.md`
+- [ ] `T0667` · `SSL-037` — Integrate root ca — `tasks/backlog/T0667-integrate-root-ca.md`
+- [ ] `T0668` · `SSL-038` — Harden root ca — `tasks/backlog/T0668-harden-root-ca.md`
+- [ ] `T0669` · `SSL-039` — Observe root ca — `tasks/backlog/T0669-observe-root-ca.md`
+- [ ] `T0670` · `SSL-040` — Review root ca — `tasks/backlog/T0670-review-root-ca.md`
+- [ ] `T0671` · `SSL-041` — Define certificate trust — `tasks/backlog/T0671-define-certificate-trust.md`
+- [ ] `T0672` · `SSL-042` — Validate certificate trust — `tasks/backlog/T0672-validate-certificate-trust.md`
+- [ ] `T0673` · `SSL-043` — Model certificate trust — `tasks/backlog/T0673-model-certificate-trust.md`
+- [ ] `T0674` · `SSL-044` — Implement certificate trust — `tasks/backlog/T0674-implement-certificate-trust.md`
+- [ ] `T0675` · `SSL-045` — Test certificate trust — `tasks/backlog/T0675-test-certificate-trust.md`
+- [ ] `T0676` · `SSL-046` — Document certificate trust — `tasks/backlog/T0676-document-certificate-trust.md`
+- [ ] `T0677` · `SSL-047` — Integrate certificate trust — `tasks/backlog/T0677-integrate-certificate-trust.md`
+- [ ] `T0678` · `SSL-048` — Harden certificate trust — `tasks/backlog/T0678-harden-certificate-trust.md`
+- [ ] `T0679` · `SSL-049` — Observe certificate trust — `tasks/backlog/T0679-observe-certificate-trust.md`
+- [ ] `T0680` · `SSL-050` — Review certificate trust — `tasks/backlog/T0680-review-certificate-trust.md`
+- [ ] `T0681` · `SSL-051` — Define domain certificate — `tasks/backlog/T0681-define-domain-certificate.md`
+- [ ] `T0682` · `SSL-052` — Validate domain certificate — `tasks/backlog/T0682-validate-domain-certificate.md`
+- [ ] `T0683` · `SSL-053` — Model domain certificate — `tasks/backlog/T0683-model-domain-certificate.md`
+- [ ] `T0684` · `SSL-054` — Implement domain certificate — `tasks/backlog/T0684-implement-domain-certificate.md`
+- [ ] `T0685` · `SSL-055` — Test domain certificate — `tasks/backlog/T0685-test-domain-certificate.md`
+- [ ] `T0686` · `SSL-056` — Document domain certificate — `tasks/backlog/T0686-document-domain-certificate.md`
+- [ ] `T0687` · `SSL-057` — Integrate domain certificate — `tasks/backlog/T0687-integrate-domain-certificate.md`
+- [ ] `T0688` · `SSL-058` — Harden domain certificate — `tasks/backlog/T0688-harden-domain-certificate.md`
+- [ ] `T0689` · `SSL-059` — Observe domain certificate — `tasks/backlog/T0689-observe-domain-certificate.md`
+- [ ] `T0690` · `SSL-060` — Review domain certificate — `tasks/backlog/T0690-review-domain-certificate.md`
+- [ ] `T0691` · `SSL-061` — Define nginx tls — `tasks/backlog/T0691-define-nginx-tls.md`
+- [ ] `T0692` · `SSL-062` — Validate nginx tls — `tasks/backlog/T0692-validate-nginx-tls.md`
+- [ ] `T0693` · `SSL-063` — Model nginx tls — `tasks/backlog/T0693-model-nginx-tls.md`
+- [ ] `T0694` · `SSL-064` — Implement nginx tls — `tasks/backlog/T0694-implement-nginx-tls.md`
+- [ ] `T0695` · `SSL-065` — Test nginx tls — `tasks/backlog/T0695-test-nginx-tls.md`
+- [ ] `T0696` · `SSL-066` — Document nginx tls — `tasks/backlog/T0696-document-nginx-tls.md`
+- [ ] `T0697` · `SSL-067` — Integrate nginx tls — `tasks/backlog/T0697-integrate-nginx-tls.md`
+- [ ] `T0698` · `SSL-068` — Harden nginx tls — `tasks/backlog/T0698-harden-nginx-tls.md`
+- [ ] `T0699` · `SSL-069` — Observe nginx tls — `tasks/backlog/T0699-observe-nginx-tls.md`
+- [ ] `T0700` · `SSL-070` — Review nginx tls — `tasks/backlog/T0700-review-nginx-tls.md`
+- [ ] `T0701` · `SSL-071` — Define trust status — `tasks/backlog/T0701-define-trust-status.md`
+- [ ] `T0702` · `SSL-072` — Validate trust status — `tasks/backlog/T0702-validate-trust-status.md`
+- [ ] `T0703` · `SSL-073` — Model trust status — `tasks/backlog/T0703-model-trust-status.md`
+- [ ] `T0704` · `SSL-074` — Implement trust status — `tasks/backlog/T0704-implement-trust-status.md`
+- [ ] `T0705` · `SSL-075` — Test trust status — `tasks/backlog/T0705-test-trust-status.md`
+- [ ] `T0706` · `SSL-076` — Document trust status — `tasks/backlog/T0706-document-trust-status.md`
+- [ ] `T0707` · `SSL-077` — Integrate trust status — `tasks/backlog/T0707-integrate-trust-status.md`
+- [ ] `T0708` · `SSL-078` — Harden trust status — `tasks/backlog/T0708-harden-trust-status.md`
+- [ ] `T0709` · `SSL-079` — Observe trust status — `tasks/backlog/T0709-observe-trust-status.md`
+- [ ] `T0710` · `SSL-080` — Review trust status — `tasks/backlog/T0710-review-trust-status.md`

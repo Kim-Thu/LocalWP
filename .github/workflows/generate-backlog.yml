@@ -2,7 +2,6 @@ name: Generate backlog
 
 on:
   push:
-    branches: [maint/bootstrap-project-20260806-0542]
     paths:
       - planning/EPIC_CATALOG.json
       - scripts/generate_backlog.py
@@ -11,6 +10,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: generate-backlog-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   generate:
@@ -31,7 +34,10 @@ jobs:
           count=$(find tasks/backlog -maxdepth 1 -name 'T*.md' | wc -l)
           test "$count" -eq 1220
           test -f MASTER_TASK_PLAN.md
-          test -f planning/epics/E17/README.md
+          test -f planning/epics/E00/README.md
+          test -f planning/epics/E16/README.md
+          grep -q 'BOOT-001' MASTER_TASK_PLAN.md
+          grep -qi 'initialize .net 8 solution' tasks/backlog/T0001-initialize-net-8-solution.md
       - name: Commit generated backlog
         shell: bash
         run: |
@@ -39,5 +45,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add MASTER_TASK_PLAN.md planning/epics tasks/backlog
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m "docs(tasks): generate complete 1220-task backlog"
+          git commit -m "docs(tasks): regenerate backlog from canonical catalog"
           git push

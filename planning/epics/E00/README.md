@@ -1,44 +1,75 @@
-# E00 — Repository and governance
+# E00 — Repository Bootstrap and Engineering Foundation
 
-Dải task: `T0001`–`T0040`.
+Mã UID: `BOOT`.
+Dải task: `T0001`–`T0070`.
 
-- [ ] `T0001` — Define repository metadata — `tasks/backlog/T0001-define-repository-metadata.md`
-- [ ] `T0002` — Validate repository metadata — `tasks/backlog/T0002-validate-repository-metadata.md`
-- [ ] `T0003` — Model repository metadata — `tasks/backlog/T0003-model-repository-metadata.md`
-- [ ] `T0004` — Implement repository metadata — `tasks/backlog/T0004-implement-repository-metadata.md`
-- [ ] `T0005` — Test repository metadata — `tasks/backlog/T0005-test-repository-metadata.md`
-- [ ] `T0006` — Document repository metadata — `tasks/backlog/T0006-document-repository-metadata.md`
-- [ ] `T0007` — Integrate repository metadata — `tasks/backlog/T0007-integrate-repository-metadata.md`
-- [ ] `T0008` — Harden repository metadata — `tasks/backlog/T0008-harden-repository-metadata.md`
-- [ ] `T0009` — Observe repository metadata — `tasks/backlog/T0009-observe-repository-metadata.md`
-- [ ] `T0010` — Review repository metadata — `tasks/backlog/T0010-review-repository-metadata.md`
-- [ ] `T0011` — Define branch policy — `tasks/backlog/T0011-define-branch-policy.md`
-- [ ] `T0012` — Validate branch policy — `tasks/backlog/T0012-validate-branch-policy.md`
-- [ ] `T0013` — Model branch policy — `tasks/backlog/T0013-model-branch-policy.md`
-- [ ] `T0014` — Implement branch policy — `tasks/backlog/T0014-implement-branch-policy.md`
-- [ ] `T0015` — Test branch policy — `tasks/backlog/T0015-test-branch-policy.md`
-- [ ] `T0016` — Document branch policy — `tasks/backlog/T0016-document-branch-policy.md`
-- [ ] `T0017` — Integrate branch policy — `tasks/backlog/T0017-integrate-branch-policy.md`
-- [ ] `T0018` — Harden branch policy — `tasks/backlog/T0018-harden-branch-policy.md`
-- [ ] `T0019` — Observe branch policy — `tasks/backlog/T0019-observe-branch-policy.md`
-- [ ] `T0020` — Review branch policy — `tasks/backlog/T0020-review-branch-policy.md`
-- [ ] `T0021` — Define commit policy — `tasks/backlog/T0021-define-commit-policy.md`
-- [ ] `T0022` — Validate commit policy — `tasks/backlog/T0022-validate-commit-policy.md`
-- [ ] `T0023` — Model commit policy — `tasks/backlog/T0023-model-commit-policy.md`
-- [ ] `T0024` — Implement commit policy — `tasks/backlog/T0024-implement-commit-policy.md`
-- [ ] `T0025` — Test commit policy — `tasks/backlog/T0025-test-commit-policy.md`
-- [ ] `T0026` — Document commit policy — `tasks/backlog/T0026-document-commit-policy.md`
-- [ ] `T0027` — Integrate commit policy — `tasks/backlog/T0027-integrate-commit-policy.md`
-- [ ] `T0028` — Harden commit policy — `tasks/backlog/T0028-harden-commit-policy.md`
-- [ ] `T0029` — Observe commit policy — `tasks/backlog/T0029-observe-commit-policy.md`
-- [ ] `T0030` — Review commit policy — `tasks/backlog/T0030-review-commit-policy.md`
-- [ ] `T0031` — Define pull request template — `tasks/backlog/T0031-define-pull-request-template.md`
-- [ ] `T0032` — Validate pull request template — `tasks/backlog/T0032-validate-pull-request-template.md`
-- [ ] `T0033` — Model pull request template — `tasks/backlog/T0033-model-pull-request-template.md`
-- [ ] `T0034` — Implement pull request template — `tasks/backlog/T0034-implement-pull-request-template.md`
-- [ ] `T0035` — Test pull request template — `tasks/backlog/T0035-test-pull-request-template.md`
-- [ ] `T0036` — Document pull request template — `tasks/backlog/T0036-document-pull-request-template.md`
-- [ ] `T0037` — Integrate pull request template — `tasks/backlog/T0037-integrate-pull-request-template.md`
-- [ ] `T0038` — Harden pull request template — `tasks/backlog/T0038-harden-pull-request-template.md`
-- [ ] `T0039` — Observe pull request template — `tasks/backlog/T0039-observe-pull-request-template.md`
-- [ ] `T0040` — Review pull request template — `tasks/backlog/T0040-review-pull-request-template.md`
+- [ ] `T0001` · `BOOT-001` — Initialize .net 8 solution — `tasks/backlog/T0001-initialize-net-8-solution.md`
+- [ ] `T0002` · `BOOT-002` — Create desktop project — `tasks/backlog/T0002-create-desktop-project.md`
+- [ ] `T0003` · `BOOT-003` — Create domain project — `tasks/backlog/T0003-create-domain-project.md`
+- [ ] `T0004` · `BOOT-004` — Create application project — `tasks/backlog/T0004-create-application-project.md`
+- [ ] `T0005` · `BOOT-005` — Create infrastructure project — `tasks/backlog/T0005-create-infrastructure-project.md`
+- [ ] `T0006` · `BOOT-006` — Create systemhelper project — `tasks/backlog/T0006-create-systemhelper-project.md`
+- [ ] `T0007` · `BOOT-007` — Create unittests project — `tasks/backlog/T0007-create-unittests-project.md`
+- [ ] `T0008` · `BOOT-008` — Create integrationtests project — `tasks/backlog/T0008-create-integrationtests-project.md`
+- [ ] `T0009` · `BOOT-009` — Configure project references — `tasks/backlog/T0009-configure-project-references.md`
+- [ ] `T0010` · `BOOT-010` — Verify clean build — `tasks/backlog/T0010-verify-clean-build.md`
+- [ ] `T0011` · `BOOT-011` — Add directory.build.props — `tasks/backlog/T0011-add-directory-build-props.md`
+- [ ] `T0012` · `BOOT-012` — Add directory.packages.props — `tasks/backlog/T0012-add-directory-packages-props.md`
+- [ ] `T0013` · `BOOT-013` — Add global.json — `tasks/backlog/T0013-add-global-json.md`
+- [ ] `T0014` · `BOOT-014` — Enable nullable — `tasks/backlog/T0014-enable-nullable.md`
+- [ ] `T0015` · `BOOT-015` — Enable implicit usings — `tasks/backlog/T0015-enable-implicit-usings.md`
+- [ ] `T0016` · `BOOT-016` — Treat warnings as errors — `tasks/backlog/T0016-treat-warnings-as-errors.md`
+- [ ] `T0017` · `BOOT-017` — Configure analyzers — `tasks/backlog/T0017-configure-analyzers.md`
+- [ ] `T0018` · `BOOT-018` — Configure stylecop — `tasks/backlog/T0018-configure-stylecop.md`
+- [ ] `T0019` · `BOOT-019` — Configure editorconfig — `tasks/backlog/T0019-configure-editorconfig.md`
+- [ ] `T0020` · `BOOT-020` — Verify analyzer rules — `tasks/backlog/T0020-verify-analyzer-rules.md`
+- [ ] `T0021` · `BOOT-021` — Install avalonia — `tasks/backlog/T0021-install-avalonia.md`
+- [ ] `T0022` · `BOOT-022` — Install communitytoolkit.mvvm — `tasks/backlog/T0022-install-communitytoolkit-mvvm.md`
+- [ ] `T0023` · `BOOT-023` — Install serilog — `tasks/backlog/T0023-install-serilog.md`
+- [ ] `T0024` · `BOOT-024` — Install fluentvalidation — `tasks/backlog/T0024-install-fluentvalidation.md`
+- [ ] `T0025` · `BOOT-025` — Install polly — `tasks/backlog/T0025-install-polly.md`
+- [ ] `T0026` · `BOOT-026` — Install docker.dotnet — `tasks/backlog/T0026-install-docker-dotnet.md`
+- [ ] `T0027` · `BOOT-027` — Install test packages — `tasks/backlog/T0027-install-test-packages.md`
+- [ ] `T0028` · `BOOT-028` — Verify package restore — `tasks/backlog/T0028-verify-package-restore.md`
+- [ ] `T0029` · `BOOT-029` — Configure build workflow — `tasks/backlog/T0029-configure-build-workflow.md`
+- [ ] `T0030` · `BOOT-030` — Configure test workflow — `tasks/backlog/T0030-configure-test-workflow.md`
+- [ ] `T0031` · `BOOT-031` — Configure codeql — `tasks/backlog/T0031-configure-codeql.md`
+- [ ] `T0032` · `BOOT-032` — Configure gitleaks — `tasks/backlog/T0032-configure-gitleaks.md`
+- [ ] `T0033` · `BOOT-033` — Configure dependabot — `tasks/backlog/T0033-configure-dependabot.md`
+- [ ] `T0034` · `BOOT-034` — Configure release workflow — `tasks/backlog/T0034-configure-release-workflow.md`
+- [ ] `T0035` · `BOOT-035` — Configure docker validation — `tasks/backlog/T0035-configure-docker-validation.md`
+- [ ] `T0036` · `BOOT-036` — Verify ci pipeline — `tasks/backlog/T0036-verify-ci-pipeline.md`
+- [ ] `T0037` · `BOOT-037` — Update readme — `tasks/backlog/T0037-update-readme.md`
+- [ ] `T0038` · `BOOT-038` — Define repository metadata — `tasks/backlog/T0038-define-repository-metadata.md`
+- [ ] `T0039` · `BOOT-039` — Update contribution guide — `tasks/backlog/T0039-update-contribution-guide.md`
+- [ ] `T0040` · `BOOT-040` — Finalize branch rules — `tasks/backlog/T0040-finalize-branch-rules.md`
+- [ ] `T0041` · `BOOT-041` — Finalize coding standards — `tasks/backlog/T0041-finalize-coding-standards.md`
+- [ ] `T0042` · `BOOT-042` — Write architecture overview — `tasks/backlog/T0042-write-architecture-overview.md`
+- [ ] `T0043` · `BOOT-043` — Create adr structure — `tasks/backlog/T0043-create-adr-structure.md`
+- [ ] `T0044` · `BOOT-044` — Finalize agent rules — `tasks/backlog/T0044-finalize-agent-rules.md`
+- [ ] `T0045` · `BOOT-045` — Verify documentation — `tasks/backlog/T0045-verify-documentation.md`
+- [ ] `T0046` · `BOOT-046` — Create docker base structure — `tasks/backlog/T0046-create-docker-base-structure.md`
+- [ ] `T0047` · `BOOT-047` — Create docker compose template — `tasks/backlog/T0047-create-docker-compose-template.md`
+- [ ] `T0048` · `BOOT-048` — Define php image catalog — `tasks/backlog/T0048-define-php-image-catalog.md`
+- [ ] `T0049` · `BOOT-049` — Define mysql image catalog — `tasks/backlog/T0049-define-mysql-image-catalog.md`
+- [ ] `T0050` · `BOOT-050` — Define nginx image catalog — `tasks/backlog/T0050-define-nginx-image-catalog.md`
+- [ ] `T0051` · `BOOT-051` — Verify docker compose — `tasks/backlog/T0051-verify-docker-compose.md`
+- [ ] `T0052` · `BOOT-052` — Create assets folder — `tasks/backlog/T0052-create-assets-folder.md`
+- [ ] `T0053` · `BOOT-053` — Create scripts folder — `tasks/backlog/T0053-create-scripts-folder.md`
+- [ ] `T0054` · `BOOT-054` — Verify docs folder — `tasks/backlog/T0054-verify-docs-folder.md`
+- [ ] `T0055` · `BOOT-055` — Verify planning folder — `tasks/backlog/T0055-verify-planning-folder.md`
+- [ ] `T0056` · `BOOT-056` — Verify epics folder — `tasks/backlog/T0056-verify-epics-folder.md`
+- [ ] `T0057` · `BOOT-057` — Verify tasks folder — `tasks/backlog/T0057-verify-tasks-folder.md`
+- [ ] `T0058` · `BOOT-058` — Verify repository structure — `tasks/backlog/T0058-verify-repository-structure.md`
+- [ ] `T0059` · `BOOT-059` — Create issue template — `tasks/backlog/T0059-create-issue-template.md`
+- [ ] `T0060` · `BOOT-060` — Create bug template — `tasks/backlog/T0060-create-bug-template.md`
+- [ ] `T0061` · `BOOT-061` — Create feature template — `tasks/backlog/T0061-create-feature-template.md`
+- [ ] `T0062` · `BOOT-062` — Finalize pull request template — `tasks/backlog/T0062-finalize-pull-request-template.md`
+- [ ] `T0063` · `BOOT-063` — Create codeowners — `tasks/backlog/T0063-create-codeowners.md`
+- [ ] `T0064` · `BOOT-064` — Define labels — `tasks/backlog/T0064-define-labels.md`
+- [ ] `T0065` · `BOOT-065` — Define milestones — `tasks/backlog/T0065-define-milestones.md`
+- [ ] `T0066` · `BOOT-066` — Write branch protection checklist — `tasks/backlog/T0066-write-branch-protection-checklist.md`
+- [ ] `T0067` · `BOOT-067` — Verify release build — `tasks/backlog/T0067-verify-release-build.md`
+- [ ] `T0068` · `BOOT-068` — Verify test suite — `tasks/backlog/T0068-verify-test-suite.md`
+- [ ] `T0069` · `BOOT-069` — Verify all ci checks — `tasks/backlog/T0069-verify-all-ci-checks.md`
+- [ ] `T0070` · `BOOT-070` — Open avalonia mainwindow — `tasks/backlog/T0070-open-avalonia-mainwindow.md`

@@ -1,84 +1,75 @@
-# E11 — WordPress tools
+# E11 — Backup and Restore
 
-Dải task: `T0841`–`T0920`.
+Mã UID: `BACKUP`.
+Dải task: `T0941`–`T1010`.
 
-- [ ] `T0841` — Define wp-cli wrapper — `tasks/backlog/T0841-define-wpcli-wrapper.md`
-- [ ] `T0842` — Validate wp-cli wrapper — `tasks/backlog/T0842-validate-wpcli-wrapper.md`
-- [ ] `T0843` — Model wp-cli wrapper — `tasks/backlog/T0843-model-wpcli-wrapper.md`
-- [ ] `T0844` — Implement wp-cli wrapper — `tasks/backlog/T0844-implement-wpcli-wrapper.md`
-- [ ] `T0845` — Test wp-cli wrapper — `tasks/backlog/T0845-test-wpcli-wrapper.md`
-- [ ] `T0846` — Document wp-cli wrapper — `tasks/backlog/T0846-document-wpcli-wrapper.md`
-- [ ] `T0847` — Integrate wp-cli wrapper — `tasks/backlog/T0847-integrate-wpcli-wrapper.md`
-- [ ] `T0848` — Harden wp-cli wrapper — `tasks/backlog/T0848-harden-wpcli-wrapper.md`
-- [ ] `T0849` — Observe wp-cli wrapper — `tasks/backlog/T0849-observe-wpcli-wrapper.md`
-- [ ] `T0850` — Review wp-cli wrapper — `tasks/backlog/T0850-review-wpcli-wrapper.md`
-- [ ] `T0851` — Define core status — `tasks/backlog/T0851-define-core-status.md`
-- [ ] `T0852` — Validate core status — `tasks/backlog/T0852-validate-core-status.md`
-- [ ] `T0853` — Model core status — `tasks/backlog/T0853-model-core-status.md`
-- [ ] `T0854` — Implement core status — `tasks/backlog/T0854-implement-core-status.md`
-- [ ] `T0855` — Test core status — `tasks/backlog/T0855-test-core-status.md`
-- [ ] `T0856` — Document core status — `tasks/backlog/T0856-document-core-status.md`
-- [ ] `T0857` — Integrate core status — `tasks/backlog/T0857-integrate-core-status.md`
-- [ ] `T0858` — Harden core status — `tasks/backlog/T0858-harden-core-status.md`
-- [ ] `T0859` — Observe core status — `tasks/backlog/T0859-observe-core-status.md`
-- [ ] `T0860` — Review core status — `tasks/backlog/T0860-review-core-status.md`
-- [ ] `T0861` — Define core update — `tasks/backlog/T0861-define-core-update.md`
-- [ ] `T0862` — Validate core update — `tasks/backlog/T0862-validate-core-update.md`
-- [ ] `T0863` — Model core update — `tasks/backlog/T0863-model-core-update.md`
-- [ ] `T0864` — Implement core update — `tasks/backlog/T0864-implement-core-update.md`
-- [ ] `T0865` — Test core update — `tasks/backlog/T0865-test-core-update.md`
-- [ ] `T0866` — Document core update — `tasks/backlog/T0866-document-core-update.md`
-- [ ] `T0867` — Integrate core update — `tasks/backlog/T0867-integrate-core-update.md`
-- [ ] `T0868` — Harden core update — `tasks/backlog/T0868-harden-core-update.md`
-- [ ] `T0869` — Observe core update — `tasks/backlog/T0869-observe-core-update.md`
-- [ ] `T0870` — Review core update — `tasks/backlog/T0870-review-core-update.md`
-- [ ] `T0871` — Define plugin list — `tasks/backlog/T0871-define-plugin-list.md`
-- [ ] `T0872` — Validate plugin list — `tasks/backlog/T0872-validate-plugin-list.md`
-- [ ] `T0873` — Model plugin list — `tasks/backlog/T0873-model-plugin-list.md`
-- [ ] `T0874` — Implement plugin list — `tasks/backlog/T0874-implement-plugin-list.md`
-- [ ] `T0875` — Test plugin list — `tasks/backlog/T0875-test-plugin-list.md`
-- [ ] `T0876` — Document plugin list — `tasks/backlog/T0876-document-plugin-list.md`
-- [ ] `T0877` — Integrate plugin list — `tasks/backlog/T0877-integrate-plugin-list.md`
-- [ ] `T0878` — Harden plugin list — `tasks/backlog/T0878-harden-plugin-list.md`
-- [ ] `T0879` — Observe plugin list — `tasks/backlog/T0879-observe-plugin-list.md`
-- [ ] `T0880` — Review plugin list — `tasks/backlog/T0880-review-plugin-list.md`
-- [ ] `T0881` — Define plugin install — `tasks/backlog/T0881-define-plugin-install.md`
-- [ ] `T0882` — Validate plugin install — `tasks/backlog/T0882-validate-plugin-install.md`
-- [ ] `T0883` — Model plugin install — `tasks/backlog/T0883-model-plugin-install.md`
-- [ ] `T0884` — Implement plugin install — `tasks/backlog/T0884-implement-plugin-install.md`
-- [ ] `T0885` — Test plugin install — `tasks/backlog/T0885-test-plugin-install.md`
-- [ ] `T0886` — Document plugin install — `tasks/backlog/T0886-document-plugin-install.md`
-- [ ] `T0887` — Integrate plugin install — `tasks/backlog/T0887-integrate-plugin-install.md`
-- [ ] `T0888` — Harden plugin install — `tasks/backlog/T0888-harden-plugin-install.md`
-- [ ] `T0889` — Observe plugin install — `tasks/backlog/T0889-observe-plugin-install.md`
-- [ ] `T0890` — Review plugin install — `tasks/backlog/T0890-review-plugin-install.md`
-- [ ] `T0891` — Define plugin activation — `tasks/backlog/T0891-define-plugin-activation.md`
-- [ ] `T0892` — Validate plugin activation — `tasks/backlog/T0892-validate-plugin-activation.md`
-- [ ] `T0893` — Model plugin activation — `tasks/backlog/T0893-model-plugin-activation.md`
-- [ ] `T0894` — Implement plugin activation — `tasks/backlog/T0894-implement-plugin-activation.md`
-- [ ] `T0895` — Test plugin activation — `tasks/backlog/T0895-test-plugin-activation.md`
-- [ ] `T0896` — Document plugin activation — `tasks/backlog/T0896-document-plugin-activation.md`
-- [ ] `T0897` — Integrate plugin activation — `tasks/backlog/T0897-integrate-plugin-activation.md`
-- [ ] `T0898` — Harden plugin activation — `tasks/backlog/T0898-harden-plugin-activation.md`
-- [ ] `T0899` — Observe plugin activation — `tasks/backlog/T0899-observe-plugin-activation.md`
-- [ ] `T0900` — Review plugin activation — `tasks/backlog/T0900-review-plugin-activation.md`
-- [ ] `T0901` — Define plugin update — `tasks/backlog/T0901-define-plugin-update.md`
-- [ ] `T0902` — Validate plugin update — `tasks/backlog/T0902-validate-plugin-update.md`
-- [ ] `T0903` — Model plugin update — `tasks/backlog/T0903-model-plugin-update.md`
-- [ ] `T0904` — Implement plugin update — `tasks/backlog/T0904-implement-plugin-update.md`
-- [ ] `T0905` — Test plugin update — `tasks/backlog/T0905-test-plugin-update.md`
-- [ ] `T0906` — Document plugin update — `tasks/backlog/T0906-document-plugin-update.md`
-- [ ] `T0907` — Integrate plugin update — `tasks/backlog/T0907-integrate-plugin-update.md`
-- [ ] `T0908` — Harden plugin update — `tasks/backlog/T0908-harden-plugin-update.md`
-- [ ] `T0909` — Observe plugin update — `tasks/backlog/T0909-observe-plugin-update.md`
-- [ ] `T0910` — Review plugin update — `tasks/backlog/T0910-review-plugin-update.md`
-- [ ] `T0911` — Define theme list — `tasks/backlog/T0911-define-theme-list.md`
-- [ ] `T0912` — Validate theme list — `tasks/backlog/T0912-validate-theme-list.md`
-- [ ] `T0913` — Model theme list — `tasks/backlog/T0913-model-theme-list.md`
-- [ ] `T0914` — Implement theme list — `tasks/backlog/T0914-implement-theme-list.md`
-- [ ] `T0915` — Test theme list — `tasks/backlog/T0915-test-theme-list.md`
-- [ ] `T0916` — Document theme list — `tasks/backlog/T0916-document-theme-list.md`
-- [ ] `T0917` — Integrate theme list — `tasks/backlog/T0917-integrate-theme-list.md`
-- [ ] `T0918` — Harden theme list — `tasks/backlog/T0918-harden-theme-list.md`
-- [ ] `T0919` — Observe theme list — `tasks/backlog/T0919-observe-theme-list.md`
-- [ ] `T0920` — Review theme list — `tasks/backlog/T0920-review-theme-list.md`
+- [ ] `T0941` · `BACKUP-001` — Define backup request — `tasks/backlog/T0941-define-backup-request.md`
+- [ ] `T0942` · `BACKUP-002` — Validate backup request — `tasks/backlog/T0942-validate-backup-request.md`
+- [ ] `T0943` · `BACKUP-003` — Model backup request — `tasks/backlog/T0943-model-backup-request.md`
+- [ ] `T0944` · `BACKUP-004` — Implement backup request — `tasks/backlog/T0944-implement-backup-request.md`
+- [ ] `T0945` · `BACKUP-005` — Test backup request — `tasks/backlog/T0945-test-backup-request.md`
+- [ ] `T0946` · `BACKUP-006` — Document backup request — `tasks/backlog/T0946-document-backup-request.md`
+- [ ] `T0947` · `BACKUP-007` — Integrate backup request — `tasks/backlog/T0947-integrate-backup-request.md`
+- [ ] `T0948` · `BACKUP-008` — Harden backup request — `tasks/backlog/T0948-harden-backup-request.md`
+- [ ] `T0949` · `BACKUP-009` — Observe backup request — `tasks/backlog/T0949-observe-backup-request.md`
+- [ ] `T0950` · `BACKUP-010` — Review backup request — `tasks/backlog/T0950-review-backup-request.md`
+- [ ] `T0951` · `BACKUP-011` — Define database dump — `tasks/backlog/T0951-define-database-dump.md`
+- [ ] `T0952` · `BACKUP-012` — Validate database dump — `tasks/backlog/T0952-validate-database-dump.md`
+- [ ] `T0953` · `BACKUP-013` — Model database dump — `tasks/backlog/T0953-model-database-dump.md`
+- [ ] `T0954` · `BACKUP-014` — Implement database dump — `tasks/backlog/T0954-implement-database-dump.md`
+- [ ] `T0955` · `BACKUP-015` — Test database dump — `tasks/backlog/T0955-test-database-dump.md`
+- [ ] `T0956` · `BACKUP-016` — Document database dump — `tasks/backlog/T0956-document-database-dump.md`
+- [ ] `T0957` · `BACKUP-017` — Integrate database dump — `tasks/backlog/T0957-integrate-database-dump.md`
+- [ ] `T0958` · `BACKUP-018` — Harden database dump — `tasks/backlog/T0958-harden-database-dump.md`
+- [ ] `T0959` · `BACKUP-019` — Observe database dump — `tasks/backlog/T0959-observe-database-dump.md`
+- [ ] `T0960` · `BACKUP-020` — Review database dump — `tasks/backlog/T0960-review-database-dump.md`
+- [ ] `T0961` · `BACKUP-021` — Define source archive — `tasks/backlog/T0961-define-source-archive.md`
+- [ ] `T0962` · `BACKUP-022` — Validate source archive — `tasks/backlog/T0962-validate-source-archive.md`
+- [ ] `T0963` · `BACKUP-023` — Model source archive — `tasks/backlog/T0963-model-source-archive.md`
+- [ ] `T0964` · `BACKUP-024` — Implement source archive — `tasks/backlog/T0964-implement-source-archive.md`
+- [ ] `T0965` · `BACKUP-025` — Test source archive — `tasks/backlog/T0965-test-source-archive.md`
+- [ ] `T0966` · `BACKUP-026` — Document source archive — `tasks/backlog/T0966-document-source-archive.md`
+- [ ] `T0967` · `BACKUP-027` — Integrate source archive — `tasks/backlog/T0967-integrate-source-archive.md`
+- [ ] `T0968` · `BACKUP-028` — Harden source archive — `tasks/backlog/T0968-harden-source-archive.md`
+- [ ] `T0969` · `BACKUP-029` — Observe source archive — `tasks/backlog/T0969-observe-source-archive.md`
+- [ ] `T0970` · `BACKUP-030` — Review source archive — `tasks/backlog/T0970-review-source-archive.md`
+- [ ] `T0971` · `BACKUP-031` — Define backup metadata — `tasks/backlog/T0971-define-backup-metadata.md`
+- [ ] `T0972` · `BACKUP-032` — Validate backup metadata — `tasks/backlog/T0972-validate-backup-metadata.md`
+- [ ] `T0973` · `BACKUP-033` — Model backup metadata — `tasks/backlog/T0973-model-backup-metadata.md`
+- [ ] `T0974` · `BACKUP-034` — Implement backup metadata — `tasks/backlog/T0974-implement-backup-metadata.md`
+- [ ] `T0975` · `BACKUP-035` — Test backup metadata — `tasks/backlog/T0975-test-backup-metadata.md`
+- [ ] `T0976` · `BACKUP-036` — Document backup metadata — `tasks/backlog/T0976-document-backup-metadata.md`
+- [ ] `T0977` · `BACKUP-037` — Integrate backup metadata — `tasks/backlog/T0977-integrate-backup-metadata.md`
+- [ ] `T0978` · `BACKUP-038` — Harden backup metadata — `tasks/backlog/T0978-harden-backup-metadata.md`
+- [ ] `T0979` · `BACKUP-039` — Observe backup metadata — `tasks/backlog/T0979-observe-backup-metadata.md`
+- [ ] `T0980` · `BACKUP-040` — Review backup metadata — `tasks/backlog/T0980-review-backup-metadata.md`
+- [ ] `T0981` · `BACKUP-041` — Define integrity hash — `tasks/backlog/T0981-define-integrity-hash.md`
+- [ ] `T0982` · `BACKUP-042` — Validate integrity hash — `tasks/backlog/T0982-validate-integrity-hash.md`
+- [ ] `T0983` · `BACKUP-043` — Model integrity hash — `tasks/backlog/T0983-model-integrity-hash.md`
+- [ ] `T0984` · `BACKUP-044` — Implement integrity hash — `tasks/backlog/T0984-implement-integrity-hash.md`
+- [ ] `T0985` · `BACKUP-045` — Test integrity hash — `tasks/backlog/T0985-test-integrity-hash.md`
+- [ ] `T0986` · `BACKUP-046` — Document integrity hash — `tasks/backlog/T0986-document-integrity-hash.md`
+- [ ] `T0987` · `BACKUP-047` — Integrate integrity hash — `tasks/backlog/T0987-integrate-integrity-hash.md`
+- [ ] `T0988` · `BACKUP-048` — Harden integrity hash — `tasks/backlog/T0988-harden-integrity-hash.md`
+- [ ] `T0989` · `BACKUP-049` — Observe integrity hash — `tasks/backlog/T0989-observe-integrity-hash.md`
+- [ ] `T0990` · `BACKUP-050` — Review integrity hash — `tasks/backlog/T0990-review-integrity-hash.md`
+- [ ] `T0991` · `BACKUP-051` — Define backup listing — `tasks/backlog/T0991-define-backup-listing.md`
+- [ ] `T0992` · `BACKUP-052` — Validate backup listing — `tasks/backlog/T0992-validate-backup-listing.md`
+- [ ] `T0993` · `BACKUP-053` — Model backup listing — `tasks/backlog/T0993-model-backup-listing.md`
+- [ ] `T0994` · `BACKUP-054` — Implement backup listing — `tasks/backlog/T0994-implement-backup-listing.md`
+- [ ] `T0995` · `BACKUP-055` — Test backup listing — `tasks/backlog/T0995-test-backup-listing.md`
+- [ ] `T0996` · `BACKUP-056` — Document backup listing — `tasks/backlog/T0996-document-backup-listing.md`
+- [ ] `T0997` · `BACKUP-057` — Integrate backup listing — `tasks/backlog/T0997-integrate-backup-listing.md`
+- [ ] `T0998` · `BACKUP-058` — Harden backup listing — `tasks/backlog/T0998-harden-backup-listing.md`
+- [ ] `T0999` · `BACKUP-059` — Observe backup listing — `tasks/backlog/T0999-observe-backup-listing.md`
+- [ ] `T1000` · `BACKUP-060` — Review backup listing — `tasks/backlog/T1000-review-backup-listing.md`
+- [ ] `T1001` · `BACKUP-061` — Define backup deletion — `tasks/backlog/T1001-define-backup-deletion.md`
+- [ ] `T1002` · `BACKUP-062` — Validate backup deletion — `tasks/backlog/T1002-validate-backup-deletion.md`
+- [ ] `T1003` · `BACKUP-063` — Model backup deletion — `tasks/backlog/T1003-model-backup-deletion.md`
+- [ ] `T1004` · `BACKUP-064` — Implement backup deletion — `tasks/backlog/T1004-implement-backup-deletion.md`
+- [ ] `T1005` · `BACKUP-065` — Test backup deletion — `tasks/backlog/T1005-test-backup-deletion.md`
+- [ ] `T1006` · `BACKUP-066` — Document backup deletion — `tasks/backlog/T1006-document-backup-deletion.md`
+- [ ] `T1007` · `BACKUP-067` — Integrate backup deletion — `tasks/backlog/T1007-integrate-backup-deletion.md`
+- [ ] `T1008` · `BACKUP-068` — Harden backup deletion — `tasks/backlog/T1008-harden-backup-deletion.md`
+- [ ] `T1009` · `BACKUP-069` — Observe backup deletion — `tasks/backlog/T1009-observe-backup-deletion.md`
+- [ ] `T1010` · `BACKUP-070` — Review backup deletion — `tasks/backlog/T1010-review-backup-deletion.md`

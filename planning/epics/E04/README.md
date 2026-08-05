@@ -1,94 +1,95 @@
-# E04 — Avalonia shell and MVVM
+# E04 — Process Runner and Docker Diagnostics
 
-Dải task: `T0231`–`T0320`.
+Mã UID: `PROC`.
+Dải task: `T0341`–`T0430`.
 
-- [ ] `T0231` — Define main window — `tasks/backlog/T0231-define-main-window.md`
-- [ ] `T0232` — Validate main window — `tasks/backlog/T0232-validate-main-window.md`
-- [ ] `T0233` — Model main window — `tasks/backlog/T0233-model-main-window.md`
-- [ ] `T0234` — Implement main window — `tasks/backlog/T0234-implement-main-window.md`
-- [ ] `T0235` — Test main window — `tasks/backlog/T0235-test-main-window.md`
-- [ ] `T0236` — Document main window — `tasks/backlog/T0236-document-main-window.md`
-- [ ] `T0237` — Integrate main window — `tasks/backlog/T0237-integrate-main-window.md`
-- [ ] `T0238` — Harden main window — `tasks/backlog/T0238-harden-main-window.md`
-- [ ] `T0239` — Observe main window — `tasks/backlog/T0239-observe-main-window.md`
-- [ ] `T0240` — Review main window — `tasks/backlog/T0240-review-main-window.md`
-- [ ] `T0241` — Define sidebar — `tasks/backlog/T0241-define-sidebar.md`
-- [ ] `T0242` — Validate sidebar — `tasks/backlog/T0242-validate-sidebar.md`
-- [ ] `T0243` — Model sidebar — `tasks/backlog/T0243-model-sidebar.md`
-- [ ] `T0244` — Implement sidebar — `tasks/backlog/T0244-implement-sidebar.md`
-- [ ] `T0245` — Test sidebar — `tasks/backlog/T0245-test-sidebar.md`
-- [ ] `T0246` — Document sidebar — `tasks/backlog/T0246-document-sidebar.md`
-- [ ] `T0247` — Integrate sidebar — `tasks/backlog/T0247-integrate-sidebar.md`
-- [ ] `T0248` — Harden sidebar — `tasks/backlog/T0248-harden-sidebar.md`
-- [ ] `T0249` — Observe sidebar — `tasks/backlog/T0249-observe-sidebar.md`
-- [ ] `T0250` — Review sidebar — `tasks/backlog/T0250-review-sidebar.md`
-- [ ] `T0251` — Define site list — `tasks/backlog/T0251-define-site-list.md`
-- [ ] `T0252` — Validate site list — `tasks/backlog/T0252-validate-site-list.md`
-- [ ] `T0253` — Model site list — `tasks/backlog/T0253-model-site-list.md`
-- [ ] `T0254` — Implement site list — `tasks/backlog/T0254-implement-site-list.md`
-- [ ] `T0255` — Test site list — `tasks/backlog/T0255-test-site-list.md`
-- [ ] `T0256` — Document site list — `tasks/backlog/T0256-document-site-list.md`
-- [ ] `T0257` — Integrate site list — `tasks/backlog/T0257-integrate-site-list.md`
-- [ ] `T0258` — Harden site list — `tasks/backlog/T0258-harden-site-list.md`
-- [ ] `T0259` — Observe site list — `tasks/backlog/T0259-observe-site-list.md`
-- [ ] `T0260` — Review site list — `tasks/backlog/T0260-review-site-list.md`
-- [ ] `T0261` — Define site search — `tasks/backlog/T0261-define-site-search.md`
-- [ ] `T0262` — Validate site search — `tasks/backlog/T0262-validate-site-search.md`
-- [ ] `T0263` — Model site search — `tasks/backlog/T0263-model-site-search.md`
-- [ ] `T0264` — Implement site search — `tasks/backlog/T0264-implement-site-search.md`
-- [ ] `T0265` — Test site search — `tasks/backlog/T0265-test-site-search.md`
-- [ ] `T0266` — Document site search — `tasks/backlog/T0266-document-site-search.md`
-- [ ] `T0267` — Integrate site search — `tasks/backlog/T0267-integrate-site-search.md`
-- [ ] `T0268` — Harden site search — `tasks/backlog/T0268-harden-site-search.md`
-- [ ] `T0269` — Observe site search — `tasks/backlog/T0269-observe-site-search.md`
-- [ ] `T0270` — Review site search — `tasks/backlog/T0270-review-site-search.md`
-- [ ] `T0271` — Define navigation service — `tasks/backlog/T0271-define-navigation-service.md`
-- [ ] `T0272` — Validate navigation service — `tasks/backlog/T0272-validate-navigation-service.md`
-- [ ] `T0273` — Model navigation service — `tasks/backlog/T0273-model-navigation-service.md`
-- [ ] `T0274` — Implement navigation service — `tasks/backlog/T0274-implement-navigation-service.md`
-- [ ] `T0275` — Test navigation service — `tasks/backlog/T0275-test-navigation-service.md`
-- [ ] `T0276` — Document navigation service — `tasks/backlog/T0276-document-navigation-service.md`
-- [ ] `T0277` — Integrate navigation service — `tasks/backlog/T0277-integrate-navigation-service.md`
-- [ ] `T0278` — Harden navigation service — `tasks/backlog/T0278-harden-navigation-service.md`
-- [ ] `T0279` — Observe navigation service — `tasks/backlog/T0279-observe-navigation-service.md`
-- [ ] `T0280` — Review navigation service — `tasks/backlog/T0280-review-navigation-service.md`
-- [ ] `T0281` — Define dialog service — `tasks/backlog/T0281-define-dialog-service.md`
-- [ ] `T0282` — Validate dialog service — `tasks/backlog/T0282-validate-dialog-service.md`
-- [ ] `T0283` — Model dialog service — `tasks/backlog/T0283-model-dialog-service.md`
-- [ ] `T0284` — Implement dialog service — `tasks/backlog/T0284-implement-dialog-service.md`
-- [ ] `T0285` — Test dialog service — `tasks/backlog/T0285-test-dialog-service.md`
-- [ ] `T0286` — Document dialog service — `tasks/backlog/T0286-document-dialog-service.md`
-- [ ] `T0287` — Integrate dialog service — `tasks/backlog/T0287-integrate-dialog-service.md`
-- [ ] `T0288` — Harden dialog service — `tasks/backlog/T0288-harden-dialog-service.md`
-- [ ] `T0289` — Observe dialog service — `tasks/backlog/T0289-observe-dialog-service.md`
-- [ ] `T0290` — Review dialog service — `tasks/backlog/T0290-review-dialog-service.md`
-- [ ] `T0291` — Define toast service — `tasks/backlog/T0291-define-toast-service.md`
-- [ ] `T0292` — Validate toast service — `tasks/backlog/T0292-validate-toast-service.md`
-- [ ] `T0293` — Model toast service — `tasks/backlog/T0293-model-toast-service.md`
-- [ ] `T0294` — Implement toast service — `tasks/backlog/T0294-implement-toast-service.md`
-- [ ] `T0295` — Test toast service — `tasks/backlog/T0295-test-toast-service.md`
-- [ ] `T0296` — Document toast service — `tasks/backlog/T0296-document-toast-service.md`
-- [ ] `T0297` — Integrate toast service — `tasks/backlog/T0297-integrate-toast-service.md`
-- [ ] `T0298` — Harden toast service — `tasks/backlog/T0298-harden-toast-service.md`
-- [ ] `T0299` — Observe toast service — `tasks/backlog/T0299-observe-toast-service.md`
-- [ ] `T0300` — Review toast service — `tasks/backlog/T0300-review-toast-service.md`
-- [ ] `T0301` — Define progress overlay — `tasks/backlog/T0301-define-progress-overlay.md`
-- [ ] `T0302` — Validate progress overlay — `tasks/backlog/T0302-validate-progress-overlay.md`
-- [ ] `T0303` — Model progress overlay — `tasks/backlog/T0303-model-progress-overlay.md`
-- [ ] `T0304` — Implement progress overlay — `tasks/backlog/T0304-implement-progress-overlay.md`
-- [ ] `T0305` — Test progress overlay — `tasks/backlog/T0305-test-progress-overlay.md`
-- [ ] `T0306` — Document progress overlay — `tasks/backlog/T0306-document-progress-overlay.md`
-- [ ] `T0307` — Integrate progress overlay — `tasks/backlog/T0307-integrate-progress-overlay.md`
-- [ ] `T0308` — Harden progress overlay — `tasks/backlog/T0308-harden-progress-overlay.md`
-- [ ] `T0309` — Observe progress overlay — `tasks/backlog/T0309-observe-progress-overlay.md`
-- [ ] `T0310` — Review progress overlay — `tasks/backlog/T0310-review-progress-overlay.md`
-- [ ] `T0311` — Define theme resources — `tasks/backlog/T0311-define-theme-resources.md`
-- [ ] `T0312` — Validate theme resources — `tasks/backlog/T0312-validate-theme-resources.md`
-- [ ] `T0313` — Model theme resources — `tasks/backlog/T0313-model-theme-resources.md`
-- [ ] `T0314` — Implement theme resources — `tasks/backlog/T0314-implement-theme-resources.md`
-- [ ] `T0315` — Test theme resources — `tasks/backlog/T0315-test-theme-resources.md`
-- [ ] `T0316` — Document theme resources — `tasks/backlog/T0316-document-theme-resources.md`
-- [ ] `T0317` — Integrate theme resources — `tasks/backlog/T0317-integrate-theme-resources.md`
-- [ ] `T0318` — Harden theme resources — `tasks/backlog/T0318-harden-theme-resources.md`
-- [ ] `T0319` — Observe theme resources — `tasks/backlog/T0319-observe-theme-resources.md`
-- [ ] `T0320` — Review theme resources — `tasks/backlog/T0320-review-theme-resources.md`
+- [ ] `T0341` · `PROC-001` — Define process request — `tasks/backlog/T0341-define-process-request.md`
+- [ ] `T0342` · `PROC-002` — Validate process request — `tasks/backlog/T0342-validate-process-request.md`
+- [ ] `T0343` · `PROC-003` — Model process request — `tasks/backlog/T0343-model-process-request.md`
+- [ ] `T0344` · `PROC-004` — Implement process request — `tasks/backlog/T0344-implement-process-request.md`
+- [ ] `T0345` · `PROC-005` — Test process request — `tasks/backlog/T0345-test-process-request.md`
+- [ ] `T0346` · `PROC-006` — Document process request — `tasks/backlog/T0346-document-process-request.md`
+- [ ] `T0347` · `PROC-007` — Integrate process request — `tasks/backlog/T0347-integrate-process-request.md`
+- [ ] `T0348` · `PROC-008` — Harden process request — `tasks/backlog/T0348-harden-process-request.md`
+- [ ] `T0349` · `PROC-009` — Observe process request — `tasks/backlog/T0349-observe-process-request.md`
+- [ ] `T0350` · `PROC-010` — Review process request — `tasks/backlog/T0350-review-process-request.md`
+- [ ] `T0351` · `PROC-011` — Define argument escaping — `tasks/backlog/T0351-define-argument-escaping.md`
+- [ ] `T0352` · `PROC-012` — Validate argument escaping — `tasks/backlog/T0352-validate-argument-escaping.md`
+- [ ] `T0353` · `PROC-013` — Model argument escaping — `tasks/backlog/T0353-model-argument-escaping.md`
+- [ ] `T0354` · `PROC-014` — Implement argument escaping — `tasks/backlog/T0354-implement-argument-escaping.md`
+- [ ] `T0355` · `PROC-015` — Test argument escaping — `tasks/backlog/T0355-test-argument-escaping.md`
+- [ ] `T0356` · `PROC-016` — Document argument escaping — `tasks/backlog/T0356-document-argument-escaping.md`
+- [ ] `T0357` · `PROC-017` — Integrate argument escaping — `tasks/backlog/T0357-integrate-argument-escaping.md`
+- [ ] `T0358` · `PROC-018` — Harden argument escaping — `tasks/backlog/T0358-harden-argument-escaping.md`
+- [ ] `T0359` · `PROC-019` — Observe argument escaping — `tasks/backlog/T0359-observe-argument-escaping.md`
+- [ ] `T0360` · `PROC-020` — Review argument escaping — `tasks/backlog/T0360-review-argument-escaping.md`
+- [ ] `T0361` · `PROC-021` — Define stdout streaming — `tasks/backlog/T0361-define-stdout-streaming.md`
+- [ ] `T0362` · `PROC-022` — Validate stdout streaming — `tasks/backlog/T0362-validate-stdout-streaming.md`
+- [ ] `T0363` · `PROC-023` — Model stdout streaming — `tasks/backlog/T0363-model-stdout-streaming.md`
+- [ ] `T0364` · `PROC-024` — Implement stdout streaming — `tasks/backlog/T0364-implement-stdout-streaming.md`
+- [ ] `T0365` · `PROC-025` — Test stdout streaming — `tasks/backlog/T0365-test-stdout-streaming.md`
+- [ ] `T0366` · `PROC-026` — Document stdout streaming — `tasks/backlog/T0366-document-stdout-streaming.md`
+- [ ] `T0367` · `PROC-027` — Integrate stdout streaming — `tasks/backlog/T0367-integrate-stdout-streaming.md`
+- [ ] `T0368` · `PROC-028` — Harden stdout streaming — `tasks/backlog/T0368-harden-stdout-streaming.md`
+- [ ] `T0369` · `PROC-029` — Observe stdout streaming — `tasks/backlog/T0369-observe-stdout-streaming.md`
+- [ ] `T0370` · `PROC-030` — Review stdout streaming — `tasks/backlog/T0370-review-stdout-streaming.md`
+- [ ] `T0371` · `PROC-031` — Define stderr streaming — `tasks/backlog/T0371-define-stderr-streaming.md`
+- [ ] `T0372` · `PROC-032` — Validate stderr streaming — `tasks/backlog/T0372-validate-stderr-streaming.md`
+- [ ] `T0373` · `PROC-033` — Model stderr streaming — `tasks/backlog/T0373-model-stderr-streaming.md`
+- [ ] `T0374` · `PROC-034` — Implement stderr streaming — `tasks/backlog/T0374-implement-stderr-streaming.md`
+- [ ] `T0375` · `PROC-035` — Test stderr streaming — `tasks/backlog/T0375-test-stderr-streaming.md`
+- [ ] `T0376` · `PROC-036` — Document stderr streaming — `tasks/backlog/T0376-document-stderr-streaming.md`
+- [ ] `T0377` · `PROC-037` — Integrate stderr streaming — `tasks/backlog/T0377-integrate-stderr-streaming.md`
+- [ ] `T0378` · `PROC-038` — Harden stderr streaming — `tasks/backlog/T0378-harden-stderr-streaming.md`
+- [ ] `T0379` · `PROC-039` — Observe stderr streaming — `tasks/backlog/T0379-observe-stderr-streaming.md`
+- [ ] `T0380` · `PROC-040` — Review stderr streaming — `tasks/backlog/T0380-review-stderr-streaming.md`
+- [ ] `T0381` · `PROC-041` — Define cancellation — `tasks/backlog/T0381-define-cancellation.md`
+- [ ] `T0382` · `PROC-042` — Validate cancellation — `tasks/backlog/T0382-validate-cancellation.md`
+- [ ] `T0383` · `PROC-043` — Model cancellation — `tasks/backlog/T0383-model-cancellation.md`
+- [ ] `T0384` · `PROC-044` — Implement cancellation — `tasks/backlog/T0384-implement-cancellation.md`
+- [ ] `T0385` · `PROC-045` — Test cancellation — `tasks/backlog/T0385-test-cancellation.md`
+- [ ] `T0386` · `PROC-046` — Document cancellation — `tasks/backlog/T0386-document-cancellation.md`
+- [ ] `T0387` · `PROC-047` — Integrate cancellation — `tasks/backlog/T0387-integrate-cancellation.md`
+- [ ] `T0388` · `PROC-048` — Harden cancellation — `tasks/backlog/T0388-harden-cancellation.md`
+- [ ] `T0389` · `PROC-049` — Observe cancellation — `tasks/backlog/T0389-observe-cancellation.md`
+- [ ] `T0390` · `PROC-050` — Review cancellation — `tasks/backlog/T0390-review-cancellation.md`
+- [ ] `T0391` · `PROC-051` — Define timeout — `tasks/backlog/T0391-define-timeout.md`
+- [ ] `T0392` · `PROC-052` — Validate timeout — `tasks/backlog/T0392-validate-timeout.md`
+- [ ] `T0393` · `PROC-053` — Model timeout — `tasks/backlog/T0393-model-timeout.md`
+- [ ] `T0394` · `PROC-054` — Implement timeout — `tasks/backlog/T0394-implement-timeout.md`
+- [ ] `T0395` · `PROC-055` — Test timeout — `tasks/backlog/T0395-test-timeout.md`
+- [ ] `T0396` · `PROC-056` — Document timeout — `tasks/backlog/T0396-document-timeout.md`
+- [ ] `T0397` · `PROC-057` — Integrate timeout — `tasks/backlog/T0397-integrate-timeout.md`
+- [ ] `T0398` · `PROC-058` — Harden timeout — `tasks/backlog/T0398-harden-timeout.md`
+- [ ] `T0399` · `PROC-059` — Observe timeout — `tasks/backlog/T0399-observe-timeout.md`
+- [ ] `T0400` · `PROC-060` — Review timeout — `tasks/backlog/T0400-review-timeout.md`
+- [ ] `T0401` · `PROC-061` — Define secret redaction — `tasks/backlog/T0401-define-secret-redaction.md`
+- [ ] `T0402` · `PROC-062` — Validate secret redaction — `tasks/backlog/T0402-validate-secret-redaction.md`
+- [ ] `T0403` · `PROC-063` — Model secret redaction — `tasks/backlog/T0403-model-secret-redaction.md`
+- [ ] `T0404` · `PROC-064` — Implement secret redaction — `tasks/backlog/T0404-implement-secret-redaction.md`
+- [ ] `T0405` · `PROC-065` — Test secret redaction — `tasks/backlog/T0405-test-secret-redaction.md`
+- [ ] `T0406` · `PROC-066` — Document secret redaction — `tasks/backlog/T0406-document-secret-redaction.md`
+- [ ] `T0407` · `PROC-067` — Integrate secret redaction — `tasks/backlog/T0407-integrate-secret-redaction.md`
+- [ ] `T0408` · `PROC-068` — Harden secret redaction — `tasks/backlog/T0408-harden-secret-redaction.md`
+- [ ] `T0409` · `PROC-069` — Observe secret redaction — `tasks/backlog/T0409-observe-secret-redaction.md`
+- [ ] `T0410` · `PROC-070` — Review secret redaction — `tasks/backlog/T0410-review-secret-redaction.md`
+- [ ] `T0411` · `PROC-071` — Define docker cli detection — `tasks/backlog/T0411-define-docker-cli-detection.md`
+- [ ] `T0412` · `PROC-072` — Validate docker cli detection — `tasks/backlog/T0412-validate-docker-cli-detection.md`
+- [ ] `T0413` · `PROC-073` — Model docker cli detection — `tasks/backlog/T0413-model-docker-cli-detection.md`
+- [ ] `T0414` · `PROC-074` — Implement docker cli detection — `tasks/backlog/T0414-implement-docker-cli-detection.md`
+- [ ] `T0415` · `PROC-075` — Test docker cli detection — `tasks/backlog/T0415-test-docker-cli-detection.md`
+- [ ] `T0416` · `PROC-076` — Document docker cli detection — `tasks/backlog/T0416-document-docker-cli-detection.md`
+- [ ] `T0417` · `PROC-077` — Integrate docker cli detection — `tasks/backlog/T0417-integrate-docker-cli-detection.md`
+- [ ] `T0418` · `PROC-078` — Harden docker cli detection — `tasks/backlog/T0418-harden-docker-cli-detection.md`
+- [ ] `T0419` · `PROC-079` — Observe docker cli detection — `tasks/backlog/T0419-observe-docker-cli-detection.md`
+- [ ] `T0420` · `PROC-080` — Review docker cli detection — `tasks/backlog/T0420-review-docker-cli-detection.md`
+- [ ] `T0421` · `PROC-081` — Define docker daemon detection — `tasks/backlog/T0421-define-docker-daemon-detection.md`
+- [ ] `T0422` · `PROC-082` — Validate docker daemon detection — `tasks/backlog/T0422-validate-docker-daemon-detection.md`
+- [ ] `T0423` · `PROC-083` — Model docker daemon detection — `tasks/backlog/T0423-model-docker-daemon-detection.md`
+- [ ] `T0424` · `PROC-084` — Implement docker daemon detection — `tasks/backlog/T0424-implement-docker-daemon-detection.md`
+- [ ] `T0425` · `PROC-085` — Test docker daemon detection — `tasks/backlog/T0425-test-docker-daemon-detection.md`
+- [ ] `T0426` · `PROC-086` — Document docker daemon detection — `tasks/backlog/T0426-document-docker-daemon-detection.md`
+- [ ] `T0427` · `PROC-087` — Integrate docker daemon detection — `tasks/backlog/T0427-integrate-docker-daemon-detection.md`
+- [ ] `T0428` · `PROC-088` — Harden docker daemon detection — `tasks/backlog/T0428-harden-docker-daemon-detection.md`
+- [ ] `T0429` · `PROC-089` — Observe docker daemon detection — `tasks/backlog/T0429-observe-docker-daemon-detection.md`
+- [ ] `T0430` · `PROC-090` — Review docker daemon detection — `tasks/backlog/T0430-review-docker-daemon-detection.md`

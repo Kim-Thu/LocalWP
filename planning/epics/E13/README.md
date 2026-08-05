@@ -1,64 +1,65 @@
-# E13 — Clone workflow
+# E13 — Blueprints
 
-Dải task: `T0991`–`T1050`.
+Mã UID: `BLUEPRINT`.
+Dải task: `T1071`–`T1130`.
 
-- [ ] `T0991` — Define clone request — `tasks/backlog/T0991-define-clone-request.md`
-- [ ] `T0992` — Validate clone request — `tasks/backlog/T0992-validate-clone-request.md`
-- [ ] `T0993` — Model clone request — `tasks/backlog/T0993-model-clone-request.md`
-- [ ] `T0994` — Implement clone request — `tasks/backlog/T0994-implement-clone-request.md`
-- [ ] `T0995` — Test clone request — `tasks/backlog/T0995-test-clone-request.md`
-- [ ] `T0996` — Document clone request — `tasks/backlog/T0996-document-clone-request.md`
-- [ ] `T0997` — Integrate clone request — `tasks/backlog/T0997-integrate-clone-request.md`
-- [ ] `T0998` — Harden clone request — `tasks/backlog/T0998-harden-clone-request.md`
-- [ ] `T0999` — Observe clone request — `tasks/backlog/T0999-observe-clone-request.md`
-- [ ] `T1000` — Review clone request — `tasks/backlog/T1000-review-clone-request.md`
-- [ ] `T1001` — Define source copy — `tasks/backlog/T1001-define-source-copy.md`
-- [ ] `T1002` — Validate source copy — `tasks/backlog/T1002-validate-source-copy.md`
-- [ ] `T1003` — Model source copy — `tasks/backlog/T1003-model-source-copy.md`
-- [ ] `T1004` — Implement source copy — `tasks/backlog/T1004-implement-source-copy.md`
-- [ ] `T1005` — Test source copy — `tasks/backlog/T1005-test-source-copy.md`
-- [ ] `T1006` — Document source copy — `tasks/backlog/T1006-document-source-copy.md`
-- [ ] `T1007` — Integrate source copy — `tasks/backlog/T1007-integrate-source-copy.md`
-- [ ] `T1008` — Harden source copy — `tasks/backlog/T1008-harden-source-copy.md`
-- [ ] `T1009` — Observe source copy — `tasks/backlog/T1009-observe-source-copy.md`
-- [ ] `T1010` — Review source copy — `tasks/backlog/T1010-review-source-copy.md`
-- [ ] `T1011` — Define database snapshot — `tasks/backlog/T1011-define-database-snapshot.md`
-- [ ] `T1012` — Validate database snapshot — `tasks/backlog/T1012-validate-database-snapshot.md`
-- [ ] `T1013` — Model database snapshot — `tasks/backlog/T1013-model-database-snapshot.md`
-- [ ] `T1014` — Implement database snapshot — `tasks/backlog/T1014-implement-database-snapshot.md`
-- [ ] `T1015` — Test database snapshot — `tasks/backlog/T1015-test-database-snapshot.md`
-- [ ] `T1016` — Document database snapshot — `tasks/backlog/T1016-document-database-snapshot.md`
-- [ ] `T1017` — Integrate database snapshot — `tasks/backlog/T1017-integrate-database-snapshot.md`
-- [ ] `T1018` — Harden database snapshot — `tasks/backlog/T1018-harden-database-snapshot.md`
-- [ ] `T1019` — Observe database snapshot — `tasks/backlog/T1019-observe-database-snapshot.md`
-- [ ] `T1020` — Review database snapshot — `tasks/backlog/T1020-review-database-snapshot.md`
-- [ ] `T1021` — Define new site identity — `tasks/backlog/T1021-define-new-site-identity.md`
-- [ ] `T1022` — Validate new site identity — `tasks/backlog/T1022-validate-new-site-identity.md`
-- [ ] `T1023` — Model new site identity — `tasks/backlog/T1023-model-new-site-identity.md`
-- [ ] `T1024` — Implement new site identity — `tasks/backlog/T1024-implement-new-site-identity.md`
-- [ ] `T1025` — Test new site identity — `tasks/backlog/T1025-test-new-site-identity.md`
-- [ ] `T1026` — Document new site identity — `tasks/backlog/T1026-document-new-site-identity.md`
-- [ ] `T1027` — Integrate new site identity — `tasks/backlog/T1027-integrate-new-site-identity.md`
-- [ ] `T1028` — Harden new site identity — `tasks/backlog/T1028-harden-new-site-identity.md`
-- [ ] `T1029` — Observe new site identity — `tasks/backlog/T1029-observe-new-site-identity.md`
-- [ ] `T1030` — Review new site identity — `tasks/backlog/T1030-review-new-site-identity.md`
-- [ ] `T1031` — Define new domain — `tasks/backlog/T1031-define-new-domain.md`
-- [ ] `T1032` — Validate new domain — `tasks/backlog/T1032-validate-new-domain.md`
-- [ ] `T1033` — Model new domain — `tasks/backlog/T1033-model-new-domain.md`
-- [ ] `T1034` — Implement new domain — `tasks/backlog/T1034-implement-new-domain.md`
-- [ ] `T1035` — Test new domain — `tasks/backlog/T1035-test-new-domain.md`
-- [ ] `T1036` — Document new domain — `tasks/backlog/T1036-document-new-domain.md`
-- [ ] `T1037` — Integrate new domain — `tasks/backlog/T1037-integrate-new-domain.md`
-- [ ] `T1038` — Harden new domain — `tasks/backlog/T1038-harden-new-domain.md`
-- [ ] `T1039` — Observe new domain — `tasks/backlog/T1039-observe-new-domain.md`
-- [ ] `T1040` — Review new domain — `tasks/backlog/T1040-review-new-domain.md`
-- [ ] `T1041` — Define new environment — `tasks/backlog/T1041-define-new-environment.md`
-- [ ] `T1042` — Validate new environment — `tasks/backlog/T1042-validate-new-environment.md`
-- [ ] `T1043` — Model new environment — `tasks/backlog/T1043-model-new-environment.md`
-- [ ] `T1044` — Implement new environment — `tasks/backlog/T1044-implement-new-environment.md`
-- [ ] `T1045` — Test new environment — `tasks/backlog/T1045-test-new-environment.md`
-- [ ] `T1046` — Document new environment — `tasks/backlog/T1046-document-new-environment.md`
-- [ ] `T1047` — Integrate new environment — `tasks/backlog/T1047-integrate-new-environment.md`
-- [ ] `T1048` — Harden new environment — `tasks/backlog/T1048-harden-new-environment.md`
-- [ ] `T1049` — Observe new environment — `tasks/backlog/T1049-observe-new-environment.md`
-- [ ] `T1050` — Review new environment — `tasks/backlog/T1050-review-new-environment.md`
+- [ ] `T1071` · `BLUEPRINT-001` — Define blueprint schema — `tasks/backlog/T1071-define-blueprint-schema.md`
+- [ ] `T1072` · `BLUEPRINT-002` — Validate blueprint schema — `tasks/backlog/T1072-validate-blueprint-schema.md`
+- [ ] `T1073` · `BLUEPRINT-003` — Model blueprint schema — `tasks/backlog/T1073-model-blueprint-schema.md`
+- [ ] `T1074` · `BLUEPRINT-004` — Implement blueprint schema — `tasks/backlog/T1074-implement-blueprint-schema.md`
+- [ ] `T1075` · `BLUEPRINT-005` — Test blueprint schema — `tasks/backlog/T1075-test-blueprint-schema.md`
+- [ ] `T1076` · `BLUEPRINT-006` — Document blueprint schema — `tasks/backlog/T1076-document-blueprint-schema.md`
+- [ ] `T1077` · `BLUEPRINT-007` — Integrate blueprint schema — `tasks/backlog/T1077-integrate-blueprint-schema.md`
+- [ ] `T1078` · `BLUEPRINT-008` — Harden blueprint schema — `tasks/backlog/T1078-harden-blueprint-schema.md`
+- [ ] `T1079` · `BLUEPRINT-009` — Observe blueprint schema — `tasks/backlog/T1079-observe-blueprint-schema.md`
+- [ ] `T1080` · `BLUEPRINT-010` — Review blueprint schema — `tasks/backlog/T1080-review-blueprint-schema.md`
+- [ ] `T1081` · `BLUEPRINT-011` — Define blueprint metadata — `tasks/backlog/T1081-define-blueprint-metadata.md`
+- [ ] `T1082` · `BLUEPRINT-012` — Validate blueprint metadata — `tasks/backlog/T1082-validate-blueprint-metadata.md`
+- [ ] `T1083` · `BLUEPRINT-013` — Model blueprint metadata — `tasks/backlog/T1083-model-blueprint-metadata.md`
+- [ ] `T1084` · `BLUEPRINT-014` — Implement blueprint metadata — `tasks/backlog/T1084-implement-blueprint-metadata.md`
+- [ ] `T1085` · `BLUEPRINT-015` — Test blueprint metadata — `tasks/backlog/T1085-test-blueprint-metadata.md`
+- [ ] `T1086` · `BLUEPRINT-016` — Document blueprint metadata — `tasks/backlog/T1086-document-blueprint-metadata.md`
+- [ ] `T1087` · `BLUEPRINT-017` — Integrate blueprint metadata — `tasks/backlog/T1087-integrate-blueprint-metadata.md`
+- [ ] `T1088` · `BLUEPRINT-018` — Harden blueprint metadata — `tasks/backlog/T1088-harden-blueprint-metadata.md`
+- [ ] `T1089` · `BLUEPRINT-019` — Observe blueprint metadata — `tasks/backlog/T1089-observe-blueprint-metadata.md`
+- [ ] `T1090` · `BLUEPRINT-020` — Review blueprint metadata — `tasks/backlog/T1090-review-blueprint-metadata.md`
+- [ ] `T1091` · `BLUEPRINT-021` — Define config blueprint — `tasks/backlog/T1091-define-config-blueprint.md`
+- [ ] `T1092` · `BLUEPRINT-022` — Validate config blueprint — `tasks/backlog/T1092-validate-config-blueprint.md`
+- [ ] `T1093` · `BLUEPRINT-023` — Model config blueprint — `tasks/backlog/T1093-model-config-blueprint.md`
+- [ ] `T1094` · `BLUEPRINT-024` — Implement config blueprint — `tasks/backlog/T1094-implement-config-blueprint.md`
+- [ ] `T1095` · `BLUEPRINT-025` — Test config blueprint — `tasks/backlog/T1095-test-config-blueprint.md`
+- [ ] `T1096` · `BLUEPRINT-026` — Document config blueprint — `tasks/backlog/T1096-document-config-blueprint.md`
+- [ ] `T1097` · `BLUEPRINT-027` — Integrate config blueprint — `tasks/backlog/T1097-integrate-config-blueprint.md`
+- [ ] `T1098` · `BLUEPRINT-028` — Harden config blueprint — `tasks/backlog/T1098-harden-config-blueprint.md`
+- [ ] `T1099` · `BLUEPRINT-029` — Observe config blueprint — `tasks/backlog/T1099-observe-config-blueprint.md`
+- [ ] `T1100` · `BLUEPRINT-030` — Review config blueprint — `tasks/backlog/T1100-review-config-blueprint.md`
+- [ ] `T1101` · `BLUEPRINT-031` — Define full blueprint — `tasks/backlog/T1101-define-full-blueprint.md`
+- [ ] `T1102` · `BLUEPRINT-032` — Validate full blueprint — `tasks/backlog/T1102-validate-full-blueprint.md`
+- [ ] `T1103` · `BLUEPRINT-033` — Model full blueprint — `tasks/backlog/T1103-model-full-blueprint.md`
+- [ ] `T1104` · `BLUEPRINT-034` — Implement full blueprint — `tasks/backlog/T1104-implement-full-blueprint.md`
+- [ ] `T1105` · `BLUEPRINT-035` — Test full blueprint — `tasks/backlog/T1105-test-full-blueprint.md`
+- [ ] `T1106` · `BLUEPRINT-036` — Document full blueprint — `tasks/backlog/T1106-document-full-blueprint.md`
+- [ ] `T1107` · `BLUEPRINT-037` — Integrate full blueprint — `tasks/backlog/T1107-integrate-full-blueprint.md`
+- [ ] `T1108` · `BLUEPRINT-038` — Harden full blueprint — `tasks/backlog/T1108-harden-full-blueprint.md`
+- [ ] `T1109` · `BLUEPRINT-039` — Observe full blueprint — `tasks/backlog/T1109-observe-full-blueprint.md`
+- [ ] `T1110` · `BLUEPRINT-040` — Review full blueprint — `tasks/backlog/T1110-review-full-blueprint.md`
+- [ ] `T1111` · `BLUEPRINT-041` — Define plugin manifest — `tasks/backlog/T1111-define-plugin-manifest.md`
+- [ ] `T1112` · `BLUEPRINT-042` — Validate plugin manifest — `tasks/backlog/T1112-validate-plugin-manifest.md`
+- [ ] `T1113` · `BLUEPRINT-043` — Model plugin manifest — `tasks/backlog/T1113-model-plugin-manifest.md`
+- [ ] `T1114` · `BLUEPRINT-044` — Implement plugin manifest — `tasks/backlog/T1114-implement-plugin-manifest.md`
+- [ ] `T1115` · `BLUEPRINT-045` — Test plugin manifest — `tasks/backlog/T1115-test-plugin-manifest.md`
+- [ ] `T1116` · `BLUEPRINT-046` — Document plugin manifest — `tasks/backlog/T1116-document-plugin-manifest.md`
+- [ ] `T1117` · `BLUEPRINT-047` — Integrate plugin manifest — `tasks/backlog/T1117-integrate-plugin-manifest.md`
+- [ ] `T1118` · `BLUEPRINT-048` — Harden plugin manifest — `tasks/backlog/T1118-harden-plugin-manifest.md`
+- [ ] `T1119` · `BLUEPRINT-049` — Observe plugin manifest — `tasks/backlog/T1119-observe-plugin-manifest.md`
+- [ ] `T1120` · `BLUEPRINT-050` — Review plugin manifest — `tasks/backlog/T1120-review-plugin-manifest.md`
+- [ ] `T1121` · `BLUEPRINT-051` — Define theme manifest — `tasks/backlog/T1121-define-theme-manifest.md`
+- [ ] `T1122` · `BLUEPRINT-052` — Validate theme manifest — `tasks/backlog/T1122-validate-theme-manifest.md`
+- [ ] `T1123` · `BLUEPRINT-053` — Model theme manifest — `tasks/backlog/T1123-model-theme-manifest.md`
+- [ ] `T1124` · `BLUEPRINT-054` — Implement theme manifest — `tasks/backlog/T1124-implement-theme-manifest.md`
+- [ ] `T1125` · `BLUEPRINT-055` — Test theme manifest — `tasks/backlog/T1125-test-theme-manifest.md`
+- [ ] `T1126` · `BLUEPRINT-056` — Document theme manifest — `tasks/backlog/T1126-document-theme-manifest.md`
+- [ ] `T1127` · `BLUEPRINT-057` — Integrate theme manifest — `tasks/backlog/T1127-integrate-theme-manifest.md`
+- [ ] `T1128` · `BLUEPRINT-058` — Harden theme manifest — `tasks/backlog/T1128-harden-theme-manifest.md`
+- [ ] `T1129` · `BLUEPRINT-059` — Observe theme manifest — `tasks/backlog/T1129-observe-theme-manifest.md`
+- [ ] `T1130` · `BLUEPRINT-060` — Review theme manifest — `tasks/backlog/T1130-review-theme-manifest.md`

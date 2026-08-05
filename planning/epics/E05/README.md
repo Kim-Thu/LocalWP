@@ -1,94 +1,105 @@
-# E05 — Process runner and Docker diagnostics
+# E05 — Compose and Config Generation
 
-Dải task: `T0321`–`T0410`.
+Mã UID: `COMPOSE`.
+Dải task: `T0431`–`T0530`.
 
-- [ ] `T0321` — Define process request — `tasks/backlog/T0321-define-process-request.md`
-- [ ] `T0322` — Validate process request — `tasks/backlog/T0322-validate-process-request.md`
-- [ ] `T0323` — Model process request — `tasks/backlog/T0323-model-process-request.md`
-- [ ] `T0324` — Implement process request — `tasks/backlog/T0324-implement-process-request.md`
-- [ ] `T0325` — Test process request — `tasks/backlog/T0325-test-process-request.md`
-- [ ] `T0326` — Document process request — `tasks/backlog/T0326-document-process-request.md`
-- [ ] `T0327` — Integrate process request — `tasks/backlog/T0327-integrate-process-request.md`
-- [ ] `T0328` — Harden process request — `tasks/backlog/T0328-harden-process-request.md`
-- [ ] `T0329` — Observe process request — `tasks/backlog/T0329-observe-process-request.md`
-- [ ] `T0330` — Review process request — `tasks/backlog/T0330-review-process-request.md`
-- [ ] `T0331` — Define argument escaping — `tasks/backlog/T0331-define-argument-escaping.md`
-- [ ] `T0332` — Validate argument escaping — `tasks/backlog/T0332-validate-argument-escaping.md`
-- [ ] `T0333` — Model argument escaping — `tasks/backlog/T0333-model-argument-escaping.md`
-- [ ] `T0334` — Implement argument escaping — `tasks/backlog/T0334-implement-argument-escaping.md`
-- [ ] `T0335` — Test argument escaping — `tasks/backlog/T0335-test-argument-escaping.md`
-- [ ] `T0336` — Document argument escaping — `tasks/backlog/T0336-document-argument-escaping.md`
-- [ ] `T0337` — Integrate argument escaping — `tasks/backlog/T0337-integrate-argument-escaping.md`
-- [ ] `T0338` — Harden argument escaping — `tasks/backlog/T0338-harden-argument-escaping.md`
-- [ ] `T0339` — Observe argument escaping — `tasks/backlog/T0339-observe-argument-escaping.md`
-- [ ] `T0340` — Review argument escaping — `tasks/backlog/T0340-review-argument-escaping.md`
-- [ ] `T0341` — Define stdout streaming — `tasks/backlog/T0341-define-stdout-streaming.md`
-- [ ] `T0342` — Validate stdout streaming — `tasks/backlog/T0342-validate-stdout-streaming.md`
-- [ ] `T0343` — Model stdout streaming — `tasks/backlog/T0343-model-stdout-streaming.md`
-- [ ] `T0344` — Implement stdout streaming — `tasks/backlog/T0344-implement-stdout-streaming.md`
-- [ ] `T0345` — Test stdout streaming — `tasks/backlog/T0345-test-stdout-streaming.md`
-- [ ] `T0346` — Document stdout streaming — `tasks/backlog/T0346-document-stdout-streaming.md`
-- [ ] `T0347` — Integrate stdout streaming — `tasks/backlog/T0347-integrate-stdout-streaming.md`
-- [ ] `T0348` — Harden stdout streaming — `tasks/backlog/T0348-harden-stdout-streaming.md`
-- [ ] `T0349` — Observe stdout streaming — `tasks/backlog/T0349-observe-stdout-streaming.md`
-- [ ] `T0350` — Review stdout streaming — `tasks/backlog/T0350-review-stdout-streaming.md`
-- [ ] `T0351` — Define stderr streaming — `tasks/backlog/T0351-define-stderr-streaming.md`
-- [ ] `T0352` — Validate stderr streaming — `tasks/backlog/T0352-validate-stderr-streaming.md`
-- [ ] `T0353` — Model stderr streaming — `tasks/backlog/T0353-model-stderr-streaming.md`
-- [ ] `T0354` — Implement stderr streaming — `tasks/backlog/T0354-implement-stderr-streaming.md`
-- [ ] `T0355` — Test stderr streaming — `tasks/backlog/T0355-test-stderr-streaming.md`
-- [ ] `T0356` — Document stderr streaming — `tasks/backlog/T0356-document-stderr-streaming.md`
-- [ ] `T0357` — Integrate stderr streaming — `tasks/backlog/T0357-integrate-stderr-streaming.md`
-- [ ] `T0358` — Harden stderr streaming — `tasks/backlog/T0358-harden-stderr-streaming.md`
-- [ ] `T0359` — Observe stderr streaming — `tasks/backlog/T0359-observe-stderr-streaming.md`
-- [ ] `T0360` — Review stderr streaming — `tasks/backlog/T0360-review-stderr-streaming.md`
-- [ ] `T0361` — Define cancellation — `tasks/backlog/T0361-define-cancellation.md`
-- [ ] `T0362` — Validate cancellation — `tasks/backlog/T0362-validate-cancellation.md`
-- [ ] `T0363` — Model cancellation — `tasks/backlog/T0363-model-cancellation.md`
-- [ ] `T0364` — Implement cancellation — `tasks/backlog/T0364-implement-cancellation.md`
-- [ ] `T0365` — Test cancellation — `tasks/backlog/T0365-test-cancellation.md`
-- [ ] `T0366` — Document cancellation — `tasks/backlog/T0366-document-cancellation.md`
-- [ ] `T0367` — Integrate cancellation — `tasks/backlog/T0367-integrate-cancellation.md`
-- [ ] `T0368` — Harden cancellation — `tasks/backlog/T0368-harden-cancellation.md`
-- [ ] `T0369` — Observe cancellation — `tasks/backlog/T0369-observe-cancellation.md`
-- [ ] `T0370` — Review cancellation — `tasks/backlog/T0370-review-cancellation.md`
-- [ ] `T0371` — Define timeout — `tasks/backlog/T0371-define-timeout.md`
-- [ ] `T0372` — Validate timeout — `tasks/backlog/T0372-validate-timeout.md`
-- [ ] `T0373` — Model timeout — `tasks/backlog/T0373-model-timeout.md`
-- [ ] `T0374` — Implement timeout — `tasks/backlog/T0374-implement-timeout.md`
-- [ ] `T0375` — Test timeout — `tasks/backlog/T0375-test-timeout.md`
-- [ ] `T0376` — Document timeout — `tasks/backlog/T0376-document-timeout.md`
-- [ ] `T0377` — Integrate timeout — `tasks/backlog/T0377-integrate-timeout.md`
-- [ ] `T0378` — Harden timeout — `tasks/backlog/T0378-harden-timeout.md`
-- [ ] `T0379` — Observe timeout — `tasks/backlog/T0379-observe-timeout.md`
-- [ ] `T0380` — Review timeout — `tasks/backlog/T0380-review-timeout.md`
-- [ ] `T0381` — Define secret redaction — `tasks/backlog/T0381-define-secret-redaction.md`
-- [ ] `T0382` — Validate secret redaction — `tasks/backlog/T0382-validate-secret-redaction.md`
-- [ ] `T0383` — Model secret redaction — `tasks/backlog/T0383-model-secret-redaction.md`
-- [ ] `T0384` — Implement secret redaction — `tasks/backlog/T0384-implement-secret-redaction.md`
-- [ ] `T0385` — Test secret redaction — `tasks/backlog/T0385-test-secret-redaction.md`
-- [ ] `T0386` — Document secret redaction — `tasks/backlog/T0386-document-secret-redaction.md`
-- [ ] `T0387` — Integrate secret redaction — `tasks/backlog/T0387-integrate-secret-redaction.md`
-- [ ] `T0388` — Harden secret redaction — `tasks/backlog/T0388-harden-secret-redaction.md`
-- [ ] `T0389` — Observe secret redaction — `tasks/backlog/T0389-observe-secret-redaction.md`
-- [ ] `T0390` — Review secret redaction — `tasks/backlog/T0390-review-secret-redaction.md`
-- [ ] `T0391` — Define docker cli detection — `tasks/backlog/T0391-define-docker-cli-detection.md`
-- [ ] `T0392` — Validate docker cli detection — `tasks/backlog/T0392-validate-docker-cli-detection.md`
-- [ ] `T0393` — Model docker cli detection — `tasks/backlog/T0393-model-docker-cli-detection.md`
-- [ ] `T0394` — Implement docker cli detection — `tasks/backlog/T0394-implement-docker-cli-detection.md`
-- [ ] `T0395` — Test docker cli detection — `tasks/backlog/T0395-test-docker-cli-detection.md`
-- [ ] `T0396` — Document docker cli detection — `tasks/backlog/T0396-document-docker-cli-detection.md`
-- [ ] `T0397` — Integrate docker cli detection — `tasks/backlog/T0397-integrate-docker-cli-detection.md`
-- [ ] `T0398` — Harden docker cli detection — `tasks/backlog/T0398-harden-docker-cli-detection.md`
-- [ ] `T0399` — Observe docker cli detection — `tasks/backlog/T0399-observe-docker-cli-detection.md`
-- [ ] `T0400` — Review docker cli detection — `tasks/backlog/T0400-review-docker-cli-detection.md`
-- [ ] `T0401` — Define docker daemon detection — `tasks/backlog/T0401-define-docker-daemon-detection.md`
-- [ ] `T0402` — Validate docker daemon detection — `tasks/backlog/T0402-validate-docker-daemon-detection.md`
-- [ ] `T0403` — Model docker daemon detection — `tasks/backlog/T0403-model-docker-daemon-detection.md`
-- [ ] `T0404` — Implement docker daemon detection — `tasks/backlog/T0404-implement-docker-daemon-detection.md`
-- [ ] `T0405` — Test docker daemon detection — `tasks/backlog/T0405-test-docker-daemon-detection.md`
-- [ ] `T0406` — Document docker daemon detection — `tasks/backlog/T0406-document-docker-daemon-detection.md`
-- [ ] `T0407` — Integrate docker daemon detection — `tasks/backlog/T0407-integrate-docker-daemon-detection.md`
-- [ ] `T0408` — Harden docker daemon detection — `tasks/backlog/T0408-harden-docker-daemon-detection.md`
-- [ ] `T0409` — Observe docker daemon detection — `tasks/backlog/T0409-observe-docker-daemon-detection.md`
-- [ ] `T0410` — Review docker daemon detection — `tasks/backlog/T0410-review-docker-daemon-detection.md`
+- [ ] `T0431` · `COMPOSE-001` — Define compose model — `tasks/backlog/T0431-define-compose-model.md`
+- [ ] `T0432` · `COMPOSE-002` — Validate compose model — `tasks/backlog/T0432-validate-compose-model.md`
+- [ ] `T0433` · `COMPOSE-003` — Model compose model — `tasks/backlog/T0433-model-compose-model.md`
+- [ ] `T0434` · `COMPOSE-004` — Implement compose model — `tasks/backlog/T0434-implement-compose-model.md`
+- [ ] `T0435` · `COMPOSE-005` — Test compose model — `tasks/backlog/T0435-test-compose-model.md`
+- [ ] `T0436` · `COMPOSE-006` — Document compose model — `tasks/backlog/T0436-document-compose-model.md`
+- [ ] `T0437` · `COMPOSE-007` — Integrate compose model — `tasks/backlog/T0437-integrate-compose-model.md`
+- [ ] `T0438` · `COMPOSE-008` — Harden compose model — `tasks/backlog/T0438-harden-compose-model.md`
+- [ ] `T0439` · `COMPOSE-009` — Observe compose model — `tasks/backlog/T0439-observe-compose-model.md`
+- [ ] `T0440` · `COMPOSE-010` — Review compose model — `tasks/backlog/T0440-review-compose-model.md`
+- [ ] `T0441` · `COMPOSE-011` — Define image catalog — `tasks/backlog/T0441-define-image-catalog.md`
+- [ ] `T0442` · `COMPOSE-012` — Validate image catalog — `tasks/backlog/T0442-validate-image-catalog.md`
+- [ ] `T0443` · `COMPOSE-013` — Model image catalog — `tasks/backlog/T0443-model-image-catalog.md`
+- [ ] `T0444` · `COMPOSE-014` — Implement image catalog — `tasks/backlog/T0444-implement-image-catalog.md`
+- [ ] `T0445` · `COMPOSE-015` — Test image catalog — `tasks/backlog/T0445-test-image-catalog.md`
+- [ ] `T0446` · `COMPOSE-016` — Document image catalog — `tasks/backlog/T0446-document-image-catalog.md`
+- [ ] `T0447` · `COMPOSE-017` — Integrate image catalog — `tasks/backlog/T0447-integrate-image-catalog.md`
+- [ ] `T0448` · `COMPOSE-018` — Harden image catalog — `tasks/backlog/T0448-harden-image-catalog.md`
+- [ ] `T0449` · `COMPOSE-019` — Observe image catalog — `tasks/backlog/T0449-observe-image-catalog.md`
+- [ ] `T0450` · `COMPOSE-020` — Review image catalog — `tasks/backlog/T0450-review-image-catalog.md`
+- [ ] `T0451` · `COMPOSE-021` — Define service naming — `tasks/backlog/T0451-define-service-naming.md`
+- [ ] `T0452` · `COMPOSE-022` — Validate service naming — `tasks/backlog/T0452-validate-service-naming.md`
+- [ ] `T0453` · `COMPOSE-023` — Model service naming — `tasks/backlog/T0453-model-service-naming.md`
+- [ ] `T0454` · `COMPOSE-024` — Implement service naming — `tasks/backlog/T0454-implement-service-naming.md`
+- [ ] `T0455` · `COMPOSE-025` — Test service naming — `tasks/backlog/T0455-test-service-naming.md`
+- [ ] `T0456` · `COMPOSE-026` — Document service naming — `tasks/backlog/T0456-document-service-naming.md`
+- [ ] `T0457` · `COMPOSE-027` — Integrate service naming — `tasks/backlog/T0457-integrate-service-naming.md`
+- [ ] `T0458` · `COMPOSE-028` — Harden service naming — `tasks/backlog/T0458-harden-service-naming.md`
+- [ ] `T0459` · `COMPOSE-029` — Observe service naming — `tasks/backlog/T0459-observe-service-naming.md`
+- [ ] `T0460` · `COMPOSE-030` — Review service naming — `tasks/backlog/T0460-review-service-naming.md`
+- [ ] `T0461` · `COMPOSE-031` — Define network naming — `tasks/backlog/T0461-define-network-naming.md`
+- [ ] `T0462` · `COMPOSE-032` — Validate network naming — `tasks/backlog/T0462-validate-network-naming.md`
+- [ ] `T0463` · `COMPOSE-033` — Model network naming — `tasks/backlog/T0463-model-network-naming.md`
+- [ ] `T0464` · `COMPOSE-034` — Implement network naming — `tasks/backlog/T0464-implement-network-naming.md`
+- [ ] `T0465` · `COMPOSE-035` — Test network naming — `tasks/backlog/T0465-test-network-naming.md`
+- [ ] `T0466` · `COMPOSE-036` — Document network naming — `tasks/backlog/T0466-document-network-naming.md`
+- [ ] `T0467` · `COMPOSE-037` — Integrate network naming — `tasks/backlog/T0467-integrate-network-naming.md`
+- [ ] `T0468` · `COMPOSE-038` — Harden network naming — `tasks/backlog/T0468-harden-network-naming.md`
+- [ ] `T0469` · `COMPOSE-039` — Observe network naming — `tasks/backlog/T0469-observe-network-naming.md`
+- [ ] `T0470` · `COMPOSE-040` — Review network naming — `tasks/backlog/T0470-review-network-naming.md`
+- [ ] `T0471` · `COMPOSE-041` — Define volume naming — `tasks/backlog/T0471-define-volume-naming.md`
+- [ ] `T0472` · `COMPOSE-042` — Validate volume naming — `tasks/backlog/T0472-validate-volume-naming.md`
+- [ ] `T0473` · `COMPOSE-043` — Model volume naming — `tasks/backlog/T0473-model-volume-naming.md`
+- [ ] `T0474` · `COMPOSE-044` — Implement volume naming — `tasks/backlog/T0474-implement-volume-naming.md`
+- [ ] `T0475` · `COMPOSE-045` — Test volume naming — `tasks/backlog/T0475-test-volume-naming.md`
+- [ ] `T0476` · `COMPOSE-046` — Document volume naming — `tasks/backlog/T0476-document-volume-naming.md`
+- [ ] `T0477` · `COMPOSE-047` — Integrate volume naming — `tasks/backlog/T0477-integrate-volume-naming.md`
+- [ ] `T0478` · `COMPOSE-048` — Harden volume naming — `tasks/backlog/T0478-harden-volume-naming.md`
+- [ ] `T0479` · `COMPOSE-049` — Observe volume naming — `tasks/backlog/T0479-observe-volume-naming.md`
+- [ ] `T0480` · `COMPOSE-050` — Review volume naming — `tasks/backlog/T0480-review-volume-naming.md`
+- [ ] `T0481` · `COMPOSE-051` — Define nginx config — `tasks/backlog/T0481-define-nginx-config.md`
+- [ ] `T0482` · `COMPOSE-052` — Validate nginx config — `tasks/backlog/T0482-validate-nginx-config.md`
+- [ ] `T0483` · `COMPOSE-053` — Model nginx config — `tasks/backlog/T0483-model-nginx-config.md`
+- [ ] `T0484` · `COMPOSE-054` — Implement nginx config — `tasks/backlog/T0484-implement-nginx-config.md`
+- [ ] `T0485` · `COMPOSE-055` — Test nginx config — `tasks/backlog/T0485-test-nginx-config.md`
+- [ ] `T0486` · `COMPOSE-056` — Document nginx config — `tasks/backlog/T0486-document-nginx-config.md`
+- [ ] `T0487` · `COMPOSE-057` — Integrate nginx config — `tasks/backlog/T0487-integrate-nginx-config.md`
+- [ ] `T0488` · `COMPOSE-058` — Harden nginx config — `tasks/backlog/T0488-harden-nginx-config.md`
+- [ ] `T0489` · `COMPOSE-059` — Observe nginx config — `tasks/backlog/T0489-observe-nginx-config.md`
+- [ ] `T0490` · `COMPOSE-060` — Review nginx config — `tasks/backlog/T0490-review-nginx-config.md`
+- [ ] `T0491` · `COMPOSE-061` — Define php config — `tasks/backlog/T0491-define-php-config.md`
+- [ ] `T0492` · `COMPOSE-062` — Validate php config — `tasks/backlog/T0492-validate-php-config.md`
+- [ ] `T0493` · `COMPOSE-063` — Model php config — `tasks/backlog/T0493-model-php-config.md`
+- [ ] `T0494` · `COMPOSE-064` — Implement php config — `tasks/backlog/T0494-implement-php-config.md`
+- [ ] `T0495` · `COMPOSE-065` — Test php config — `tasks/backlog/T0495-test-php-config.md`
+- [ ] `T0496` · `COMPOSE-066` — Document php config — `tasks/backlog/T0496-document-php-config.md`
+- [ ] `T0497` · `COMPOSE-067` — Integrate php config — `tasks/backlog/T0497-integrate-php-config.md`
+- [ ] `T0498` · `COMPOSE-068` — Harden php config — `tasks/backlog/T0498-harden-php-config.md`
+- [ ] `T0499` · `COMPOSE-069` — Observe php config — `tasks/backlog/T0499-observe-php-config.md`
+- [ ] `T0500` · `COMPOSE-070` — Review php config — `tasks/backlog/T0500-review-php-config.md`
+- [ ] `T0501` · `COMPOSE-071` — Define database config — `tasks/backlog/T0501-define-database-config.md`
+- [ ] `T0502` · `COMPOSE-072` — Validate database config — `tasks/backlog/T0502-validate-database-config.md`
+- [ ] `T0503` · `COMPOSE-073` — Model database config — `tasks/backlog/T0503-model-database-config.md`
+- [ ] `T0504` · `COMPOSE-074` — Implement database config — `tasks/backlog/T0504-implement-database-config.md`
+- [ ] `T0505` · `COMPOSE-075` — Test database config — `tasks/backlog/T0505-test-database-config.md`
+- [ ] `T0506` · `COMPOSE-076` — Document database config — `tasks/backlog/T0506-document-database-config.md`
+- [ ] `T0507` · `COMPOSE-077` — Integrate database config — `tasks/backlog/T0507-integrate-database-config.md`
+- [ ] `T0508` · `COMPOSE-078` — Harden database config — `tasks/backlog/T0508-harden-database-config.md`
+- [ ] `T0509` · `COMPOSE-079` — Observe database config — `tasks/backlog/T0509-observe-database-config.md`
+- [ ] `T0510` · `COMPOSE-080` — Review database config — `tasks/backlog/T0510-review-database-config.md`
+- [ ] `T0511` · `COMPOSE-081` — Define health checks — `tasks/backlog/T0511-define-health-checks.md`
+- [ ] `T0512` · `COMPOSE-082` — Validate health checks — `tasks/backlog/T0512-validate-health-checks.md`
+- [ ] `T0513` · `COMPOSE-083` — Model health checks — `tasks/backlog/T0513-model-health-checks.md`
+- [ ] `T0514` · `COMPOSE-084` — Implement health checks — `tasks/backlog/T0514-implement-health-checks.md`
+- [ ] `T0515` · `COMPOSE-085` — Test health checks — `tasks/backlog/T0515-test-health-checks.md`
+- [ ] `T0516` · `COMPOSE-086` — Document health checks — `tasks/backlog/T0516-document-health-checks.md`
+- [ ] `T0517` · `COMPOSE-087` — Integrate health checks — `tasks/backlog/T0517-integrate-health-checks.md`
+- [ ] `T0518` · `COMPOSE-088` — Harden health checks — `tasks/backlog/T0518-harden-health-checks.md`
+- [ ] `T0519` · `COMPOSE-089` — Observe health checks — `tasks/backlog/T0519-observe-health-checks.md`
+- [ ] `T0520` · `COMPOSE-090` — Review health checks — `tasks/backlog/T0520-review-health-checks.md`
+- [ ] `T0521` · `COMPOSE-091` — Define config snapshots — `tasks/backlog/T0521-define-config-snapshots.md`
+- [ ] `T0522` · `COMPOSE-092` — Validate config snapshots — `tasks/backlog/T0522-validate-config-snapshots.md`
+- [ ] `T0523` · `COMPOSE-093` — Model config snapshots — `tasks/backlog/T0523-model-config-snapshots.md`
+- [ ] `T0524` · `COMPOSE-094` — Implement config snapshots — `tasks/backlog/T0524-implement-config-snapshots.md`
+- [ ] `T0525` · `COMPOSE-095` — Test config snapshots — `tasks/backlog/T0525-test-config-snapshots.md`
+- [ ] `T0526` · `COMPOSE-096` — Document config snapshots — `tasks/backlog/T0526-document-config-snapshots.md`
+- [ ] `T0527` · `COMPOSE-097` — Integrate config snapshots — `tasks/backlog/T0527-integrate-config-snapshots.md`
+- [ ] `T0528` · `COMPOSE-098` — Harden config snapshots — `tasks/backlog/T0528-harden-config-snapshots.md`
+- [ ] `T0529` · `COMPOSE-099` — Observe config snapshots — `tasks/backlog/T0529-observe-config-snapshots.md`
+- [ ] `T0530` · `COMPOSE-100` — Review config snapshots — `tasks/backlog/T0530-review-config-snapshots.md`

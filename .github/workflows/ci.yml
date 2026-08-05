@@ -26,11 +26,25 @@ jobs:
   docs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Check required governance files
         shell: bash
         run: |
-          required=(AGENTS.md CONTRIBUTING.md SECURITY.md docs/BRD.md docs/SRS.md docs/PLAN.md docs/BACKLOG.md docs/CODING_STANDARDS.md tasks/README.md tasks/TEMPLATE.md)
+          required=(
+            AGENTS.md
+            CONTRIBUTING.md
+            SECURITY.md
+            MASTER_TASK_PLAN.md
+            docs/BRD.md
+            docs/SRS.md
+            docs/PLAN.md
+            docs/BACKLOG.md
+            docs/CODING_STANDARDS.md
+            docs/DEVELOPMENT_RULES.md
+            docs/IMPLEMENTATION_SLICES.md
+            tasks/README.md
+            tasks/TASK_TEMPLATE.md
+          )
           for file in "${required[@]}"; do
             test -s "$file" || { echo "Missing or empty: $file"; exit 1; }
           done
@@ -38,7 +52,7 @@ jobs:
   dotnet:
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8.0.x
@@ -51,13 +65,13 @@ jobs:
             dotnet build LocalWP.sln --configuration Release --no-restore
             dotnet test LocalWP.sln --configuration Release --no-build --logger "trx;LogFileName=test-results.trx"
           } else {
-            Write-Host "Solution is not created yet; T-0001 will enable .NET validation."
+            Write-Host "Solution is not created yet; the solution-foundation tasks will enable .NET validation."
           }
 
   docker-config:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Validate Docker Compose files
         run: |
           if [ -f docker/compose.dev.yml ]; then

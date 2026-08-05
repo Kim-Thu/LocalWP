@@ -1,0 +1,65 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  branch-name:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate branch name
+        env:
+          BRANCH: ${{ github.head_ref }}
+        run: |
+          echo "$BRANCH" | grep -Eq '^(feat|fix|refactor|test|docs|ci|maint|security)/[a-z0-9][a-z0-9-]*-[0-9]{8}-[0-9]{4}$'
+
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check required governance files
+        shell: bash
+        run: |
+          required=(AGENTS.md CONTRIBUTING.md SECURITY.md docs/BRD.md docs/SRS.md docs/PLAN.md docs/BACKLOG.md docs/CODING_STANDARDS.md tasks/README.md tasks/TEMPLATE.md)
+          for file in "${required[@]}"; do
+            test -s "$file" || { echo "Missing or empty: $file"; exit 1; }
+          done
+
+  dotnet:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Restore, format, build and test when solution exists
+        shell: pwsh
+        run: |
+          if (Test-Path LocalWP.sln) {
+            dotnet restore LocalWP.sln
+            dotnet format LocalWP.sln --verify-no-changes --no-restore
+            dotnet build LocalWP.sln --configuration Release --no-restore
+            dotnet test LocalWP.sln --configuration Release --no-build --logger "trx;LogFileName=test-results.trx"
+          } else {
+            Write-Host "Solution is not created yet; T-0001 will enable .NET validation."
+          }
+
+  docker-config:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate Docker Compose files
+        run: |
+          if [ -f docker/compose.dev.yml ]; then
+            docker compose -f docker/compose.dev.yml config
+          fi

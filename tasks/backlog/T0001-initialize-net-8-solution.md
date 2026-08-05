@@ -1,69 +1,60 @@
-# T0001 — Initialize .net 8 solution
+# T0001 — Initialize .NET 8 solution
 
 ## UID bất biến
 `BOOT-001`
 
 ## Trạng thái
-`backlog`
+`review`
 
 ## Epic
 `E00 — Repository Bootstrap and Engineering Foundation`
 
 ## Dependency bắt buộc
-- `Repository bootstrap` phải hoàn thành và merge.
+- `Repository bootstrap` đã hoàn thành và merge.
 
 ## Branch bắt buộc
-`feat/initialize-net-8-solution-yyyyMMdd-HHmm`
+`feat/initialize-net-8-solution-20260806-0632`
 
 ## Mục tiêu
-Hoàn thành duy nhất phần **initialize .NET 8 solution** theo BRD, SRS và kiến trúc hiện hành.
+Khởi tạo solution `.NET 8` tối thiểu làm điểm gốc cho các project của LocalWP.
 
 ## Phạm vi
-- Thực hiện thay đổi nhỏ nhất đủ đạt mục tiêu.
-- Chỉ sửa file trực tiếp cần thiết.
-- Cập nhật test và tài liệu khi hành vi thay đổi.
+- Tạo `LocalWP.sln`.
+- Khai báo cấu hình `Debug` và `Release` cho `Any CPU`.
+- Giữ solution chưa chứa project để task sau thêm từng project độc lập.
 
 ## Ngoài phạm vi
-- Không làm nội dung task kế tiếp.
-- Không đổi kiến trúc hoặc package chính nếu chưa có ADR.
-- Không refactor ngoài phạm vi.
+- Không tạo project.
+- Không thêm package.
+- Không thêm `global.json`, `Directory.Build.props` hoặc `Directory.Packages.props`.
+- Không làm nội dung `T0002`.
 
 ## Yêu cầu triển khai
-- Tuân thủ `AGENTS.md` và `docs/DEVELOPMENT_RULES.md`.
-- UI không gọi trực tiếp Infrastructure.
-- I/O và process phải async, có cancellation hoặc timeout khi phù hợp.
-- Error phải có ngữ cảnh; log có cấu trúc và không chứa secret.
-- Thay đổi dữ liệu rủi ro phải có backup hoặc rollback.
+- Solution phải đọc được bởi Visual Studio 2022 và .NET CLI.
+- File phải ổn định, không chứa đường dẫn máy cục bộ.
+- Không thêm cấu hình ngoài phạm vi.
 
 ## Yêu cầu bảo mật
-- Validate input tại boundary.
-- Không ghép shell command từ input thô.
-- Không ghi password, token, key hoặc connection secret vào log.
-- Chặn path traversal và archive traversal khi xử lý file.
-- Chỉ yêu cầu quyền nâng cao cho thao tác bắt buộc.
+- Không thêm secret hoặc credential.
+- Không thêm script tải executable.
+- Không thêm đường dẫn tuyệt đối từ máy phát triển.
 
 ## Acceptance criteria
-- [ ] Mục tiêu hoạt động và quan sát được.
-- [ ] Không mở rộng ngoài phạm vi.
-- [ ] Build không có warning mới.
-- [ ] Test phù hợp đã thêm hoặc cập nhật.
-- [ ] CI, security scan và format xanh.
+- [x] Có file `LocalWP.sln` tại root repository.
+- [x] Solution có cấu hình `Debug|Any CPU` và `Release|Any CPU`.
+- [x] Solution chưa chứa project.
+- [x] Không mở rộng ngoài phạm vi.
+- [ ] CI và security scan xanh.
 
 ## Kiểm tra bắt buộc
 ```bash
-dotnet restore
-dotnet build --configuration Release --no-restore
-dotnet test --configuration Release --no-build
-dotnet format --verify-no-changes
-```
-
-Task Docker phải chạy thêm:
-```bash
-docker compose -f docker/compose.dev.yml config
+dotnet sln LocalWP.sln list
+dotnet restore LocalWP.sln
+dotnet build LocalWP.sln --configuration Release --no-restore
 ```
 
 ## Rollback
-Revert PR. Thay đổi dữ liệu phải dùng rollback hoặc backup ghi trong PR.
+Revert PR; task không thay đổi runtime hoặc dữ liệu người dùng.
 
 ## Task mở khóa tiếp theo
 - `T0002`

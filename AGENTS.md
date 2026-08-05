@@ -1,63 +1,63 @@
 # AGENTS.md
 
-## Mục đích
-Tài liệu này là điểm bắt đầu bắt buộc cho mọi người hoặc agent tham gia dự án LocalWP.
+## Điểm bắt đầu bắt buộc
 
-## Thứ tự đọc bắt buộc
-1. `docs/BRD.md`
-2. `docs/SRS.md`
-3. `docs/PLAN.md`
-4. `docs/BACKLOG.md`
-5. `docs/CODING_STANDARDS.md`
-6. `SECURITY.md`
-7. `CONTRIBUTING.md`
-8. Task hiện tại trong `tasks/`
+Mọi agent tham gia giữa chừng phải đọc theo đúng thứ tự:
+
+1. `MASTER_TASK_PLAN.md`
+2. `docs/DEVELOPMENT_RULES.md`
+3. `docs/IMPLEMENTATION_SLICES.md`
+4. `docs/SECURITY.md`
+5. `docs/BRD.md`
+6. `docs/SRS.md`
+7. `docs/PLAN.md`
+8. File task được chỉ định trong `tasks/backlog/`
+
+Không bắt đầu viết mã chỉ từ README hoặc yêu cầu hội thoại cũ.
+
+## Cách xác định task tiếp theo
+
+1. Mở `MASTER_TASK_PLAN.md`.
+2. Lấy task được ghi tại `Task tiếp theo bắt buộc`.
+3. Mở đúng file tương ứng trong `tasks/backlog/`.
+4. Kiểm tra status là `ready` và dependency đã `done`.
+5. Nếu không thỏa, dừng và báo mâu thuẫn; không tự chọn task khác.
 
 ## Nguyên tắc bất biến
+
 - Stack: C# + .NET 8 + Avalonia UI + MVVM.
 - Docker Compose v2 là cơ chế orchestration chính.
 - Windows 10/11 là nền tảng MVP.
-- Không dựng nút giả hoặc flow giả.
-- Không bypass domain layer để gọi thẳng hạ tầng từ UI.
-- Không ghép command shell từ input thô.
+- Domain không phụ thuộc UI, Docker hoặc hệ điều hành.
+- UI không chứa nghiệp vụ hạ tầng.
+- Không dựng nút hoặc workflow giả.
+- Không ghép shell command từ input.
 - Không ghi secret vào log.
-- Mọi thao tác có nguy cơ mất dữ liệu phải có backup hoặc rollback.
-- Không tự ý đổi kiến trúc, package chính hoặc convention nếu chưa có ADR.
-- Mỗi PR chỉ xử lý một task nhỏ, có acceptance criteria rõ.
+- Thao tác có nguy cơ mất dữ liệu phải có backup/rollback.
+- Không đổi kiến trúc hoặc package chính nếu chưa có ADR/task riêng.
+- Một task = một branch = một PR.
 
-## Branch rule bắt buộc
-Format:
+## Branch
 
 `<prefix>/<task-name>-yyyyMMdd-HHmm`
 
-Prefix hợp lệ:
-- `feat`
-- `fix`
-- `refactor`
-- `test`
-- `docs`
-- `ci`
-- `maint`
-- `security`
+Prefix hợp lệ: `feat`, `fix`, `refactor`, `test`, `docs`, `ci`, `maint`, `security`.
 
-Ví dụ: `feat/init-solution-20260806-0542`
+## Khi nhận task
 
-## Commit
-Dùng Conventional Commits, ví dụ:
-- `feat(site): add site aggregate`
-- `fix(docker): handle compose timeout`
-- `test(domain): add slug validation tests`
+- Đổi status thành `in-progress`.
+- Tạo branch đúng format và đúng type trong task.
+- Chỉ sửa file thuộc `Phạm vi được phép`.
+- Không làm mục trong `Ngoài phạm vi` dù thấy tiện.
 
-## Trước khi code
-- Đọc task hiện tại.
-- Xác nhận dependency đã hoàn thành.
-- Xác nhận phạm vi không trùng task khác.
-- Không mở rộng scope.
+## Khi hoàn tất
 
-## Trước khi tạo PR
-- Build thành công.
-- Test thành công.
-- Không có warning mới.
-- Không lộ secret.
-- Cập nhật docs nếu thay đổi hành vi.
-- Điền đầy đủ PR template.
+- Chạy đúng lệnh kiểm tra trong task.
+- Đáp ứng toàn bộ acceptance criteria.
+- Mở PR và đổi status thành `review`.
+- Chỉ sau khi merge mới đổi thành `done`.
+- Ghi PR, commit SHA và mở khóa task kế tiếp trong cả task file lẫn `MASTER_TASK_PLAN.md`.
+
+## Khi tài liệu mâu thuẫn
+
+Dừng triển khai. Ưu tiên theo thứ tự: task hiện tại → master plan → SRS → BRD → PLAN. Không tự đoán ý định để tiếp tục code.

@@ -23,43 +23,97 @@ jobs:
         run: |
           echo "$BRANCH" | grep -Eq '^(feat|fix|refactor|test|docs|ci|maint|security)/[a-z0-9][a-z0-9-]*-[0-9]{8}-[0-9]{4}$'
 
-  docs:
+  repository:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Check required governance files
-        shell: bash
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Validate repository manifest
+        shell: python
         run: |
-          required=(AGENTS.md CONTRIBUTING.md SECURITY.md docs/BRD.md docs/SRS.md docs/PLAN.md docs/BACKLOG.md docs/CODING_STANDARDS.md tasks/README.md tasks/TEMPLATE.md)
-          for file in "${required[@]}"; do
-            test -s "$file" || { echo "Missing or empty: $file"; exit 1; }
-          done
+          import json
+          import sys
+          from pathlib import Path
+
+          manifest_path = Path("docs/REPOSITORY_MANIFEST.json")
+          if not manifest_path.is_file() or manifest_path.stat().st_size == 0:
+              print(f"Missing or empty: {manifest_path}")
+              sys.exit(1)
+
+          try:
+              manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+          except (OSError, json.JSONDecodeError) as error:
+              print(f"Invalid repository manifest: {error}")
+              sys.exit(1)
+
+          required_files = manifest.get("required_files")
+          if not isinstance(required_files, list) or not required_files:
+              print("Manifest field 'required_files' must be a non-empty array.")
+              sys.exit(1)
+
+          failures = []
+          for value in required_files:
+              if not isinstance(value, str) or not value.strip():
+                  failures.append(f"Invalid manifest entry: {value!r}")
+                  continue
+
+              path = Path(value)
+              if path.is_absolute() or ".." in path.parts:
+                  failures.append(f"Unsafe manifest path: {value}")
+                  continue
+
+              if not path.is_file() or path.stat().st_size == 0:
+                  failures.append(f"Missing or empty: {value}")
+
+          if failures:
+              print("\n".join(failures))
+              sys.exit(1)
+
+          print(f"Validated {len(required_files)} required repository files.")
 
   dotnet:
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-dotnet@v4
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8.0.x
-      - name: Restore, format, build and test when solution exists
+
+      - name: Restore, format, build and test when projects exist
         shell: pwsh
         run: |
-          if (Test-Path LocalWP.sln) {
-            dotnet restore LocalWP.sln
-            dotnet format LocalWP.sln --verify-no-changes --no-restore
-            dotnet build LocalWP.sln --configuration Release --no-restore
-            dotnet test LocalWP.sln --configuration Release --no-build --logger "trx;LogFileName=test-results.trx"
-          } else {
-            Write-Host "Solution is not created yet; T-0001 will enable .NET validation."
+          $solutionExists = Test-Path LocalWP.sln
+          $projects = Get-ChildItem -Path . -Filter *.csproj -Recurse
+
+          if (-not $solutionExists) {
+            Write-Host "LocalWP.sln does not exist yet. Skipping .NET validation."
+            exit 0
           }
+
+          if ($projects.Count -eq 0) {
+            Write-Host "The solution exists but has no projects yet. Skipping restore, format, build and test."
+            exit 0
+          }
+
+          dotnet restore LocalWP.sln
+          dotnet format LocalWP.sln --verify-no-changes --no-restore
+          dotnet build LocalWP.sln --configuration Release --no-restore
+          dotnet test LocalWP.sln --configuration Release --no-build --logger "trx;LogFileName=test-results.trx"
 
   docker-config:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
       - name: Validate Docker Compose files
         run: |
           if [ -f docker/compose.dev.yml ]; then
             docker compose -f docker/compose.dev.yml config
+          else
+            echo "No Docker Compose validation file exists yet."
           fi

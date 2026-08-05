@@ -4,7 +4,7 @@
 
 ## Task hiện tại
 
-`T0001` — `BOOT-001` — Initialize .NET 8 solution
+`T0003` — `BOOT-003` — Create Domain project
 
 ## Tổng quan
 
@@ -50,7 +50,7 @@
 
 ## E06 — Site Provisioning
 
-- UID prefix: `PROVISION`
+- UID prefix: `PROV`
 - Dải: `T0531`–`T0630`
 - Chi tiết: `planning/epics/E06/README.md`
 
@@ -92,24 +92,24 @@
 
 ## E13 — Blueprints
 
-- UID prefix: `BLUEPRINT`
+- UID prefix: `BLUE`
 - Dải: `T1071`–`T1130`
 - Chi tiết: `planning/epics/E13/README.md`
 
 ## E14 — Runtime Version Switching
 
-- UID prefix: `RUNTIME`
+- UID prefix: `VERSION`
 - Dải: `T1131`–`T1180`
 - Chi tiết: `planning/epics/E14/README.md`
 
 ## E15 — Diagnostics and Repair
 
-- UID prefix: `DIAG`
-- Dải: `T1181`–`T1200`
+- UID prefix: `REPAIR`
+- Dải: `T1181`–`T1210`
 - Chi tiết: `planning/epics/E15/README.md`
 
 ## E16 — Packaging Release and Stabilization
 
 - UID prefix: `RELEASE`
-- Dải: `T1201`–`T1220`
+- Dải: `T1211`–`T1220`
 - Chi tiết: `planning/epics/E16/README.md`

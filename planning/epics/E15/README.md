@@ -1,0 +1,54 @@
+# E15 — Runtime version switching
+
+Dải task: `T1111`–`T1160`.
+
+- [ ] `T1111` — Define runtime catalog — `tasks/backlog/T1111-define-runtime-catalog.md`
+- [ ] `T1112` — Validate runtime catalog — `tasks/backlog/T1112-validate-runtime-catalog.md`
+- [ ] `T1113` — Model runtime catalog — `tasks/backlog/T1113-model-runtime-catalog.md`
+- [ ] `T1114` — Implement runtime catalog — `tasks/backlog/T1114-implement-runtime-catalog.md`
+- [ ] `T1115` — Test runtime catalog — `tasks/backlog/T1115-test-runtime-catalog.md`
+- [ ] `T1116` — Document runtime catalog — `tasks/backlog/T1116-document-runtime-catalog.md`
+- [ ] `T1117` — Integrate runtime catalog — `tasks/backlog/T1117-integrate-runtime-catalog.md`
+- [ ] `T1118` — Harden runtime catalog — `tasks/backlog/T1118-harden-runtime-catalog.md`
+- [ ] `T1119` — Observe runtime catalog — `tasks/backlog/T1119-observe-runtime-catalog.md`
+- [ ] `T1120` — Review runtime catalog — `tasks/backlog/T1120-review-runtime-catalog.md`
+- [ ] `T1121` — Define compatibility matrix — `tasks/backlog/T1121-define-compatibility-matrix.md`
+- [ ] `T1122` — Validate compatibility matrix — `tasks/backlog/T1122-validate-compatibility-matrix.md`
+- [ ] `T1123` — Model compatibility matrix — `tasks/backlog/T1123-model-compatibility-matrix.md`
+- [ ] `T1124` — Implement compatibility matrix — `tasks/backlog/T1124-implement-compatibility-matrix.md`
+- [ ] `T1125` — Test compatibility matrix — `tasks/backlog/T1125-test-compatibility-matrix.md`
+- [ ] `T1126` — Document compatibility matrix — `tasks/backlog/T1126-document-compatibility-matrix.md`
+- [ ] `T1127` — Integrate compatibility matrix — `tasks/backlog/T1127-integrate-compatibility-matrix.md`
+- [ ] `T1128` — Harden compatibility matrix — `tasks/backlog/T1128-harden-compatibility-matrix.md`
+- [ ] `T1129` — Observe compatibility matrix — `tasks/backlog/T1129-observe-compatibility-matrix.md`
+- [ ] `T1130` — Review compatibility matrix — `tasks/backlog/T1130-review-compatibility-matrix.md`
+- [ ] `T1131` — Define php preflight — `tasks/backlog/T1131-define-php-preflight.md`
+- [ ] `T1132` — Validate php preflight — `tasks/backlog/T1132-validate-php-preflight.md`
+- [ ] `T1133` — Model php preflight — `tasks/backlog/T1133-model-php-preflight.md`
+- [ ] `T1134` — Implement php preflight — `tasks/backlog/T1134-implement-php-preflight.md`
+- [ ] `T1135` — Test php preflight — `tasks/backlog/T1135-test-php-preflight.md`
+- [ ] `T1136` — Document php preflight — `tasks/backlog/T1136-document-php-preflight.md`
+- [ ] `T1137` — Integrate php preflight — `tasks/backlog/T1137-integrate-php-preflight.md`
+- [ ] `T1138` — Harden php preflight — `tasks/backlog/T1138-harden-php-preflight.md`
+- [ ] `T1139` — Observe php preflight — `tasks/backlog/T1139-observe-php-preflight.md`
+- [ ] `T1140` — Review php preflight — `tasks/backlog/T1140-review-php-preflight.md`
+- [ ] `T1141` — Define php switch — `tasks/backlog/T1141-define-php-switch.md`
+- [ ] `T1142` — Validate php switch — `tasks/backlog/T1142-validate-php-switch.md`
+- [ ] `T1143` — Model php switch — `tasks/backlog/T1143-model-php-switch.md`
+- [ ] `T1144` — Implement php switch — `tasks/backlog/T1144-implement-php-switch.md`
+- [ ] `T1145` — Test php switch — `tasks/backlog/T1145-test-php-switch.md`
+- [ ] `T1146` — Document php switch — `tasks/backlog/T1146-document-php-switch.md`
+- [ ] `T1147` — Integrate php switch — `tasks/backlog/T1147-integrate-php-switch.md`
+- [ ] `T1148` — Harden php switch — `tasks/backlog/T1148-harden-php-switch.md`
+- [ ] `T1149` — Observe php switch — `tasks/backlog/T1149-observe-php-switch.md`
+- [ ] `T1150` — Review php switch — `tasks/backlog/T1150-review-php-switch.md`
+- [ ] `T1151` — Define php rollback — `tasks/backlog/T1151-define-php-rollback.md`
+- [ ] `T1152` — Validate php rollback — `tasks/backlog/T1152-validate-php-rollback.md`
+- [ ] `T1153` — Model php rollback — `tasks/backlog/T1153-model-php-rollback.md`
+- [ ] `T1154` — Implement php rollback — `tasks/backlog/T1154-implement-php-rollback.md`
+- [ ] `T1155` — Test php rollback — `tasks/backlog/T1155-test-php-rollback.md`
+- [ ] `T1156` — Document php rollback — `tasks/backlog/T1156-document-php-rollback.md`
+- [ ] `T1157` — Integrate php rollback — `tasks/backlog/T1157-integrate-php-rollback.md`
+- [ ] `T1158` — Harden php rollback — `tasks/backlog/T1158-harden-php-rollback.md`
+- [ ] `T1159` — Observe php rollback — `tasks/backlog/T1159-observe-php-rollback.md`
+- [ ] `T1160` — Review php rollback — `tasks/backlog/T1160-review-php-rollback.md`

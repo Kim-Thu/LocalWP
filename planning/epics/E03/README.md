@@ -1,0 +1,74 @@
+# E03 — Persistence and settings
+
+Dải task: `T0161`–`T0230`.
+
+- [ ] `T0161` — Define site repository — `tasks/backlog/T0161-define-site-repository.md`
+- [ ] `T0162` — Validate site repository — `tasks/backlog/T0162-validate-site-repository.md`
+- [ ] `T0163` — Model site repository — `tasks/backlog/T0163-model-site-repository.md`
+- [ ] `T0164` — Implement site repository — `tasks/backlog/T0164-implement-site-repository.md`
+- [ ] `T0165` — Test site repository — `tasks/backlog/T0165-test-site-repository.md`
+- [ ] `T0166` — Document site repository — `tasks/backlog/T0166-document-site-repository.md`
+- [ ] `T0167` — Integrate site repository — `tasks/backlog/T0167-integrate-site-repository.md`
+- [ ] `T0168` — Harden site repository — `tasks/backlog/T0168-harden-site-repository.md`
+- [ ] `T0169` — Observe site repository — `tasks/backlog/T0169-observe-site-repository.md`
+- [ ] `T0170` — Review site repository — `tasks/backlog/T0170-review-site-repository.md`
+- [ ] `T0171` — Define settings repository — `tasks/backlog/T0171-define-settings-repository.md`
+- [ ] `T0172` — Validate settings repository — `tasks/backlog/T0172-validate-settings-repository.md`
+- [ ] `T0173` — Model settings repository — `tasks/backlog/T0173-model-settings-repository.md`
+- [ ] `T0174` — Implement settings repository — `tasks/backlog/T0174-implement-settings-repository.md`
+- [ ] `T0175` — Test settings repository — `tasks/backlog/T0175-test-settings-repository.md`
+- [ ] `T0176` — Document settings repository — `tasks/backlog/T0176-document-settings-repository.md`
+- [ ] `T0177` — Integrate settings repository — `tasks/backlog/T0177-integrate-settings-repository.md`
+- [ ] `T0178` — Harden settings repository — `tasks/backlog/T0178-harden-settings-repository.md`
+- [ ] `T0179` — Observe settings repository — `tasks/backlog/T0179-observe-settings-repository.md`
+- [ ] `T0180` — Review settings repository — `tasks/backlog/T0180-review-settings-repository.md`
+- [ ] `T0181` — Define atomic json write — `tasks/backlog/T0181-define-atomic-json-write.md`
+- [ ] `T0182` — Validate atomic json write — `tasks/backlog/T0182-validate-atomic-json-write.md`
+- [ ] `T0183` — Model atomic json write — `tasks/backlog/T0183-model-atomic-json-write.md`
+- [ ] `T0184` — Implement atomic json write — `tasks/backlog/T0184-implement-atomic-json-write.md`
+- [ ] `T0185` — Test atomic json write — `tasks/backlog/T0185-test-atomic-json-write.md`
+- [ ] `T0186` — Document atomic json write — `tasks/backlog/T0186-document-atomic-json-write.md`
+- [ ] `T0187` — Integrate atomic json write — `tasks/backlog/T0187-integrate-atomic-json-write.md`
+- [ ] `T0188` — Harden atomic json write — `tasks/backlog/T0188-harden-atomic-json-write.md`
+- [ ] `T0189` — Observe atomic json write — `tasks/backlog/T0189-observe-atomic-json-write.md`
+- [ ] `T0190` — Review atomic json write — `tasks/backlog/T0190-review-atomic-json-write.md`
+- [ ] `T0191` — Define schema version — `tasks/backlog/T0191-define-schema-version.md`
+- [ ] `T0192` — Validate schema version — `tasks/backlog/T0192-validate-schema-version.md`
+- [ ] `T0193` — Model schema version — `tasks/backlog/T0193-model-schema-version.md`
+- [ ] `T0194` — Implement schema version — `tasks/backlog/T0194-implement-schema-version.md`
+- [ ] `T0195` — Test schema version — `tasks/backlog/T0195-test-schema-version.md`
+- [ ] `T0196` — Document schema version — `tasks/backlog/T0196-document-schema-version.md`
+- [ ] `T0197` — Integrate schema version — `tasks/backlog/T0197-integrate-schema-version.md`
+- [ ] `T0198` — Harden schema version — `tasks/backlog/T0198-harden-schema-version.md`
+- [ ] `T0199` — Observe schema version — `tasks/backlog/T0199-observe-schema-version.md`
+- [ ] `T0200` — Review schema version — `tasks/backlog/T0200-review-schema-version.md`
+- [ ] `T0201` — Define migration pipeline — `tasks/backlog/T0201-define-migration-pipeline.md`
+- [ ] `T0202` — Validate migration pipeline — `tasks/backlog/T0202-validate-migration-pipeline.md`
+- [ ] `T0203` — Model migration pipeline — `tasks/backlog/T0203-model-migration-pipeline.md`
+- [ ] `T0204` — Implement migration pipeline — `tasks/backlog/T0204-implement-migration-pipeline.md`
+- [ ] `T0205` — Test migration pipeline — `tasks/backlog/T0205-test-migration-pipeline.md`
+- [ ] `T0206` — Document migration pipeline — `tasks/backlog/T0206-document-migration-pipeline.md`
+- [ ] `T0207` — Integrate migration pipeline — `tasks/backlog/T0207-integrate-migration-pipeline.md`
+- [ ] `T0208` — Harden migration pipeline — `tasks/backlog/T0208-harden-migration-pipeline.md`
+- [ ] `T0209` — Observe migration pipeline — `tasks/backlog/T0209-observe-migration-pipeline.md`
+- [ ] `T0210` — Review migration pipeline — `tasks/backlog/T0210-review-migration-pipeline.md`
+- [ ] `T0211` — Define index recovery — `tasks/backlog/T0211-define-index-recovery.md`
+- [ ] `T0212` — Validate index recovery — `tasks/backlog/T0212-validate-index-recovery.md`
+- [ ] `T0213` — Model index recovery — `tasks/backlog/T0213-model-index-recovery.md`
+- [ ] `T0214` — Implement index recovery — `tasks/backlog/T0214-implement-index-recovery.md`
+- [ ] `T0215` — Test index recovery — `tasks/backlog/T0215-test-index-recovery.md`
+- [ ] `T0216` — Document index recovery — `tasks/backlog/T0216-document-index-recovery.md`
+- [ ] `T0217` — Integrate index recovery — `tasks/backlog/T0217-integrate-index-recovery.md`
+- [ ] `T0218` — Harden index recovery — `tasks/backlog/T0218-harden-index-recovery.md`
+- [ ] `T0219` — Observe index recovery — `tasks/backlog/T0219-observe-index-recovery.md`
+- [ ] `T0220` — Review index recovery — `tasks/backlog/T0220-review-index-recovery.md`
+- [ ] `T0221` — Define path provider — `tasks/backlog/T0221-define-path-provider.md`
+- [ ] `T0222` — Validate path provider — `tasks/backlog/T0222-validate-path-provider.md`
+- [ ] `T0223` — Model path provider — `tasks/backlog/T0223-model-path-provider.md`
+- [ ] `T0224` — Implement path provider — `tasks/backlog/T0224-implement-path-provider.md`
+- [ ] `T0225` — Test path provider — `tasks/backlog/T0225-test-path-provider.md`
+- [ ] `T0226` — Document path provider — `tasks/backlog/T0226-document-path-provider.md`
+- [ ] `T0227` — Integrate path provider — `tasks/backlog/T0227-integrate-path-provider.md`
+- [ ] `T0228` — Harden path provider — `tasks/backlog/T0228-harden-path-provider.md`
+- [ ] `T0229` — Observe path provider — `tasks/backlog/T0229-observe-path-provider.md`
+- [ ] `T0230` — Review path provider — `tasks/backlog/T0230-review-path-provider.md`

@@ -1,0 +1,64 @@
+# E13 — Clone workflow
+
+Dải task: `T0991`–`T1050`.
+
+- [ ] `T0991` — Define clone request — `tasks/backlog/T0991-define-clone-request.md`
+- [ ] `T0992` — Validate clone request — `tasks/backlog/T0992-validate-clone-request.md`
+- [ ] `T0993` — Model clone request — `tasks/backlog/T0993-model-clone-request.md`
+- [ ] `T0994` — Implement clone request — `tasks/backlog/T0994-implement-clone-request.md`
+- [ ] `T0995` — Test clone request — `tasks/backlog/T0995-test-clone-request.md`
+- [ ] `T0996` — Document clone request — `tasks/backlog/T0996-document-clone-request.md`
+- [ ] `T0997` — Integrate clone request — `tasks/backlog/T0997-integrate-clone-request.md`
+- [ ] `T0998` — Harden clone request — `tasks/backlog/T0998-harden-clone-request.md`
+- [ ] `T0999` — Observe clone request — `tasks/backlog/T0999-observe-clone-request.md`
+- [ ] `T1000` — Review clone request — `tasks/backlog/T1000-review-clone-request.md`
+- [ ] `T1001` — Define source copy — `tasks/backlog/T1001-define-source-copy.md`
+- [ ] `T1002` — Validate source copy — `tasks/backlog/T1002-validate-source-copy.md`
+- [ ] `T1003` — Model source copy — `tasks/backlog/T1003-model-source-copy.md`
+- [ ] `T1004` — Implement source copy — `tasks/backlog/T1004-implement-source-copy.md`
+- [ ] `T1005` — Test source copy — `tasks/backlog/T1005-test-source-copy.md`
+- [ ] `T1006` — Document source copy — `tasks/backlog/T1006-document-source-copy.md`
+- [ ] `T1007` — Integrate source copy — `tasks/backlog/T1007-integrate-source-copy.md`
+- [ ] `T1008` — Harden source copy — `tasks/backlog/T1008-harden-source-copy.md`
+- [ ] `T1009` — Observe source copy — `tasks/backlog/T1009-observe-source-copy.md`
+- [ ] `T1010` — Review source copy — `tasks/backlog/T1010-review-source-copy.md`
+- [ ] `T1011` — Define database snapshot — `tasks/backlog/T1011-define-database-snapshot.md`
+- [ ] `T1012` — Validate database snapshot — `tasks/backlog/T1012-validate-database-snapshot.md`
+- [ ] `T1013` — Model database snapshot — `tasks/backlog/T1013-model-database-snapshot.md`
+- [ ] `T1014` — Implement database snapshot — `tasks/backlog/T1014-implement-database-snapshot.md`
+- [ ] `T1015` — Test database snapshot — `tasks/backlog/T1015-test-database-snapshot.md`
+- [ ] `T1016` — Document database snapshot — `tasks/backlog/T1016-document-database-snapshot.md`
+- [ ] `T1017` — Integrate database snapshot — `tasks/backlog/T1017-integrate-database-snapshot.md`
+- [ ] `T1018` — Harden database snapshot — `tasks/backlog/T1018-harden-database-snapshot.md`
+- [ ] `T1019` — Observe database snapshot — `tasks/backlog/T1019-observe-database-snapshot.md`
+- [ ] `T1020` — Review database snapshot — `tasks/backlog/T1020-review-database-snapshot.md`
+- [ ] `T1021` — Define new site identity — `tasks/backlog/T1021-define-new-site-identity.md`
+- [ ] `T1022` — Validate new site identity — `tasks/backlog/T1022-validate-new-site-identity.md`
+- [ ] `T1023` — Model new site identity — `tasks/backlog/T1023-model-new-site-identity.md`
+- [ ] `T1024` — Implement new site identity — `tasks/backlog/T1024-implement-new-site-identity.md`
+- [ ] `T1025` — Test new site identity — `tasks/backlog/T1025-test-new-site-identity.md`
+- [ ] `T1026` — Document new site identity — `tasks/backlog/T1026-document-new-site-identity.md`
+- [ ] `T1027` — Integrate new site identity — `tasks/backlog/T1027-integrate-new-site-identity.md`
+- [ ] `T1028` — Harden new site identity — `tasks/backlog/T1028-harden-new-site-identity.md`
+- [ ] `T1029` — Observe new site identity — `tasks/backlog/T1029-observe-new-site-identity.md`
+- [ ] `T1030` — Review new site identity — `tasks/backlog/T1030-review-new-site-identity.md`
+- [ ] `T1031` — Define new domain — `tasks/backlog/T1031-define-new-domain.md`
+- [ ] `T1032` — Validate new domain — `tasks/backlog/T1032-validate-new-domain.md`
+- [ ] `T1033` — Model new domain — `tasks/backlog/T1033-model-new-domain.md`
+- [ ] `T1034` — Implement new domain — `tasks/backlog/T1034-implement-new-domain.md`
+- [ ] `T1035` — Test new domain — `tasks/backlog/T1035-test-new-domain.md`
+- [ ] `T1036` — Document new domain — `tasks/backlog/T1036-document-new-domain.md`
+- [ ] `T1037` — Integrate new domain — `tasks/backlog/T1037-integrate-new-domain.md`
+- [ ] `T1038` — Harden new domain — `tasks/backlog/T1038-harden-new-domain.md`
+- [ ] `T1039` — Observe new domain — `tasks/backlog/T1039-observe-new-domain.md`
+- [ ] `T1040` — Review new domain — `tasks/backlog/T1040-review-new-domain.md`
+- [ ] `T1041` — Define new environment — `tasks/backlog/T1041-define-new-environment.md`
+- [ ] `T1042` — Validate new environment — `tasks/backlog/T1042-validate-new-environment.md`
+- [ ] `T1043` — Model new environment — `tasks/backlog/T1043-model-new-environment.md`
+- [ ] `T1044` — Implement new environment — `tasks/backlog/T1044-implement-new-environment.md`
+- [ ] `T1045` — Test new environment — `tasks/backlog/T1045-test-new-environment.md`
+- [ ] `T1046` — Document new environment — `tasks/backlog/T1046-document-new-environment.md`
+- [ ] `T1047` — Integrate new environment — `tasks/backlog/T1047-integrate-new-environment.md`
+- [ ] `T1048` — Harden new environment — `tasks/backlog/T1048-harden-new-environment.md`
+- [ ] `T1049` — Observe new environment — `tasks/backlog/T1049-observe-new-environment.md`
+- [ ] `T1050` — Review new environment — `tasks/backlog/T1050-review-new-environment.md`

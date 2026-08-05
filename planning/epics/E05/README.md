@@ -1,0 +1,94 @@
+# E05 — Process runner and Docker diagnostics
+
+Dải task: `T0321`–`T0410`.
+
+- [ ] `T0321` — Define process request — `tasks/backlog/T0321-define-process-request.md`
+- [ ] `T0322` — Validate process request — `tasks/backlog/T0322-validate-process-request.md`
+- [ ] `T0323` — Model process request — `tasks/backlog/T0323-model-process-request.md`
+- [ ] `T0324` — Implement process request — `tasks/backlog/T0324-implement-process-request.md`
+- [ ] `T0325` — Test process request — `tasks/backlog/T0325-test-process-request.md`
+- [ ] `T0326` — Document process request — `tasks/backlog/T0326-document-process-request.md`
+- [ ] `T0327` — Integrate process request — `tasks/backlog/T0327-integrate-process-request.md`
+- [ ] `T0328` — Harden process request — `tasks/backlog/T0328-harden-process-request.md`
+- [ ] `T0329` — Observe process request — `tasks/backlog/T0329-observe-process-request.md`
+- [ ] `T0330` — Review process request — `tasks/backlog/T0330-review-process-request.md`
+- [ ] `T0331` — Define argument escaping — `tasks/backlog/T0331-define-argument-escaping.md`
+- [ ] `T0332` — Validate argument escaping — `tasks/backlog/T0332-validate-argument-escaping.md`
+- [ ] `T0333` — Model argument escaping — `tasks/backlog/T0333-model-argument-escaping.md`
+- [ ] `T0334` — Implement argument escaping — `tasks/backlog/T0334-implement-argument-escaping.md`
+- [ ] `T0335` — Test argument escaping — `tasks/backlog/T0335-test-argument-escaping.md`
+- [ ] `T0336` — Document argument escaping — `tasks/backlog/T0336-document-argument-escaping.md`
+- [ ] `T0337` — Integrate argument escaping — `tasks/backlog/T0337-integrate-argument-escaping.md`
+- [ ] `T0338` — Harden argument escaping — `tasks/backlog/T0338-harden-argument-escaping.md`
+- [ ] `T0339` — Observe argument escaping — `tasks/backlog/T0339-observe-argument-escaping.md`
+- [ ] `T0340` — Review argument escaping — `tasks/backlog/T0340-review-argument-escaping.md`
+- [ ] `T0341` — Define stdout streaming — `tasks/backlog/T0341-define-stdout-streaming.md`
+- [ ] `T0342` — Validate stdout streaming — `tasks/backlog/T0342-validate-stdout-streaming.md`
+- [ ] `T0343` — Model stdout streaming — `tasks/backlog/T0343-model-stdout-streaming.md`
+- [ ] `T0344` — Implement stdout streaming — `tasks/backlog/T0344-implement-stdout-streaming.md`
+- [ ] `T0345` — Test stdout streaming — `tasks/backlog/T0345-test-stdout-streaming.md`
+- [ ] `T0346` — Document stdout streaming — `tasks/backlog/T0346-document-stdout-streaming.md`
+- [ ] `T0347` — Integrate stdout streaming — `tasks/backlog/T0347-integrate-stdout-streaming.md`
+- [ ] `T0348` — Harden stdout streaming — `tasks/backlog/T0348-harden-stdout-streaming.md`
+- [ ] `T0349` — Observe stdout streaming — `tasks/backlog/T0349-observe-stdout-streaming.md`
+- [ ] `T0350` — Review stdout streaming — `tasks/backlog/T0350-review-stdout-streaming.md`
+- [ ] `T0351` — Define stderr streaming — `tasks/backlog/T0351-define-stderr-streaming.md`
+- [ ] `T0352` — Validate stderr streaming — `tasks/backlog/T0352-validate-stderr-streaming.md`
+- [ ] `T0353` — Model stderr streaming — `tasks/backlog/T0353-model-stderr-streaming.md`
+- [ ] `T0354` — Implement stderr streaming — `tasks/backlog/T0354-implement-stderr-streaming.md`
+- [ ] `T0355` — Test stderr streaming — `tasks/backlog/T0355-test-stderr-streaming.md`
+- [ ] `T0356` — Document stderr streaming — `tasks/backlog/T0356-document-stderr-streaming.md`
+- [ ] `T0357` — Integrate stderr streaming — `tasks/backlog/T0357-integrate-stderr-streaming.md`
+- [ ] `T0358` — Harden stderr streaming — `tasks/backlog/T0358-harden-stderr-streaming.md`
+- [ ] `T0359` — Observe stderr streaming — `tasks/backlog/T0359-observe-stderr-streaming.md`
+- [ ] `T0360` — Review stderr streaming — `tasks/backlog/T0360-review-stderr-streaming.md`
+- [ ] `T0361` — Define cancellation — `tasks/backlog/T0361-define-cancellation.md`
+- [ ] `T0362` — Validate cancellation — `tasks/backlog/T0362-validate-cancellation.md`
+- [ ] `T0363` — Model cancellation — `tasks/backlog/T0363-model-cancellation.md`
+- [ ] `T0364` — Implement cancellation — `tasks/backlog/T0364-implement-cancellation.md`
+- [ ] `T0365` — Test cancellation — `tasks/backlog/T0365-test-cancellation.md`
+- [ ] `T0366` — Document cancellation — `tasks/backlog/T0366-document-cancellation.md`
+- [ ] `T0367` — Integrate cancellation — `tasks/backlog/T0367-integrate-cancellation.md`
+- [ ] `T0368` — Harden cancellation — `tasks/backlog/T0368-harden-cancellation.md`
+- [ ] `T0369` — Observe cancellation — `tasks/backlog/T0369-observe-cancellation.md`
+- [ ] `T0370` — Review cancellation — `tasks/backlog/T0370-review-cancellation.md`
+- [ ] `T0371` — Define timeout — `tasks/backlog/T0371-define-timeout.md`
+- [ ] `T0372` — Validate timeout — `tasks/backlog/T0372-validate-timeout.md`
+- [ ] `T0373` — Model timeout — `tasks/backlog/T0373-model-timeout.md`
+- [ ] `T0374` — Implement timeout — `tasks/backlog/T0374-implement-timeout.md`
+- [ ] `T0375` — Test timeout — `tasks/backlog/T0375-test-timeout.md`
+- [ ] `T0376` — Document timeout — `tasks/backlog/T0376-document-timeout.md`
+- [ ] `T0377` — Integrate timeout — `tasks/backlog/T0377-integrate-timeout.md`
+- [ ] `T0378` — Harden timeout — `tasks/backlog/T0378-harden-timeout.md`
+- [ ] `T0379` — Observe timeout — `tasks/backlog/T0379-observe-timeout.md`
+- [ ] `T0380` — Review timeout — `tasks/backlog/T0380-review-timeout.md`
+- [ ] `T0381` — Define secret redaction — `tasks/backlog/T0381-define-secret-redaction.md`
+- [ ] `T0382` — Validate secret redaction — `tasks/backlog/T0382-validate-secret-redaction.md`
+- [ ] `T0383` — Model secret redaction — `tasks/backlog/T0383-model-secret-redaction.md`
+- [ ] `T0384` — Implement secret redaction — `tasks/backlog/T0384-implement-secret-redaction.md`
+- [ ] `T0385` — Test secret redaction — `tasks/backlog/T0385-test-secret-redaction.md`
+- [ ] `T0386` — Document secret redaction — `tasks/backlog/T0386-document-secret-redaction.md`
+- [ ] `T0387` — Integrate secret redaction — `tasks/backlog/T0387-integrate-secret-redaction.md`
+- [ ] `T0388` — Harden secret redaction — `tasks/backlog/T0388-harden-secret-redaction.md`
+- [ ] `T0389` — Observe secret redaction — `tasks/backlog/T0389-observe-secret-redaction.md`
+- [ ] `T0390` — Review secret redaction — `tasks/backlog/T0390-review-secret-redaction.md`
+- [ ] `T0391` — Define docker cli detection — `tasks/backlog/T0391-define-docker-cli-detection.md`
+- [ ] `T0392` — Validate docker cli detection — `tasks/backlog/T0392-validate-docker-cli-detection.md`
+- [ ] `T0393` — Model docker cli detection — `tasks/backlog/T0393-model-docker-cli-detection.md`
+- [ ] `T0394` — Implement docker cli detection — `tasks/backlog/T0394-implement-docker-cli-detection.md`
+- [ ] `T0395` — Test docker cli detection — `tasks/backlog/T0395-test-docker-cli-detection.md`
+- [ ] `T0396` — Document docker cli detection — `tasks/backlog/T0396-document-docker-cli-detection.md`
+- [ ] `T0397` — Integrate docker cli detection — `tasks/backlog/T0397-integrate-docker-cli-detection.md`
+- [ ] `T0398` — Harden docker cli detection — `tasks/backlog/T0398-harden-docker-cli-detection.md`
+- [ ] `T0399` — Observe docker cli detection — `tasks/backlog/T0399-observe-docker-cli-detection.md`
+- [ ] `T0400` — Review docker cli detection — `tasks/backlog/T0400-review-docker-cli-detection.md`
+- [ ] `T0401` — Define docker daemon detection — `tasks/backlog/T0401-define-docker-daemon-detection.md`
+- [ ] `T0402` — Validate docker daemon detection — `tasks/backlog/T0402-validate-docker-daemon-detection.md`
+- [ ] `T0403` — Model docker daemon detection — `tasks/backlog/T0403-model-docker-daemon-detection.md`
+- [ ] `T0404` — Implement docker daemon detection — `tasks/backlog/T0404-implement-docker-daemon-detection.md`
+- [ ] `T0405` — Test docker daemon detection — `tasks/backlog/T0405-test-docker-daemon-detection.md`
+- [ ] `T0406` — Document docker daemon detection — `tasks/backlog/T0406-document-docker-daemon-detection.md`
+- [ ] `T0407` — Integrate docker daemon detection — `tasks/backlog/T0407-integrate-docker-daemon-detection.md`
+- [ ] `T0408` — Harden docker daemon detection — `tasks/backlog/T0408-harden-docker-daemon-detection.md`
+- [ ] `T0409` — Observe docker daemon detection — `tasks/backlog/T0409-observe-docker-daemon-detection.md`
+- [ ] `T0410` — Review docker daemon detection — `tasks/backlog/T0410-review-docker-daemon-detection.md`

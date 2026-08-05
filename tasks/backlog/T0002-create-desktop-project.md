@@ -4,7 +4,7 @@
 `BOOT-002`
 
 ## Trạng thái
-`backlog`
+`review`
 
 ## Epic
 `E00 — Repository Bootstrap and Engineering Foundation`
@@ -43,10 +43,10 @@ Hoàn thành duy nhất phần **create Desktop project** theo BRD, SRS và ki�
 - Chỉ yêu cầu quyền nâng cao cho thao tác bắt buộc.
 
 ## Acceptance criteria
-- [ ] Mục tiêu hoạt động và quan sát được.
-- [ ] Không mở rộng ngoài phạm vi.
-- [ ] Build không có warning mới.
-- [ ] Test phù hợp đã thêm hoặc cập nhật.
+- [x] Desktop project tồn tại trong `src/LocalWP.Desktop`.
+- [x] Project target `.NET 8` và có entry point tối thiểu.
+- [x] Project đã được thêm vào `LocalWP.sln`.
+- [x] Không thêm Avalonia hoặc package ngoài phạm vi task.
 - [ ] CI, security scan và format xanh.
 
 ## Kiểm tra bắt buộc

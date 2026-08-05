@@ -4,7 +4,7 @@
 `BOOT-003`
 
 ## Trạng thái
-`backlog`
+`review`
 
 ## Epic
 `E00 — Repository Bootstrap and Engineering Foundation`
@@ -43,10 +43,10 @@ Hoàn thành duy nhất phần **create Domain project** theo BRD, SRS và kiế
 - Chỉ yêu cầu quyền nâng cao cho thao tác bắt buộc.
 
 ## Acceptance criteria
-- [ ] Mục tiêu hoạt động và quan sát được.
-- [ ] Không mở rộng ngoài phạm vi.
-- [ ] Build không có warning mới.
-- [ ] Test phù hợp đã thêm hoặc cập nhật.
+- [x] Domain project tồn tại tại `src/LocalWP.Domain`.
+- [x] Project target `.NET 8` và bật nullable.
+- [x] Domain project đã được thêm vào `LocalWP.sln`.
+- [x] Có marker type tối thiểu, không thêm domain entity ngoài phạm vi.
 - [ ] CI, security scan và format xanh.
 
 ## Kiểm tra bắt buộc

@@ -16,51 +16,54 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
-      - name: Detect C# solution
+      - name: Detect analyzable C# source
         id: detect
         shell: pwsh
         run: |
           $solution = Get-ChildItem -Path . -Filter *.sln -Recurse | Select-Object -First 1
-          if ($null -eq $solution) {
-            "has_solution=false" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
-            Write-Host "No .NET solution exists yet. Skipping CodeQL C# analysis."
+          $project = Get-ChildItem -Path . -Filter *.csproj -Recurse | Select-Object -First 1
+          $source = Get-ChildItem -Path . -Filter *.cs -Recurse | Select-Object -First 1
+
+          if ($null -eq $solution -or $null -eq $project -or $null -eq $source) {
+            "has_csharp_source=false" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+            Write-Host "No analyzable C# project and source exist yet. Skipping CodeQL C# analysis."
           }
           else {
-            "has_solution=true" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+            "has_csharp_source=true" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
             "solution=$($solution.FullName)" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
           }
 
       - name: Initialize CodeQL
-        if: steps.detect.outputs.has_solution == 'true'
+        if: steps.detect.outputs.has_csharp_source == 'true'
         uses: github/codeql-action/init@v3
         with:
           languages: csharp
 
       - name: Set up .NET
-        if: steps.detect.outputs.has_solution == 'true'
+        if: steps.detect.outputs.has_csharp_source == 'true'
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
 
       - name: Restore dependencies
-        if: steps.detect.outputs.has_solution == 'true'
+        if: steps.detect.outputs.has_csharp_source == 'true'
         run: dotnet restore "${{ steps.detect.outputs.solution }}"
 
       - name: Build for CodeQL
-        if: steps.detect.outputs.has_solution == 'true'
+        if: steps.detect.outputs.has_csharp_source == 'true'
         run: dotnet build "${{ steps.detect.outputs.solution }}" --configuration Release --no-restore
 
       - name: Analyze with CodeQL
-        if: steps.detect.outputs.has_solution == 'true'
+        if: steps.detect.outputs.has_csharp_source == 'true'
         uses: github/codeql-action/analyze@v3
 
   secrets:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 

@@ -1,0 +1,17 @@
+{
+  "required_files": [
+    "AGENTS.md",
+    "CONTRIBUTING.md",
+    "SECURITY.md",
+    "MASTER_TASK_PLAN.md",
+    "docs/BRD.md",
+    "docs/SRS.md",
+    "docs/PLAN.md",
+    "docs/BACKLOG.md",
+    "docs/CODING_STANDARDS.md",
+    "docs/DEVELOPMENT_RULES.md",
+    "docs/IMPLEMENTATION_SLICES.md",
+    "tasks/README.md",
+    "tasks/TASK_TEMPLATE.md"
+  ]
+}

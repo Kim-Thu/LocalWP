@@ -21,12 +21,13 @@ Hoàn thành duy nhất phần **create UnitTests project** theo BRD, SRS và ki
 ## Phạm vi
 - Tạo project `LocalWP.UnitTests` target `.NET 8`.
 - Bật nullable và implicit usings.
-- Đánh dấu project là test project và không đóng gói.
+- Tắt đóng gói.
 - Thêm marker type tối thiểu.
 - Thêm project vào solution.
 
 ## Ngoài phạm vi
-- Không cài test framework hoặc test SDK; phần package thuộc task package management.
+- Không bật `IsTestProject` khi chưa có `Microsoft.NET.Test.Sdk`; phần test SDK thuộc task package management.
+- Không cài test framework hoặc test SDK.
 - Không thêm project reference hoặc test case.
 - Không tạo IntegrationTests project.
 - Không làm nội dung task kế tiếp.

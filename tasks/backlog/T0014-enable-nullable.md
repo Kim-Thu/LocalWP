@@ -4,7 +4,7 @@
 `BOOT-014`
 
 ## Trạng thái
-`review`
+`done`
 
 ## Epic
 `E00 — Repository Bootstrap and Engineering Foundation`
@@ -39,7 +39,7 @@ Bật nullable thống nhất cho toàn bộ project .NET thông qua cấu hình
 - [x] Cấu hình áp dụng ở cấp repository, không lặp trong từng project.
 - [x] Không thay đổi mã runtime, package, kiến trúc hoặc project references.
 - [x] Không mở rộng ngoài phạm vi.
-- [ ] CI, security scan và format xanh.
+- [x] CI, security scan và format xanh.
 
 ## Kiểm tra bắt buộc
 ```bash

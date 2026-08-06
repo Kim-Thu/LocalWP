@@ -4,7 +4,7 @@
 `BOOT-012`
 
 ## Trạng thái
-`review`
+`done`
 
 ## Epic
 `E00 — Repository Bootstrap and Engineering Foundation`
@@ -44,7 +44,7 @@ Thêm `Directory.Packages.props` tại thư mục gốc để bật quản lý p
 - [x] Transitive pinning được bật.
 - [x] Không thêm hoặc đổi package.
 - [x] Không thay đổi mã runtime hoặc kiến trúc.
-- [ ] CI, security scan và format xanh.
+- [x] CI, security scan và format xanh.
 
 ## Kiểm tra bắt buộc
 ```bash

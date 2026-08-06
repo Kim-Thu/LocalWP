@@ -4,7 +4,7 @@
 
 ## Task hiện tại
 
-`T0012` — `BOOT-012` — Add Directory.Packages.props
+`T0013` — `BOOT-013` — Add global.json
 
 ## Tổng quan
 

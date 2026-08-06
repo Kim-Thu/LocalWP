@@ -5,4 +5,9 @@
     <Nullable>enable</Nullable>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\LocalWP.Application\LocalWP.Application.csproj" />
+    <ProjectReference Include="..\..\src\LocalWP.Domain\LocalWP.Domain.csproj" />
+  </ItemGroup>
 </Project>

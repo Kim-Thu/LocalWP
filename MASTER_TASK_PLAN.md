@@ -4,7 +4,7 @@
 
 ## Task hiện tại
 
-`T0011` — `BOOT-011` — Add Directory.Build.props
+`T0012` — `BOOT-012` — Add Directory.Packages.props
 
 ## Tổng quan
 

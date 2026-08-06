@@ -4,7 +4,7 @@
 
 ## Task hiện tại
 
-`T0010` — `BOOT-010` — Verify clean build
+`T0011` — `BOOT-011` — Add Directory.Build.props
 
 ## Tổng quan
 

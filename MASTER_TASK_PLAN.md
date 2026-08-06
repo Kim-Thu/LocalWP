@@ -4,7 +4,7 @@
 
 ## Task hiện tại
 
-`T0013` — `BOOT-013` — Add global.json
+`T0014` — `BOOT-014` — Enable nullable
 
 ## Tổng quan
 

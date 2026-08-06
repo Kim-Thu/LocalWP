@@ -4,7 +4,7 @@
 
 ## Task hiện tại
 
-`T0003` — `BOOT-003` — Create Domain project
+`T0004` — `BOOT-004` — Create Application project
 
 ## Tổng quan
 

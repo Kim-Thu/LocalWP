@@ -4,7 +4,7 @@
 `BOOT-006`
 
 ## Trạng thái
-`review`
+`done`
 
 ## Epic
 `E00 — Repository Bootstrap and Engineering Foundation`
@@ -38,7 +38,7 @@ Hoàn thành duy nhất phần **create SystemHelper project** theo BRD, SRS và
 - [x] Project target `.NET 8` và bật nullable.
 - [x] SystemHelper project đã được thêm vào `LocalWP.sln`.
 - [x] Có marker type tối thiểu, chưa thêm helper hoặc implementation ngoài phạm vi.
-- [ ] CI, security scan và format xanh.
+- [x] CI, security scan và format xanh.
 
 ## Kiểm tra bắt buộc
 ```bash

@@ -4,7 +4,7 @@
 
 ## Task hiện tại
 
-`T0015` — `BOOT-015` — Enable implicit usings
+`T0016` — `BOOT-016` — Treat warnings as errors
 
 ## Tổng quan
 

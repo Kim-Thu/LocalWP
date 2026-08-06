@@ -4,7 +4,7 @@
 
 ## Task hiện tại
 
-`T0017` — `BOOT-017` — Configure analyzers
+`T0018` — `BOOT-018` — Configure stylecop
 
 ## Tổng quan
 

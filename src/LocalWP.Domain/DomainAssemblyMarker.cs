@@ -1,3 +1,7 @@
+// <copyright file="DomainAssemblyMarker.cs" company="LocalWP">
+// Copyright (c) LocalWP. All rights reserved.
+// </copyright>
+
 namespace LocalWP.Domain;
 
 /// <summary>

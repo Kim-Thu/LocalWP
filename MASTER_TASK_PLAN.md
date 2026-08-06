@@ -4,7 +4,7 @@
 
 ## Task hiện tại
 
-`T0007` — `BOOT-007` — Create UnitTests project
+`T0008` — `BOOT-008` — Create IntegrationTests project
 
 ## Tổng quan
 

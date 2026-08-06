@@ -4,7 +4,7 @@
 
 ## Task hiện tại
 
-`T0006` — `BOOT-006` — Create SystemHelper project
+`T0007` — `BOOT-007` — Create UnitTests project
 
 ## Tổng quan
 

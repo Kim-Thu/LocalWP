@@ -4,7 +4,7 @@
 
 ## Task hiện tại
 
-`T0016` — `BOOT-016` — Treat warnings as errors
+`T0017` — `BOOT-017` — Configure analyzers
 
 ## Tổng quan
 

@@ -4,7 +4,7 @@
 `BOOT-011`
 
 ## Trạng thái
-`review`
+`done`
 
 ## Epic
 `E00 — Repository Bootstrap and Engineering Foundation`
@@ -45,7 +45,7 @@ Thêm `Directory.Build.props` tại thư mục gốc để áp dụng thống nh
 - [x] Warning được xử lý như lỗi.
 - [x] Analysis level và deterministic build được cấu hình.
 - [x] Không thay đổi mã runtime, package hoặc kiến trúc.
-- [ ] CI, security scan và format xanh.
+- [x] CI, security scan và format xanh.
 
 ## Kiểm tra bắt buộc
 ```bash

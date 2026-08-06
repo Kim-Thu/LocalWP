@@ -4,7 +4,7 @@
 
 ## Task hiện tại
 
-`T0005` — `BOOT-005` — Create Infrastructure project
+`T0006` — `BOOT-006` — Create SystemHelper project
 
 ## Tổng quan
 

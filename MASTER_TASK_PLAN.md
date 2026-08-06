@@ -4,7 +4,7 @@
 
 ## Task hiện tại
 
-`T0008` — `BOOT-008` — Create IntegrationTests project
+`T0009` — `BOOT-009` — Configure project references
 
 ## Tổng quan
 

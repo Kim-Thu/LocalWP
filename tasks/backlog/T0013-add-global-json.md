@@ -4,7 +4,7 @@
 `BOOT-013`
 
 ## Trạng thái
-`review`
+`done`
 
 ## Epic
 `E00 — Repository Bootstrap and Engineering Foundation`
@@ -44,7 +44,7 @@ Thêm `global.json` tại thư mục gốc để khóa dự án vào dòng .NET 
 - [x] Chính sách roll-forward có kiểm soát.
 - [x] SDK preview bị vô hiệu hóa.
 - [x] Không thay đổi package, mã runtime hoặc kiến trúc.
-- [ ] CI, security scan và format xanh.
+- [x] CI, security scan và format xanh.
 
 ## Kiểm tra bắt buộc
 ```bash

@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalWP.Infrastructure", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalWP.SystemHelper", "src\LocalWP.SystemHelper\LocalWP.SystemHelper.csproj", "{B8A4A6F4-8A5E-4B37-A9B2-3CC67B89D42A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalWP.UnitTests", "tests\LocalWP.UnitTests\LocalWP.UnitTests.csproj", "{C1D2E3F4-5678-4ABC-9DEF-0123456789AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{B8A4A6F4-8A5E-4B37-A9B2-3CC67B89D42A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8A4A6F4-8A5E-4B37-A9B2-3CC67B89D42A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8A4A6F4-8A5E-4B37-A9B2-3CC67B89D42A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D2E3F4-5678-4ABC-9DEF-0123456789AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D2E3F4-5678-4ABC-9DEF-0123456789AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D2E3F4-5678-4ABC-9DEF-0123456789AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D2E3F4-5678-4ABC-9DEF-0123456789AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

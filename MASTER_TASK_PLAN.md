@@ -4,7 +4,7 @@
 
 ## Task hiện tại
 
-`T0004` — `BOOT-004` — Create Application project
+`T0005` — `BOOT-005` — Create Infrastructure project
 
 ## Tổng quan
 

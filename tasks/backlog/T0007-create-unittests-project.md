@@ -4,7 +4,7 @@
 `BOOT-007`
 
 ## Trạng thái
-`review`
+`done`
 
 ## Epic
 `E00 — Repository Bootstrap and Engineering Foundation`
@@ -41,7 +41,7 @@ Hoàn thành duy nhất phần **create UnitTests project** theo BRD, SRS và ki
 - [x] Project target `.NET 8`, bật nullable và không đóng gói.
 - [x] UnitTests project đã được thêm vào `LocalWP.sln`.
 - [x] Có marker type tối thiểu, chưa thêm framework hoặc test case ngoài phạm vi.
-- [ ] CI, security scan và format xanh.
+- [x] CI, security scan và format xanh.
 
 ## Kiểm tra bắt buộc
 ```bash

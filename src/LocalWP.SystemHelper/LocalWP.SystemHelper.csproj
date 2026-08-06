@@ -4,4 +4,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LocalWP.Application\LocalWP.Application.csproj" />
+    <ProjectReference Include="..\LocalWP.Infrastructure\LocalWP.Infrastructure.csproj" />
+  </ItemGroup>
 </Project>

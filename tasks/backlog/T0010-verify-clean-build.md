@@ -4,7 +4,7 @@
 `BOOT-010`
 
 ## Trạng thái
-`review`
+`done`
 
 ## Epic
 `E00 — Repository Bootstrap and Engineering Foundation`
@@ -39,7 +39,7 @@ Xác minh toàn bộ solution có thể restore, build, test và kiểm tra form
 - [x] Có tài liệu mô tả kết quả yêu cầu và cách xử lý khi xác minh thất bại.
 - [x] Không thay đổi mã runtime, kiến trúc hoặc dependency.
 - [x] Không mở rộng ngoài phạm vi.
-- [ ] CI, security scan và format xanh trên PR.
+- [x] CI, security scan và format xanh trên PR.
 
 ## Kiểm tra bắt buộc
 ```bash

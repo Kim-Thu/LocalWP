@@ -4,7 +4,7 @@
 `BOOT-017`
 
 ## Trạng thái
-`review`
+`done`
 
 ## Epic
 `E00 — Repository Bootstrap and Engineering Foundation`
@@ -41,7 +41,7 @@ Bật và chuẩn hóa bộ phân tích mã nguồn .NET ở cấp repository.
 - [x] Analysis mode dùng tập rule khuyến nghị.
 - [x] Không thêm package analyzer bên ngoài.
 - [x] Không mở rộng ngoài phạm vi.
-- [ ] CI, security scan và format xanh.
+- [x] CI, security scan và format xanh.
 
 ## Kiểm tra bắt buộc
 ```bash

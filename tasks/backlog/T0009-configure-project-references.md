@@ -4,7 +4,7 @@
 `BOOT-009`
 
 ## Trạng thái
-`review`
+`done`
 
 ## Epic
 `E00 — Repository Bootstrap and Engineering Foundation`
@@ -42,7 +42,7 @@ Cấu hình dependency giữa các project hiện có theo kiến trúc phân l�
 - [x] Domain giữ độc lập.
 - [x] Không có dependency vòng.
 - [x] Không mở rộng ngoài phạm vi.
-- [ ] CI, security scan và format xanh.
+- [x] CI, security scan và format xanh.
 
 ## Kiểm tra bắt buộc
 ```bash

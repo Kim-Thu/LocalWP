@@ -4,7 +4,7 @@
 
 ## Task hiện tại
 
-`T0009` — `BOOT-009` — Configure project references
+`T0010` — `BOOT-010` — Verify clean build
 
 ## Tổng quan
 
